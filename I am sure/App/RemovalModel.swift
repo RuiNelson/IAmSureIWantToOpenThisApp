@@ -15,8 +15,14 @@ struct CopyRequest: Hashable {
 
 /// Shared state for the main window: runs removals and drives navigation.
 @Observable final class RemovalModel {
+    /// `UserDefaults` key set once the user has acknowledged the risks.
+    static let acknowledgedRisksKey = "ackRisks"
+
     var path: [Route] = []
     private(set) var isWorking = false
+    /// Items handed to the app from outside (the Finder action extension, the Dock icon) that
+    /// are waiting for the risks to be acknowledged or for the current run to finish.
+    private(set) var pendingURLs: [URL] = []
 
     private var currentResult: RemoveQuarantineResult? {
         path.reversed().lazy.compactMap { route in
@@ -40,8 +46,28 @@ struct CopyRequest: Hashable {
             let failed = result.items.filter { $0.status == .failed }.map(\.url)
             if !failed.isEmpty { route.append(.copy(CopyRequest(urls: failed))) }
             path = route
+            processPending()
         }
         return true
+    }
+
+    /// Entry point for items opened from outside the window (e.g. the "Let me open this App"
+    /// Finder action). Runs right away when possible; otherwise queues them until the risks are
+    /// acknowledged or the current run finishes.
+    func open(_ urls: [URL]) {
+        let fileURLs = urls.filter(\.isFileURL)
+        guard !fileURLs.isEmpty else { return }
+        pendingURLs.append(contentsOf: fileURLs.filter { !pendingURLs.contains($0) })
+        processPending()
+    }
+
+    /// Processes queued items, if the risks have been acknowledged and nothing is running.
+    func processPending() {
+        guard !pendingURLs.isEmpty, !isWorking,
+              UserDefaults.standard.bool(forKey: Self.acknowledgedRisksKey) else { return }
+        let urls = pendingURLs
+        pendingURLs = []
+        process(urls)
     }
 
     /// Copies the given (failed) items into `directory`, removes quarantine from the copies, and
@@ -56,6 +82,7 @@ struct CopyRequest: Hashable {
             isWorking = false
             let kept = previous.filter { !urls.contains($0.url) }
             path = [.result(RemoveQuarantineResult(items: kept + copied))]
+            processPending()
         }
     }
 }

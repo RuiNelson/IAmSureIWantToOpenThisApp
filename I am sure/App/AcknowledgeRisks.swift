@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct AcknowledgeRisks: View {
-    @AppStorage("ackRisks") private var acknowledged = false
+    @AppStorage(RemovalModel.acknowledgedRisksKey) private var acknowledged = false
     @State private var understood = false
+
+    @Environment(RemovalModel.self) private var model
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
@@ -21,11 +23,19 @@ struct AcknowledgeRisks: View {
             Text("Removing it skips that check. Only do this for apps and files you trust, from a source you know.")
                 .bold()
 
+            if let pendingDescription {
+                Label(pendingDescription, systemImage: "tray.and.arrow.down")
+                    .foregroundStyle(.secondary)
+            }
+
             Toggle("I understand the risks", isOn: $understood)
 
             HStack {
                 Spacer()
-                Button("Continue") { acknowledged = true }
+                Button("Continue") {
+                    acknowledged = true
+                    model.processPending()
+                }
                     .buttonStyle(.glassProminent)
                     .controlSize(.large)
                     .keyboardShortcut(.defaultAction)
@@ -39,6 +49,14 @@ struct AcknowledgeRisks: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .mainToolbar(title: "I am sure", subtitle: "Before you continue")
         .navigationBarBackButtonHidden()
+    }
+
+    /// Items sent from the Finder action before the risks were acknowledged.
+    private var pendingDescription: String? {
+        guard let first = model.pendingURLs.first else { return nil }
+        let name = "“\(first.lastPathComponent)”"
+        let items = model.pendingURLs.count == 1 ? name : "\(name) and \(model.pendingURLs.count - 1) more"
+        return "Quarantine will be removed from \(items) after you continue."
     }
 }
 

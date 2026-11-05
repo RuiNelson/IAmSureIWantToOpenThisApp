@@ -2,13 +2,24 @@ import AppKit
 import SwiftUI
 
 final class AppDelegate: NSObject, NSApplicationDelegate {
+    /// Owned here so items opened from outside the window (see `application(_:open:)`) reach it.
+    let model = RemovalModel()
+
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool { true }
+
+    /// Files sent to the app by Launch Services: the "Let me open this App" Finder action hands
+    /// them over this way (it's sandboxed and can't remove quarantine itself), as do drops on
+    /// the Dock icon and `open -a`.
+    func application(_ application: NSApplication, open urls: [URL]) {
+        model.open(urls)
+    }
 }
 
 @main struct MyApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
-    @AppStorage("ackRisks") var userAcknowledgedPotentialRisks: Bool = false
-    @State private var model = RemovalModel()
+    @AppStorage(RemovalModel.acknowledgedRisksKey) var userAcknowledgedPotentialRisks: Bool = false
+
+    private var model: RemovalModel { appDelegate.model }
 
     var body: some Scene {
         // A single window: closing it quits the app (see AppDelegate).

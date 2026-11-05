@@ -9,19 +9,19 @@
 		<key>NSExtensionAttributes</key>
 		<dict>
 			<key>NSExtensionActivationRule</key>
-			<string>TRUEPREDICATE</string>
+			<string>SUBQUERY(extensionItems, $extensionItem, SUBQUERY($extensionItem.attachments, $attachment, ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.item").@count &gt;= 1).@count &gt;= 1</string>
 			<key>NSExtensionServiceAllowsFinderPreviewItem</key>
 			<true/>
 			<key>NSExtensionServiceAllowsTouchBarItem</key>
 			<true/>
 			<key>NSExtensionServiceFinderPreviewIconName</key>
-			<string>NSActionTemplate</string>
+			<string>QuickActionIcon</string>
 			<key>NSExtensionServiceRoleType</key>
 			<string>NSExtensionServiceRoleTypeEditor</string>
 			<key>NSExtensionServiceTouchBarBezelColorName</key>
 			<string>TouchBarBezel</string>
 			<key>NSExtensionServiceTouchBarIconName</key>
-			<string>NSActionTemplate</string>
+			<string>QuickActionIcon</string>
 		</dict>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.ui-services</string>
