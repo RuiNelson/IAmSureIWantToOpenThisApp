@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "" : {
+      "shouldTranslate" : false
+    },
     "...and %lld more" : {
       "localizations" : {
         "ar" : {
@@ -145,12 +148,6 @@
     },
     "%@ and %lld more" : {
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ and %2$lld more"
-          }
-        },
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
@@ -167,6 +164,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ und %lld weitere"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ and %2$lld more"
           }
         },
         "es" : {
@@ -271,12 +274,6 @@
             "value" : "%@ та ще %lld"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@ 及其他 %lld 個"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -287,6 +284,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ 和另外 %lld 個"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 及其他 %lld 個"
           }
         }
       }
@@ -555,12 +558,6 @@
             "value" : "Елементів: %lld"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld 個項目"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -568,6 +565,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 個項目"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld 個項目"
@@ -697,12 +700,6 @@
             "value" : "1 елемент"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "1 個項目"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -710,6 +707,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 個項目"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 個項目"
@@ -839,12 +842,6 @@
             "value" : "Програми"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "App"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -855,6 +852,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "應用程式"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App"
           }
         }
       }
@@ -1549,12 +1552,6 @@
             "value" : "Вибрати будь-яку папку..."
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "選擇任何檔案夾..."
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1562,6 +1559,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選擇任何檔案夾..."
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "選擇任何檔案夾..."
@@ -1855,12 +1858,6 @@
     },
     "Copy %@ and %lld more?" : {
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Copy %1$@ and %2$lld more?"
-          }
-        },
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1877,6 +1874,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ und %lld weitere kopieren?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Copy %1$@ and %2$lld more?"
           }
         },
         "es" : {
@@ -1981,12 +1984,6 @@
             "value" : "Скопіювати %@ та ще %lld?"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "要拷貝 %@ 及其他 %lld 個項目嗎?"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1997,6 +1994,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "要拷貝「%@」和另外 %lld 個項目嗎？"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要拷貝 %@ 及其他 %lld 個項目嗎?"
           }
         }
       }
@@ -2123,12 +2126,6 @@
             "value" : "Скопіювати %@?"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "要拷貝 %@ 嗎?"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2139,6 +2136,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "要拷貝「%@」嗎？"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要拷貝 %@ 嗎?"
           }
         }
       }
@@ -2407,12 +2410,6 @@
             "value" : "Не вдалося скопіювати: %@"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "拷貝失敗:%@"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2423,6 +2420,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "拷貝失敗：%@"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拷貝失敗:%@"
           }
         }
       }
@@ -2549,12 +2552,6 @@
             "value" : "Скопіювати в місце з доступом до запису"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "拷貝到可寫入嘅位置"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2565,6 +2562,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "拷貝到可寫入的位置"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拷貝到可寫入嘅位置"
           }
         }
       }
@@ -2833,12 +2836,6 @@
             "value" : "Скопіювати в..."
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "拷貝到..."
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2846,6 +2843,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拷貝到..."
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "拷貝到..."
@@ -3259,12 +3262,6 @@
             "value" : "Інше місце"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "自訂位置"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3272,6 +3269,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自訂位置"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "自訂位置"
@@ -3401,12 +3404,6 @@
             "value" : "Стіл"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "桌面"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3414,6 +3411,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "桌面"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "桌面"
@@ -3543,12 +3546,6 @@
             "value" : "Готово"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "完成"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3556,6 +3553,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "完成"
@@ -3685,12 +3688,6 @@
             "value" : "Завантаження"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "下載項目"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3698,6 +3695,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下載項目"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "下載項目"
@@ -3969,12 +3972,6 @@
             "value" : "Помилка"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "失敗"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3982,6 +3979,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "失敗"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "失敗"
@@ -4111,12 +4114,6 @@
             "value" : "Завершено з помилками"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "完成,但有錯誤"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4127,6 +4124,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已完成，但有錯誤"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成,但有錯誤"
           }
         }
       }
@@ -4253,12 +4256,6 @@
             "value" : "Я впевнений"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "我肯定"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4269,6 +4266,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I am sure"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我肯定"
           }
         }
       }
@@ -4679,12 +4682,6 @@
             "value" : "Недійсний шлях"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "路徑無效"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4695,6 +4692,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "無效的路徑"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "路徑無效"
           }
         }
       }
@@ -5105,12 +5108,6 @@
             "value" : "Запис неможливий"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "無法寫入"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5118,6 +5115,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無法寫入"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "無法寫入"
@@ -5673,12 +5676,6 @@
             "value" : "Після продовження карантин буде вилучено з %@."
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "繼續之後,就會移除 %@ 嘅隔離。"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5689,6 +5686,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "繼續後，將會從「%@」移除隔離。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "繼續之後,就會移除 %@ 嘅隔離。"
           }
         }
       }
@@ -6383,12 +6386,6 @@
             "value" : "Вибрати елементи"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "選擇項目"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6396,6 +6393,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選擇項目"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "選擇項目"
