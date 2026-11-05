@@ -18,21 +18,40 @@ import UniformTypeIdentifiers
 /// which removes quarantine and shows the result.
 final class ActionViewController: NSViewController {
     private let state = ActionState()
+    private lazy var hosting = NSHostingController(rootView: ActionView(
+        state: state,
+        onCancel: { [weak self] in self?.cancel() },
+        onConfirm: { [weak self] in self?.confirm() }
+    ))
 
     override func loadView() {
-        view = NSHostingView(rootView: ActionView(
-            state: state,
-            onCancel: { [weak self] in self?.cancel() },
-            onConfirm: { [weak self] in self?.confirm() }
-        ))
+        // Finder sizes the sheet from `preferredContentSize` at presentation and ignores later
+        // changes (a zero size is never shown), so measure the SwiftUI content once, with the
+        // number of rows already known; `ActionView` keeps that size in every phase.
+        state.expectedCount = inputItems.reduce(0) { $0 + ($1.attachments?.count ?? 0) }
+        addChild(hosting)
+        let size = hosting.view.fittingSize
+        hosting.view.frame = NSRect(origin: .zero, size: size)
+        hosting.view.autoresizingMask = [.width, .height]
+
+        let container = NSView(frame: hosting.view.frame)
+        container.addSubview(hosting.view)
+        view = container
+        preferredContentSize = size
+    }
+
+    private var inputItems: [NSExtensionItem] {
+        extensionContext?.inputItems.compactMap { $0 as? NSExtensionItem } ?? []
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let items = extensionContext?.inputItems.compactMap { $0 as? NSExtensionItem } ?? []
+        let items = inputItems
+        Log.extension.notice("Request with \(items.count) item(s), preferred size \(self.preferredContentSize.debugDescription, privacy: .public)")
         Task {
             state.urls = await FileURLLoader.fileURLs(in: items)
             state.phase = .ready
+            Log.extension.notice("Loaded \(self.state.urls.count) file URL(s)")
         }
     }
 
@@ -76,6 +95,8 @@ final class ActionViewController: NSViewController {
 
     var phase: Phase = .loading
     var urls: [URL] = []
+    /// Number of attachments in the request, known before they're loaded; sizes the sheet.
+    var expectedCount = 0
 }
 
 enum Log {
