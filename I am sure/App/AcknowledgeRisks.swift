@@ -15,7 +15,6 @@ struct AcknowledgeRisks: View {
         VStack(alignment: .leading, spacing: 16) {
             Label("Before you continue", systemImage: "exclamationmark.triangle.fill")
                 .font(.title2.bold())
-                .symbolRenderingMode(.multicolor)
 
             Text("macOS marks files downloaded from the internet with the `com.apple.quarantine` attribute. Gatekeeper uses it to check that apps are signed and notarized before they open.")
 
@@ -39,6 +38,7 @@ struct AcknowledgeRisks: View {
         .glassEffect(in: .rect(cornerRadius: 28))
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .mainToolbar(title: "I am sure", subtitle: "Before you continue")
+        .navigationBarBackButtonHidden()
     }
 }
 
