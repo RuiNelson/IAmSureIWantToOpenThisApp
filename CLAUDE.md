@@ -16,7 +16,7 @@ xcodebuild -project "I am sure/I am sure.xcodeproj" -scheme "I am sure I want to
 
 Tests: `Tests/` (Swift Testing, hosted by the main app, `@testable import I_am_sure_I_want_to_open_this_App`) cover `Quarantine`; run with `xcodebuild ... -scheme "I am sure I want to open this App" test`.
 
-Strings: `App/Localizable.xcstrings` and `Extension/Localizable.xcstrings` hold the source (en) keys; `pt-PT` is a known region but not translated yet. `xcodebuild` doesn't write extracted keys back to the catalogs (only the Xcode IDE does), so add new keys by hand or build in Xcode.
+Strings: `App/Localizable.xcstrings` and `Extension/Localizable.xcstrings` hold the source (en) keys plus translations into 23 languages (24 with English, as `README.md` advertises); keep every key translated in all of them. `xcodebuild` doesn't write extracted keys back to the catalogs (only the Xcode IDE does), so add new keys by hand or build in Xcode.
 
 Schemes: `I am sure I want to open this App` (main app, embeds the extension) and `Let me open this App` (action extension only).
 
