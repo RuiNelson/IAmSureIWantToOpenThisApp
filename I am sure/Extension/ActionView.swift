@@ -21,9 +21,11 @@ struct ActionView: View {
 
             content
 
-            Label("Only do this for apps and files you trust, from a source you know.", systemImage: "exclamationmark.triangle.fill")
-                .font(.callout.bold())
-                .fixedSize(horizontal: false, vertical: true)
+            if state.showsWarning {
+                Label("Only do this for apps and files you trust, from a source you know.", systemImage: "exclamationmark.triangle.fill")
+                    .font(.callout.bold())
+                    .fixedSize(horizontal: false, vertical: true)
+            }
 
             HStack(spacing: 8) {
                 if state.phase == .handingOff {

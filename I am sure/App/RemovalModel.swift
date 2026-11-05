@@ -1,5 +1,6 @@
 import Foundation
 import Observation
+import OSLog
 
 /// Screens pushed on the main navigation stack.
 enum Route: Hashable {
@@ -15,14 +16,14 @@ struct CopyRequest: Hashable {
 
 /// Shared state for the main window: runs removals and drives navigation.
 @Observable final class RemovalModel {
-    /// `UserDefaults` key set once the user has acknowledged the risks.
-    static let acknowledgedRisksKey = "ackRisks"
-
     var path: [Route] = []
     private(set) var isWorking = false
     /// Items handed to the app from outside (the Finder action extension, the Dock icon) that
     /// are waiting for the risks to be acknowledged or for the current run to finish.
     private(set) var pendingURLs: [URL] = []
+    private var openGeneration = 0
+    /// When the last batch of items opened from outside finished; see `processPending()`.
+    private var lastExternalBatch: Date?
 
     private var currentResult: RemoveQuarantineResult? {
         path.reversed().lazy.compactMap { route in
@@ -35,39 +36,63 @@ struct CopyRequest: Hashable {
     /// Returns `false` when there's nothing to process or a removal is already running.
     @discardableResult
     func process(_ urls: [URL]) -> Bool {
+        run(urls, keeping: [], isExternal: false)
+    }
+
+    /// Removes quarantine from `urls` and shows their results after `previous` (minus any item
+    /// processed again).
+    @discardableResult
+    private func run(_ urls: [URL], keeping previous: [ItemResult], isExternal: Bool) -> Bool {
         let fileURLs = urls.filter(\.isFileURL)
         guard !fileURLs.isEmpty, !isWorking else { return false }
 
         isWorking = true
         Task {
-            let result = await Quarantine.remove(from: fileURLs)
+            let removed = await Quarantine.remove(from: fileURLs)
             isWorking = false
+            let result = RemoveQuarantineResult(
+                items: previous.filter { !fileURLs.contains($0.url) } + removed.items
+            )
             var route: [Route] = [.result(result)]
             let failed = result.items.filter { $0.status == .failed }.map(\.url)
             if !failed.isEmpty { route.append(.copy(CopyRequest(urls: failed))) }
             path = route
+            Logger(subsystem: "com.ruinelson.iamsure", category: "Removal")
+                .notice("Showing result for \(result.items.count) item(s), \(failed.count) failed")
+            lastExternalBatch = isExternal ? .now : nil
             processPending()
         }
         return true
     }
 
     /// Entry point for items opened from outside the window (e.g. the "Let me open this App"
-    /// Finder action). Runs right away when possible; otherwise queues them until the risks are
-    /// acknowledged or the current run finishes.
+    /// Finder action). Queues them until the risks are acknowledged or the current run finishes.
+    /// The Finder action sends one item per request, so items arriving within a moment of each
+    /// other are processed as one batch.
     func open(_ urls: [URL]) {
         let fileURLs = urls.filter(\.isFileURL)
         guard !fileURLs.isEmpty else { return }
         pendingURLs.append(contentsOf: fileURLs.filter { !pendingURLs.contains($0) })
-        processPending()
+
+        openGeneration += 1
+        let generation = openGeneration
+        Task {
+            try? await Task.sleep(for: .milliseconds(400))
+            guard generation == openGeneration else { return } // more items arrived meanwhile
+            processPending()
+        }
     }
 
     /// Processes queued items, if the risks have been acknowledged and nothing is running.
+    /// Items that trail the previous external batch by a few seconds (Launch Services checks
+    /// quarantined apps before handing them over) join its result instead of replacing it.
     func processPending() {
         guard !pendingURLs.isEmpty, !isWorking,
-              UserDefaults.standard.bool(forKey: Self.acknowledgedRisksKey) else { return }
+              UserDefaults.shared.bool(forKey: UserDefaults.acknowledgedRisksKey) else { return }
         let urls = pendingURLs
         pendingURLs = []
-        process(urls)
+        let joinsPrevious = lastExternalBatch.map { Date.now.timeIntervalSince($0) < 10 } ?? false
+        run(urls, keeping: joinsPrevious ? currentResult?.items ?? [] : [], isExternal: true)
     }
 
     /// Copies the given (failed) items into `directory`, removes quarantine from the copies, and
@@ -82,6 +107,7 @@ struct CopyRequest: Hashable {
             isWorking = false
             let kept = previous.filter { !urls.contains($0.url) }
             path = [.result(RemoveQuarantineResult(items: kept + copied))]
+            lastExternalBatch = nil
             processPending()
         }
     }

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AcknowledgeRisks: View {
-    @AppStorage(RemovalModel.acknowledgedRisksKey) private var acknowledged = false
+    @AppStorage(UserDefaults.acknowledgedRisksKey, store: .shared) private var acknowledged = false
     @State private var understood = false
 
     @Environment(RemovalModel.self) private var model

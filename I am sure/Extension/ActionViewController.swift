@@ -29,6 +29,7 @@ final class ActionViewController: NSViewController {
         // changes (a zero size is never shown), so measure the SwiftUI content once, with the
         // number of rows already known; `ActionView` keeps that size in every phase.
         state.expectedCount = inputItems.reduce(0) { $0 + ($1.attachments?.count ?? 0) }
+        state.showsWarning = !SharedDefaults.risksAcknowledged
         addChild(hosting)
         let size = hosting.view.fittingSize
         hosting.view.frame = NSRect(origin: .zero, size: size)
@@ -68,7 +69,12 @@ final class ActionViewController: NSViewController {
         let urls = state.urls
         Task {
             do {
-                _ = try await NSWorkspace.shared.open(urls, withApplicationAt: appURL, configuration: configuration)
+                // One request per item: Launch Services sends app bundles in a separate event
+                // from other items, and when both go in one request only one of them arrives.
+                // The app collects items arriving in quick succession into a single batch.
+                for url in urls {
+                    _ = try await NSWorkspace.shared.open([url], withApplicationAt: appURL, configuration: configuration)
+                }
                 // Nothing changes in Finder: the app does the work and shows the result.
                 extensionContext?.completeRequest(returningItems: nil)
             } catch {
@@ -97,10 +103,24 @@ final class ActionViewController: NSViewController {
     var urls: [URL] = []
     /// Number of attachments in the request, known before they're loaded; sizes the sheet.
     var expectedCount = 0
+    /// The risk warning is only repeated until it has been acknowledged in the app.
+    var showsWarning = true
 }
 
 enum Log {
     static let `extension` = Logger(subsystem: "com.ruinelson.iamsure.Let-me-open-this-App", category: "Action")
+}
+
+// MARK: - Shared defaults
+
+/// Defaults shared with the app through its App Group (see the entitlements).
+enum SharedDefaults {
+    static let appGroup = "98DYJ8BJ46.com.ruinelson.iamsure"
+
+    /// Set by the app once the user has acknowledged the risks.
+    static var risksAcknowledged: Bool {
+        UserDefaults(suiteName: appGroup)?.bool(forKey: "ackRisks") ?? false
+    }
 }
 
 // MARK: - Containing app

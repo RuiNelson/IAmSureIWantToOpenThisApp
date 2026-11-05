@@ -1,4 +1,5 @@
 import AppKit
+import OSLog
 import SwiftUI
 
 final class AppDelegate: NSObject, NSApplicationDelegate {
@@ -7,17 +8,20 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool { true }
 
-    /// Files sent to the app by Launch Services: the "Let me open this App" Finder action hands
+    /// Items sent to the app by Launch Services: the "Let me open this App" Finder action hands
     /// them over this way (it's sandboxed and can't remove quarantine itself), as do drops on
     /// the Dock icon and `open -a`.
     func application(_ application: NSApplication, open urls: [URL]) {
+        Self.log.notice("Asked to open \(urls.count) item(s): \(urls.map(\.lastPathComponent), privacy: .public)")
         model.open(urls)
     }
+
+    private static let log = Logger(subsystem: "com.ruinelson.iamsure", category: "Open")
 }
 
 @main struct MyApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
-    @AppStorage(RemovalModel.acknowledgedRisksKey) var userAcknowledgedPotentialRisks: Bool = false
+    @AppStorage(UserDefaults.acknowledgedRisksKey, store: .shared) var userAcknowledgedPotentialRisks: Bool = false
 
     private var model: RemovalModel { appDelegate.model }
 
