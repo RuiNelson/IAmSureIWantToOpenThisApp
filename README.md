@@ -41,9 +41,11 @@ The Quick Action comes with the app but macOS may leave it off until you turn it
 
 1. Open the app once, so macOS registers its extension.
 2. In Finder, right-click any file and choose **Quick Actions ▸ Customize...**
-3. Turn on **Let me open this App**.
+3. Turn on **Let me open this App** (open padlock symbol).
 
 It then appears under **Quick Actions** in Finder's right-click menu and in the Preview pane (**View ▸ Show Preview**).
+
+![How to enable the extension in Finder](Docs/ExtensionHowToEnable.webp)
 
 ## Building from source
 
