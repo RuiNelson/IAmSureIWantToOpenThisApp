@@ -45,7 +45,7 @@ struct AcknowledgeRisks: View {
         .fixedSize(horizontal: false, vertical: true)
         .padding(28)
         .frame(width: 480)
-        .glassEffect(in: .rect(cornerRadius: 28))
+        .background(.fill.quaternary, in: .rect(cornerRadius: 28))
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .mainToolbar(title: "I am sure", subtitle: "Before you continue")
         .navigationBarBackButtonHidden()

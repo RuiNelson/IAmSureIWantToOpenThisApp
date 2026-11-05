@@ -63,10 +63,7 @@ struct DropItem: View {
                     style: StrokeStyle(lineWidth: 2, dash: [10, 8])
                 )
         }
-        .glassEffect(
-            isTargeted ? .regular.tint(.accentColor.opacity(0.3)).interactive() : .regular.interactive(),
-            in: shape
-        )
+        .background(isTargeted ? Color.accentColor.opacity(0.12) : Color.secondary.opacity(0.06), in: shape)
         .scaleEffect(isTargeted ? 1.02 : 1)
         .animation(.smooth, value: isTargeted)
     }

@@ -8096,410 +8096,6 @@
         }
       }
     },
-    "Quit" : {
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "إنهاء"
-          }
-        },
-        "bg" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Изход"
-          }
-        },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ukončit"
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Afslut"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Beenden"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Έξοδος"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Salir"
-          }
-        },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Lopeta"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Quitter"
-          }
-        },
-        "gl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Saír"
-          }
-        },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "יציאה"
-          }
-        },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "बाहर निकलें"
-          }
-        },
-        "hr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Izađi"
-          }
-        },
-        "hu" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kilépés"
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Esci"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "終了"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "종료"
-          }
-        },
-        "nb" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Avslutt"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Stop"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zakończ"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sair"
-          }
-        },
-        "pt-PT" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sair"
-          }
-        },
-        "ro" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ieși"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Выйти"
-          }
-        },
-        "sk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ukončiť"
-          }
-        },
-        "sl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Končaj"
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Avsluta"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Çık"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Вийти"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Thoát"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "退出"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "結束"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "結束"
-          }
-        }
-      }
-    },
-    "Quits the App" : {
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "إنهاء التطبيق"
-          }
-        },
-        "bg" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Излиза от приложението"
-          }
-        },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ukončí aplikaci"
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Afslutter appen"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Beendet die App"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Κλείνει την εφαρμογή"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cierra la app"
-          }
-        },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sulkee apin"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Quitte l’app"
-          }
-        },
-        "gl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pecha a app"
-          }
-        },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "סוגר את האפליקציה"
-          }
-        },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ऐप बंद करता है"
-          }
-        },
-        "hr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zatvara aplikaciju"
-          }
-        },
-        "hu" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kilép az alkalmazásból"
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Chiude l’app"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "アプリを終了します"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "앱을 종료합니다"
-          }
-        },
-        "nb" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Avslutter appen"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sluit de app af"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zamyka aplikację"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Fecha o app"
-          }
-        },
-        "pt-PT" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Fecha a app"
-          }
-        },
-        "ro" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Închide aplicația"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Закрывает приложение"
-          }
-        },
-        "sk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ukončí aplikáciu"
-          }
-        },
-        "sl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zapre aplikacijo"
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Avslutar appen"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Uygulamadan çıkar"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Закриває застосунок"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Thoát ứng dụng"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "退出此 App"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "結束此 App"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "結束此 App"
-          }
-        }
-      }
-    },
     "Removed from %lld items, failed on %lld" : {
       "localizations" : {
         "ar" : {
@@ -9914,204 +9510,204 @@
         }
       }
     },
-    "The original can’t be modified in place, for example because it’s on a read-only disk image. Copy it to a writable location and remove quarantine from the copy?" : {
+    "The original can’t be modified in place. Copy it to a writable location and remove quarantine from the copy?" : {
       "localizations" : {
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "لا يمكن تعديل الأصل في مكانه، مثلًا لأنه موجود على صورة قرص للقراءة فقط. هل تريد نسخه إلى موقع قابل للكتابة وإزالة الحجر عن النسخة؟"
+            "value" : "لا يمكن تعديل الأصل في مكانه. هل تريد نسخه إلى موقع قابل للكتابة وإزالة الحجر عن النسخة؟"
           }
         },
         "bg" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Оригиналът не може да бъде променен на място, например защото е върху образ на диск, достъпен само за четене. Да се копира ли на място с право за запис и да се премахне ли карантината от копието?"
+            "value" : "Оригиналът не може да бъде променен на място. Да се копира ли на място с право за запис и да се премахне карантината от копието?"
           }
         },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Originál nelze upravit přímo na místě, například proto, že je na obrazu disku jen pro čtení. Chcete jej zkopírovat na místo s možností zápisu a odebrat karanténu z kopie?"
+            "value" : "Originál nelze změnit přímo. Zkopírovat ho na místo s možností zápisu a odebrat karanténu z kopie?"
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Originalen kan ikke ændres direkte, for eksempel fordi den ligger på et diskbillede, der kun kan læses. Vil du kopiere den til et skrivbart sted og fjerne karantænen fra kopien?"
+            "value" : "Originalen kan ikke ændres på stedet. Vil du kopiere den til et skrivbart sted og fjerne karantænen fra kopien?"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Das Original kann nicht direkt geändert werden, zum Beispiel weil es sich auf einem schreibgeschützten Disk-Image befindet. In einen beschreibbaren Ordner kopieren und die Quarantäne von der Kopie entfernen?"
+            "value" : "Das Original kann nicht direkt geändert werden. In einen beschreibbaren Ort kopieren und die Quarantäne von der Kopie entfernen?"
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Το πρωτότυπο δεν μπορεί να τροποποιηθεί επιτόπου, για παράδειγμα επειδή βρίσκεται σε εικόνα δίσκου μόνο για ανάγνωση. Να αντιγραφεί σε τοποθεσία με δυνατότητα εγγραφής και να καταργηθεί η καραντίνα από το αντίγραφο;"
+            "value" : "Το πρωτότυπο δεν μπορεί να τροποποιηθεί στη θέση του. Αντιγραφή σε τοποθεσία με δυνατότητα εγγραφής και κατάργηση της καραντίνας από το αντίγραφο;"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "El original no se puede modificar en su ubicación, por ejemplo porque está en una imagen de disco de solo lectura. ¿Quieres copiarlo en una ubicación con permiso de escritura y quitar la cuarentena de la copia?"
+            "value" : "No se puede modificar el original directamente. ¿Copiarlo a una ubicación con permiso de escritura y quitar la cuarentena de la copia?"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Alkuperäistä ei voi muokata paikallaan, esimerkiksi koska se on vain luku -levykuvassa. Kopioidaanko se kirjoitettavaan sijaintiin ja poistetaanko karanteeni kopiosta?"
+            "value" : "Alkuperäistä ei voi muokata paikallaan. Kopioidaanko se kirjoitettavaan sijaintiin ja poistetaanko karanteeni kopiosta?"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "L’original ne peut pas être modifié sur place, par exemple parce qu’il se trouve sur une image disque en lecture seule. Voulez-vous le copier vers un emplacement modifiable et retirer la quarantaine de la copie ?"
+            "value" : "L’original ne peut pas être modifié sur place. Copier-le vers un emplacement modifiable et retirer la quarantaine de la copie ?"
           }
         },
         "gl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O orixinal non se pode modificar no seu lugar, por exemplo porque está nunha imaxe de disco de só lectura. Queres copialo nunha localización con permiso de escritura e retirar a corentena da copia?"
+            "value" : "O orixinal non se pode modificar no seu lugar. Copialo nunha localización con permiso de escritura e retirar a corentena da copia?"
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "לא ניתן לשנות את המקור במקומו, למשל מפני שהוא נמצא בתמונת דיסק לקריאה בלבד. להעתיק אותו למיקום שניתן לכתוב בו ולהסיר את ההסגר מההעתק?"
+            "value" : "לא ניתן לשנות את המקור במקומו. להעתיק אותו למיקום שניתן לכתוב בו ולהסיר את ההסגר מההעתק?"
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "मूल आइटम को उसी जगह बदला नहीं जा सकता, उदाहरण के लिए क्योंकि वह रीड-ओनली डिस्क इमेज पर है। क्या इसे लिखने योग्य स्थान पर कॉपी करके कॉपी से क्वारंटीन हटाएँ?"
+            "value" : "मूल फ़ाइल को उसी जगह पर बदला नहीं जा सकता। क्या इसे लिखने योग्य स्थान पर कॉपी करें और कॉपी से क्वारंटीन हटाएँ?"
           }
         },
         "hr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Original se ne može izmijeniti na mjestu, na primjer jer se nalazi na slici diska samo za čitanje. Kopirati ga na lokaciju s mogućnošću zapisivanja i ukloniti karantenu s kopije?"
+            "value" : "Izvornik se ne može mijenjati na mjestu. Kopirati ga na lokaciju s mogućnošću zapisivanja i ukloniti karantenu s kopije?"
           }
         },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Az eredeti nem módosítható a helyén, például mert egy csak olvasható lemezképen van. Átmásolja egy írható helyre, és eltávolítja a karantént a másolatról?"
+            "value" : "Az eredeti helyben nem módosítható. Másolja át írható helyre, és távolítsa el a karantént a másolatról?"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Non è possibile modificare l’originale direttamente, ad esempio perché si trova in un’immagine disco di sola lettura. Vuoi copiarlo in una posizione scrivibile e rimuovere la quarantena dalla copia?"
+            "value" : "L’originale non può essere modificato direttamente. Copiarlo in una posizione scrivibile e rimuovere la quarantena dalla copia?"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "読み取り専用のディスクイメージ上にあるなどの理由で、元の項目はその場で変更できません。書き込み可能な場所にコピーして、コピーから隔離を解除しますか?"
+            "value" : "元の項目は直接変更できません。書き込み可能な場所にコピーし、コピーから隔離を解除しますか?"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "예를 들어 읽기 전용 디스크 이미지에 있어서 원본을 그 자리에서 수정할 수 없습니다. 쓰기 가능한 위치에 복사한 다음 복사본의 격리를 해제하시겠습니까?"
+            "value" : "원본은 제자리에서 수정할 수 없습니다. 쓰기 가능한 위치에 복사한 다음 복사본의 격리를 해제할까요?"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Originalen kan ikke endres der den ligger, for eksempel fordi den er på et skrivebeskyttet diskbilde. Vil du kopiere den til et sted du kan skrive til, og fjerne karantene fra kopien?"
+            "value" : "Originalen kan ikke endres direkte. Kopier til et sted du kan skrive til, og fjern karantene fra kopien?"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Het origineel kan niet ter plekke worden gewijzigd, bijvoorbeeld omdat het op een schijfkopie staat die alleen-lezen is. Wil je het naar een beschrijfbare locatie kopiëren en de quarantaine van de kopie verwijderen?"
+            "value" : "Het origineel kan niet ter plaatse worden gewijzigd. Kopieer het naar een beschrijfbare locatie en verwijder de quarantaine van de kopie?"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Oryginału nie można zmodyfikować w miejscu, na przykład dlatego, że znajduje się na obrazie dysku tylko do odczytu. Skopiować go do lokalizacji z możliwością zapisu i usunąć kwarantannę z kopii?"
+            "value" : "Oryginału nie można zmodyfikować w miejscu. Skopiować go do lokalizacji z możliwością zapisu i usunąć kwarantannę z kopii?"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Não é possível modificar o original no local, por exemplo porque ele está em uma imagem de disco somente leitura. Copiá-lo para um local gravável e remover a quarentena da cópia?"
+            "value" : "O original não pode ser modificado no lugar. Copiar para um local gravável e remover a quarentena da cópia?"
           }
         },
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Não é possível modificar o original no local, por exemplo por estar numa imagem de disco só de leitura. Pretende copiá-lo para uma localização com permissão de escrita e remover a quarentena da cópia?"
+            "value" : "O original não pode ser modificado no próprio local. Copiar para uma localização com permissão de escrita e remover a quarentena da cópia?"
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Originalul nu poate fi modificat pe loc, de exemplu deoarece se află pe o imagine de disc doar pentru citire. Îl copiați într-o locație care permite scrierea și eliminați carantina de pe copie?"
+            "value" : "Originalul nu poate fi modificat direct. Copiați-l într-o locație care permite scrierea și eliminați carantina de pe copie?"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Оригинал нельзя изменить на месте, например из-за того, что он находится на образе диска только для чтения. Скопировать его в место с правом записи и снять карантин с копии?"
+            "value" : "Оригинал нельзя изменить на месте. Скопировать его в место с правом записи и снять карантин с копии?"
           }
         },
         "sk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Originál sa nedá upraviť na mieste, napríklad preto, že je na obraze disku len na čítanie. Skopírovať ho na miesto s možnosťou zápisu a odstrániť karanténu z kópie?"
+            "value" : "Pôvodnú položku nie je možné upraviť priamo. Kopírovať ju na miesto s možnosťou zápisu a odstrániť karanténu z kópie?"
           }
         },
         "sl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Izvirnika ni mogoče spremeniti na mestu, na primer ker je na diskovni sliki samo za branje. Želiš ga kopirati na mesto z dovoljenjem za pisanje in odstraniti karanteno s kopije?"
+            "value" : "Izvirnika ni mogoče spremeniti na mestu. Želiš ga kopirati na mesto z dovoljenjem za pisanje in odstraniti karanteno s kopije?"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Originalet kan inte ändras på plats, till exempel för att det ligger på en skrivskyddad diskavbildning. Vill du kopiera det till en plats som går att skriva till och ta bort karantänen från kopian?"
+            "value" : "Originalet kan inte ändras på plats. Vill du kopiera det till en plats som går att skriva till och ta bort karantänen från kopian?"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Orijinal öğe yerinde değiştirilemiyor; örneğin salt okunur bir disk görüntüsünde olabilir. Yazılabilir bir konuma kopyalayıp karantinayı kopyadan kaldırmak ister misiniz?"
+            "value" : "Orijinal öğe yerinde değiştirilemez. Yazılabilir bir konuma kopyalansın ve kopyadan karantina kaldırılsın mı?"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Оригінал неможливо змінити на місці, наприклад, через те, що він розташований на образі диска лише для читання. Скопіювати його в місце з правом запису й зняти карантин із копії?"
+            "value" : "Оригінал не можна змінити на місці. Скопіювати його в місце з правом запису й зняти карантин із копії?"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Không thể sửa đổi trực tiếp bản gốc, ví dụ do nó nằm trong ảnh đĩa chỉ đọc. Sao chép đến vị trí có thể ghi và gỡ cách ly khỏi bản sao?"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "无法直接修改原始项目,例如它位于只读磁盘映像上。要将其拷贝到可写入的位置,并从拷贝中移除隔离属性吗?"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "無法直接修改原始項目，例如因為它位於唯讀的磁碟映像檔中。要將它拷貝到可寫入的位置，並從拷貝中移除隔離嗎？"
+            "value" : "Không thể sửa đổi trực tiếp bản gốc. Sao chép đến vị trí có thể ghi và gỡ cách ly khỏi bản sao?"
           }
         },
         "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "無法直接修改原件,例如因為佢喺唯讀磁碟映像入面。要唔要將佢拷貝到可寫入嘅位置,再移除拷貝嘅隔離?"
+            "value" : "原件無法直接修改。要拷貝到可寫入嘅位置,再移除拷貝嘅隔離嗎?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "原始项目无法就地修改。是否将其拷贝到可写入的位置,并从拷贝中移除隔离属性?"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "原始項目無法直接修改。要拷貝到可寫入的位置，並從拷貝中移除隔離嗎？"
           }
         }
       }

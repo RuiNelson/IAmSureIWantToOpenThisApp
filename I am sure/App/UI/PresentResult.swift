@@ -25,7 +25,7 @@ struct PresentResult: View {
                         }
                             .padding(14)
                             .frame(maxWidth: .infinity, alignment: .leading)
-                            .glassEffect(in: .rect(cornerRadius: 20))
+                            .background(.fill.quaternary, in: .rect(cornerRadius: 20))
                     }
                 }
             }
@@ -43,12 +43,6 @@ struct PresentResult: View {
                     .padding(10)
                     .allowsHitTesting(false)
             }
-        }
-        .toolbar {
-            Button("Quit", systemImage: "xmark.circle") {
-                NSApp.terminate(nil)
-            }
-            .help("Quits the App")
         }
     }
 
@@ -68,6 +62,10 @@ private struct ItemResultRow: View {
     let onCopy: () -> Void
 
     private static let maxFailuresShown = 5
+    
+    private func open() {
+        NSWorkspace.shared.open(item.url)
+    }
 
     var body: some View {
         HStack(alignment: .top, spacing: 14) {
@@ -92,12 +90,14 @@ private struct ItemResultRow: View {
 
             HStack(spacing: 8) {
                 if isApp && item.status != .failed {
-                    Button("Open") { NSWorkspace.shared.open(item.url) }
-                        .buttonStyle(.glassProminent)
+                    Button("Open", action: open)
+                        .buttonStyle(.glass)
+                        .buttonBorderShape(.capsule)
                 }
                 if item.status == .failed {
                     Button("Copy...", action: onCopy)
-                        .buttonStyle(.glassProminent)
+                        .buttonStyle(.glass)
+                        .buttonBorderShape(.capsule)
                         .help("Copy to a writable location and remove quarantine from the copy")
                 }
                 Button {
@@ -106,6 +106,8 @@ private struct ItemResultRow: View {
                     Image(systemName: "magnifyingglass")
                 }
                 .buttonStyle(.glass)
+                .buttonBorderShape(.circle)
+                .controlSize(.extraLarge)
                 .help("Show in Finder")
             }
             .frame(maxHeight: 48)

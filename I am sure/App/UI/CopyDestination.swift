@@ -82,7 +82,7 @@ struct CopyDestination: View {
                     .lineLimit(1)
                     .truncationMode(.middle)
                 
-                Text("The original can’t be modified in place, for example because it’s on a read-only disk image. Copy it to a writable location and remove quarantine from the copy?")
+                Text("The original can’t be modified in place. Copy it to a writable location and remove quarantine from the copy?")
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
                     .fixedSize(horizontal: false, vertical: true)
