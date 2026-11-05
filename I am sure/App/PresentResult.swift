@@ -20,7 +20,9 @@ struct PresentResult: View {
             GlassEffectContainer(spacing: 12) {
                 LazyVStack(spacing: 12) {
                     ForEach(result.items) { item in
-                        ItemResultRow(item: item)
+                        ItemResultRow(item: item) {
+                            model.path.append(.copy(CopyRequest(urls: [item.url])))
+                        }
                             .padding(14)
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .glassEffect(in: .rect(cornerRadius: 20))
@@ -53,6 +55,7 @@ struct PresentResult: View {
 
 private struct ItemResultRow: View {
     let item: ItemResult
+    let onCopy: () -> Void
 
     private static let maxFailuresShown = 5
 
@@ -81,6 +84,11 @@ private struct ItemResultRow: View {
                 if isApp && item.status != .failed {
                     Button("Open") { NSWorkspace.shared.open(item.url) }
                         .buttonStyle(.glassProminent)
+                }
+                if item.status == .failed {
+                    Button("Copy…", action: onCopy)
+                        .buttonStyle(.glassProminent)
+                        .help("Copy to a writable location and remove quarantine from the copy")
                 }
                 Button {
                     NSWorkspace.shared.activateFileViewerSelecting([item.url])

@@ -22,8 +22,11 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
                         AcknowledgeRisks()
                     }
                 }
-                .navigationDestination(for: RemoveQuarantineResult.self) { result in
-                    PresentResult(result: result)
+                .navigationDestination(for: Route.self) { route in
+                    switch route {
+                    case .result(let result): PresentResult(result: result)
+                    case .copy(let request): CopyDestination(request: request)
+                    }
                 }
             }
             .overlay {

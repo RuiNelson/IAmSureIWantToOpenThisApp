@@ -43,6 +43,40 @@ nonisolated enum Quarantine {
         RemoveQuarantineResult(items: urls.map(removeRecursively))
     }
 
+    /// Copies each item into `directory` (never overwriting: a numeric suffix is added on name
+    /// clashes), then removes quarantine from the copy. Used when the original can't be modified
+    /// in place, e.g. it lives on a read-only disk image.
+    /// Items that fail to copy are reported against the original URL.
+    @concurrent
+    static func copyAndRemove(from urls: [URL], to directory: URL) async -> [ItemResult] {
+        urls.map { (source: URL) -> ItemResult in
+            let destination = uniqueDestination(for: source, in: directory)
+            do {
+                try FileManager.default.copyItem(at: source, to: destination)
+            } catch {
+                return ItemResult(
+                    url: source,
+                    clearedCount: 0,
+                    failures: [.init(relativePath: "", message: "Copy failed: \(error.localizedDescription)")]
+                )
+            }
+            return removeRecursively(destination)
+        }
+    }
+
+    private static func uniqueDestination(for source: URL, in directory: URL) -> URL {
+        let name = source.deletingPathExtension().lastPathComponent
+        let ext = source.pathExtension
+        var candidate = directory.appending(path: source.lastPathComponent)
+        var counter = 2
+        while FileManager.default.fileExists(atPath: candidate.path) {
+            let newName = ext.isEmpty ? "\(name) \(counter)" : "\(name) \(counter).\(ext)"
+            candidate = directory.appending(path: newName)
+            counter += 1
+        }
+        return candidate
+    }
+
     static func isQuarantined(_ url: URL) -> Bool {
         url.withUnsafeFileSystemRepresentation { path in
             guard let path else { return false }

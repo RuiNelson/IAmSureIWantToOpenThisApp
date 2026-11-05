@@ -16,7 +16,7 @@ private struct MainToolbar: ViewModifier {
             .toolbar {
                 ToolbarItem(placement: .navigation) {
                     Button {
-                        model.path.removeAll()
+                        if !model.path.isEmpty { model.path.removeLast() }
                     } label: {
                         Label("Back", systemImage: "chevron.backward")
                     }
