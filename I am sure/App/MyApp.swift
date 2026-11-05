@@ -61,6 +61,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             ) { result in
                 if case .success(let urls) = result { model.process(urls) }
             }
+            .fileDialogDefaultDirectory(.downloadsDirectory)
             .frame(minWidth: 520, idealWidth: 640, minHeight: 400, idealHeight: 480)
             .environment(model)
         }
