@@ -9,16 +9,34 @@
             "value" : "...و%lld أخرى"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "... и още %lld"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "...a dalších %lld"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "... og %lld mere"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "... und %lld weitere"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "... και %lld ακόμη"
           }
         },
         "es" : {
@@ -39,6 +57,12 @@
             "value" : "... et %lld de plus"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "... e %lld máis"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -49,6 +73,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "...और %lld"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "... i još %lld"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "… és még %lld"
           }
         },
         "it" : {
@@ -99,10 +135,28 @@
             "value" : "...e mais %lld"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "... și încă %lld"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "...и ещё %lld"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "... a ďalších: %lld"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "... in še %lld"
           }
         },
         "sv" : {
@@ -123,6 +177,18 @@
             "value" : "...і ще %lld"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "... và %lld mục khác"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "...及其他 %lld 個"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -133,12 +199,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "...還有 %lld 個"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "...及其他 %lld 個"
           }
         }
       }
@@ -151,16 +211,34 @@
             "value" : "تعذّر العثور على «أنا متأكد». انقله إلى مجلد التطبيقات وحاول مرة أخرى."
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„Сигурен съм“ не може да бъде намерено. Преместете го в папката „Програми“ и опитайте отново."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aplikaci „I am sure“ se nepodařilo najít. Přesuňte ji do složky Aplikace a zkuste to znovu."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "»Jeg er sikker« blev ikke fundet. Flyt programmet til mappen Programmer, og prøv igen."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "„Ich bin sicher“ wurde nicht gefunden. Bewege das Programm in den Ordner „Programme“ und versuche es erneut."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν ήταν δυνατή η εύρεση του «Είμαι σίγουρος». Μετακινήστε το στον φάκελο «Εφαρμογές» και δοκιμάστε ξανά."
           }
         },
         "es" : {
@@ -181,6 +259,12 @@
             "value" : "Impossible de trouver « J’en suis sûr ». Déplacez-le dans le dossier Applications, puis réessayez."
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non se puido atopar “Estou seguro”. Móveo ao cartafol Aplicacións e téntao de novo."
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -191,6 +275,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "“I am sure” नहीं मिला। इसे ऐप्लिकेशन फ़ोल्डर में ले जाएँ और फिर से कोशिश करें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikacija „I am sure” nije pronađena. Premjesti je u mapu Aplikacije i pokušaj ponovno."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A(z) „Biztos vagyok benne” nem található. Mozgassa az Applikációk mappába, majd próbálja újra."
           }
         },
         "it" : {
@@ -241,10 +337,28 @@
             "value" : "Não foi possível encontrar “Tenho a certeza”. Mova-a para a pasta Aplicações e tente novamente."
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„Sunt sigur” nu a fost găsită. Mutați-o în dosarul Aplicații și încercați din nou."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не удалось найти «I am sure». Переместите приложение в папку «Приложения» и повторите попытку."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikáciu „Som si istý“ sa nepodarilo nájsť. Presuň ju do priečinka Aplikácie a skús to znova."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikacije „Prepričan sem“ ni bilo mogoče najti. Premakni jo v mapo Aplikacije in poskusi znova."
           }
         },
         "sv" : {
@@ -263,6 +377,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не вдалося знайти «Я впевнений». Перемістіть його до папки «Програми» й повторіть спробу."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không tìm thấy “Tôi chắc chắn”. Hãy di chuyển ứng dụng vào thư mục Ứng dụng rồi thử lại."
           }
         },
         "zh-HK" : {
@@ -285,149 +405,6 @@
         }
       }
     },
-    "“I am sure” will open and remove the `com.apple.quarantine` attribute from %@, including everything inside:" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "سيفتح «أنا متأكد» ويزيل السمة `com.apple.quarantine` من %@، بما في ذلك كل ما بداخله:"
-          }
-        },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aplikace „I am sure“ se otevře a odebere atribut `com.apple.quarantine` z položky %@ včetně všeho, co obsahuje:"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "„I am sure“ wird geöffnet und entfernt das Attribut `com.apple.quarantine` von %@, einschließlich aller enthaltenen Inhalte:"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "«Estoy seguro» se abrirá y quitará el atributo `com.apple.quarantine` de %@, incluido todo su contenido:"
-          }
-        },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "“I am sure” avautuu ja poistaa `com.apple.quarantine`-attribuutin kohteesta %@, myös kaikesta sen sisällä olevasta:"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "« I am sure » va s’ouvrir et retirer l’attribut `com.apple.quarantine` de %@, y compris de tout ce qu’il contient :"
-          }
-        },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "“אני בטוח/ה” תיפתח ותסיר את התכונה `com.apple.quarantine` מ-%@, כולל כל מה שבתוכו:"
-          }
-        },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "“I am sure” खुलेगा और %@ से `com.apple.quarantine` एट्रिब्यूट हटा देगा, उसके अंदर की हर चीज़ से भी:"
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "“I am sure” si aprirà e rimuoverà l’attributo `com.apple.quarantine` da %@, compreso tutto ciò che contiene:"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "「I am sure」が開き、%@から`com.apple.quarantine`属性を削除します(内部のすべてを含む):"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "“I am sure”가 열리고 %@ 및 그 안의 모든 항목에서 `com.apple.quarantine` 속성을 제거합니다."
-          }
-        },
-        "nb" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "«Jeg er sikker» åpnes og fjerner egenskapen `com.apple.quarantine` fra %@, inkludert alt som ligger inni:"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "“Ik weet het zeker” wordt geopend en verwijdert het kenmerk `com.apple.quarantine` van %@, inclusief alles erin:"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aplikacja „I am sure” otworzy się i usunie atrybut `com.apple.quarantine` z: %@, łącznie z całą zawartością:"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "O app “Tenho certeza” será aberto e removerá o atributo `com.apple.quarantine` de %@, incluindo tudo o que estiver dentro:"
-          }
-        },
-        "pt-PT" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "“Tenho a certeza” será aberta e removerá o atributo `com.apple.quarantine` de %@, incluindo tudo o que está no interior:"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "«I am sure» откроется и удалит атрибут `com.apple.quarantine` у объекта %@, включая всё его содержимое:"
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "”Jag är säker” öppnas och tar bort attributet `com.apple.quarantine` från %@, inklusive allt som finns inuti:"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "“I am sure” açılacak ve %@ öğesinden, içindekiler dahil `com.apple.quarantine` özelliğini kaldıracak:"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "«I am sure» відкриється й видалить атрибут `com.apple.quarantine` з %@, разом з усім вмістом:"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "“I am sure”将打开并从 %@ 中移除 `com.apple.quarantine` 属性,包括其中的所有内容:"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "「I am sure」將會打開，並從 %@（包括其中的所有內容）移除 `com.apple.quarantine` 屬性："
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "「我肯定」會打開,並移除 %@(包括入面所有內容)嘅 `com.apple.quarantine` 屬性:"
-          }
-        }
-      }
-    },
     "“I am sure” will open and remove the `com.apple.quarantine` attribute from these items, including everything inside:" : {
       "localizations" : {
         "ar" : {
@@ -436,16 +413,34 @@
             "value" : "سيفتح «أنا متأكد» ويزيل السمة `com.apple.quarantine` من هذه العناصر، بما في ذلك كل ما بداخلها:"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„Сигурен съм“ ще се отвори и ще премахне атрибута `com.apple.quarantine` от тези елементи, включително от цялото им съдържание:"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aplikace „I am sure“ se otevře a odebere atribut `com.apple.quarantine` z těchto položek včetně všeho, co obsahují:"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "»Jeg er sikker« åbnes og fjerner attributten `com.apple.quarantine` fra disse emner, inklusive alt indeni:"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "„Ich bin sicher“ wird geöffnet und entfernt das Attribut `com.apple.quarantine` von diesen Objekten, einschließlich aller darin enthaltenen Inhalte:"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το «Είμαι σίγουρος» θα ανοίξει και θα καταργήσει το χαρακτηριστικό `com.apple.quarantine` από αυτά τα αντικείμενα, μαζί με όλα όσα περιέχουν:"
           }
         },
         "es" : {
@@ -466,6 +461,12 @@
             "value" : "« J’en suis sûr » va s’ouvrir et supprimer l’attribut `com.apple.quarantine` de ces éléments, y compris de tout leur contenu :"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Estou seguro” abrirase e retirará o atributo `com.apple.quarantine` destes elementos, incluído todo o que conteñan:"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -476,6 +477,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "“I am sure” खुलेगा और इन आइटम से `com.apple.quarantine` एट्रिब्यूट हटा देगा, उनके अंदर की हर चीज़ से भी:"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikacija „I am sure” otvorit će se i ukloniti atribut `com.apple.quarantine` s ovih stavki, uključujući sav sadržaj unutar njih:"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A(z) „Biztos vagyok benne” megnyílik, és eltávolítja a `com.apple.quarantine` attribútumot ezekről az elemekről, a bennük lévő összes elemmel együtt:"
           }
         },
         "it" : {
@@ -526,10 +539,28 @@
             "value" : "“Tenho a certeza” será aberta e removerá o atributo `com.apple.quarantine` destes itens, incluindo tudo o que está no interior:"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„Sunt sigur” se va deschide și va elimina atributul `com.apple.quarantine` de la aceste elemente, inclusiv de la tot ce conțin:"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "«I am sure» откроется и удалит атрибут `com.apple.quarantine` у этих объектов, включая всё их содержимое:"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikácia „Som si istý“ sa otvorí a odstráni atribút `com.apple.quarantine` z týchto položiek vrátane všetkého, čo obsahujú:"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikacija „Prepričan sem“ se bo odprla in odstranila atribut `com.apple.quarantine` s teh elementov, vključno z vsem, kar vsebujejo:"
           }
         },
         "sv" : {
@@ -548,6 +579,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«Я впевнений» відкриє ці елементи й вилучить з них атрибут `com.apple.quarantine`, разом з усім вмістом:"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Tôi chắc chắn” sẽ mở và gỡ thuộc tính `com.apple.quarantine` khỏi các mục này, bao gồm mọi thứ bên trong:"
           }
         },
         "zh-HK" : {
@@ -578,16 +615,34 @@
             "value" : "سيفتح «أنا متأكد» ويزيل السمة `com.apple.quarantine` من هذا العنصر، بما في ذلك كل ما بداخله:"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„Сигурен съм“ ще се отвори и ще премахне атрибута `com.apple.quarantine` от този елемент, включително от цялото му съдържание:"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aplikace „I am sure“ se otevře a odebere atribut `com.apple.quarantine` z této položky včetně všeho, co obsahuje:"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "»Jeg er sikker« åbnes og fjerner attributten `com.apple.quarantine` fra dette emne, inklusive alt indeni:"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "„Ich bin sicher“ wird geöffnet und entfernt das Attribut `com.apple.quarantine` von diesem Objekt, einschließlich aller darin enthaltenen Inhalte:"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το «Είμαι σίγουρος» θα ανοίξει και θα καταργήσει το χαρακτηριστικό `com.apple.quarantine` από αυτό το αντικείμενο, μαζί με όλα όσα περιέχει:"
           }
         },
         "es" : {
@@ -608,6 +663,12 @@
             "value" : "« J’en suis sûr » va s’ouvrir et supprimer l’attribut `com.apple.quarantine` de cet élément, y compris de tout son contenu :"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Estou seguro” abrirase e retirará o atributo `com.apple.quarantine` deste elemento, incluído todo o que conteña:"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -618,6 +679,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "“I am sure” खुलेगा और इस आइटम से `com.apple.quarantine` एट्रिब्यूट हटा देगा, इसके अंदर की हर चीज़ से भी:"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikacija „I am sure” otvorit će se i ukloniti atribut `com.apple.quarantine` s ove stavke, uključujući sav sadržaj unutar nje:"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A(z) „Biztos vagyok benne” megnyílik, és eltávolítja a `com.apple.quarantine` attribútumot erről az elemről, a benne lévő összes elemmel együtt:"
           }
         },
         "it" : {
@@ -668,10 +741,28 @@
             "value" : "“Tenho a certeza” será aberta e removerá o atributo `com.apple.quarantine` deste item, incluindo tudo o que está no interior:"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„Sunt sigur” se va deschide și va elimina atributul `com.apple.quarantine` de la acest element, inclusiv de la tot ce conține:"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "«I am sure» откроется и удалит атрибут `com.apple.quarantine` у этого объекта, включая всё его содержимое:"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikácia „Som si istý“ sa otvorí a odstráni atribút `com.apple.quarantine` z tejto položky vrátane všetkého, čo obsahuje:"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikacija „Prepričan sem“ se bo odprla in odstranila atribut `com.apple.quarantine` s tega elementa, vključno z vsem, kar vsebuje:"
           }
         },
         "sv" : {
@@ -690,6 +781,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«Я впевнений» відкриє цей елемент і вилучить з нього атрибут `com.apple.quarantine`, разом з усім вмістом:"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Tôi chắc chắn” sẽ mở và gỡ thuộc tính `com.apple.quarantine` khỏi mục này, bao gồm mọi thứ bên trong:"
           }
         },
         "zh-HK" : {
@@ -720,16 +817,34 @@
             "value" : "إلغاء"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отказ"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zrušit"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuller"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abbrechen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ακύρωση"
           }
         },
         "es" : {
@@ -750,6 +865,12 @@
             "value" : "Annuler"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -760,6 +881,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "रद्द करें"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odustani"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mégsem"
           }
         },
         "it" : {
@@ -810,10 +943,28 @@
             "value" : "Cancelar"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anulează"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Отмена"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zrušiť"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prekliči"
           }
         },
         "sv" : {
@@ -834,6 +985,18 @@
             "value" : "Скасувати"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hủy"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -841,12 +1004,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "取消"
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "取消"
@@ -862,16 +1019,34 @@
             "value" : "جارٍ تحميل العنصر المحدد"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зареждане на избрания елемент"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Načítá se vybraná položka"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indlæser det valgte emne"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Das ausgewählte Objekt wird geladen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Φόρτωση επιλεγμένου αντικειμένου"
           }
         },
         "es" : {
@@ -892,6 +1067,12 @@
             "value" : "Chargement de l’élément sélectionné"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cargando o elemento seleccionado"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -902,6 +1083,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "चुना गया आइटम लोड हो रहा है"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Učitavanje odabrane stavke"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A kiválasztott elem betöltése"
           }
         },
         "it" : {
@@ -952,10 +1145,28 @@
             "value" : "A carregar o item selecionado"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se încarcă elementul selectat"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Загрузка выбранного объекта"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Načítava sa vybraná položka"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nalaganje izbranega elementa"
           }
         },
         "sv" : {
@@ -974,6 +1185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Завантаження вибраного елемента"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang tải mục đã chọn"
           }
         },
         "zh-HK" : {
@@ -1004,16 +1221,34 @@
             "value" : "لا يوجد بين العناصر المحددة ملف أو مجلد على هذا الـ Mac."
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нито един от избраните елементи не е файл или папка на този Mac."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Žádná z vybraných položek není soubor ani složka na tomto Macu."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen af de valgte emner er en fil eller mappe på denne Mac."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keines der ausgewählten Objekte ist eine Datei oder ein Ordner auf diesem Mac."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κανένα από τα επιλεγμένα αντικείμενα δεν είναι αρχείο ή φάκελος σε αυτό το Mac."
           }
         },
         "es" : {
@@ -1034,6 +1269,12 @@
             "value" : "Aucun des éléments sélectionnés n’est un fichier ou un dossier sur ce Mac."
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ningún dos elementos seleccionados é un ficheiro ou un cartafol neste Mac."
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1044,6 +1285,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "चुने गए आइटम में से कोई भी इस Mac पर फ़ाइल या फ़ोल्डर नहीं है।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nijedna od odabranih stavki nije datoteka ni mapa na ovom Macu."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A kiválasztott elemek egyike sem fájl vagy mappa ezen a Macen."
           }
         },
         "it" : {
@@ -1094,10 +1347,28 @@
             "value" : "Nenhum dos itens selecionados é um ficheiro ou uma pasta neste Mac."
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niciunul dintre elementele selectate nu este un fișier sau un dosar de pe acest Mac."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ни один из выбранных объектов не является файлом или папкой на этом Mac."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Žiadna z vybraných položiek nie je súbor ani priečinok na tomto Macu."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noben od izbranih elementov ni datoteka ali mapa v tem Macu."
           }
         },
         "sv" : {
@@ -1116,6 +1387,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Жоден із вибраних елементів не є файлом чи папкою на цьому Mac."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không có mục nào trong số các mục đã chọn là tệp hoặc thư mục trên máy Mac này."
           }
         },
         "zh-HK" : {
@@ -1146,16 +1423,34 @@
             "value" : "افعل ذلك فقط مع التطبيقات والملفات التي تثق بها ومن مصدر تعرفه."
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Правете го само за приложения и файлове, на които имате доверие, от източник, който познавате."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dělejte to jen u aplikací a souborů, kterým důvěřujete a které pocházejí ze známého zdroje."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gør kun dette med apps og filer, du har tillid til, fra en kilde, du kender."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tu das nur bei Apps und Dateien, denen du vertraust und die aus einer dir bekannten Quelle stammen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κάντε το μόνο για εφαρμογές και αρχεία που εμπιστεύεστε, από πηγή που γνωρίζετε."
           }
         },
         "es" : {
@@ -1176,6 +1471,12 @@
             "value" : "Ne le faites que pour des apps et des fichiers de confiance, provenant d’une source que vous connaissez."
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fai isto só con apps e ficheiros nos que confíes e que procedan dunha fonte que coñezas."
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1186,6 +1487,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ऐसा केवल उन्हीं ऐप्स और फ़ाइलों के लिए करें जिन पर आप भरोसा करते हैं और जो किसी जाने-पहचाने स्रोत से आई हैं।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Učini to samo za aplikacije i datoteke kojima vjeruješ, iz izvora koji poznaješ."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Csak olyan appokkal és fájlokkal tegye ezt meg, amelyekben megbízik, és ismert forrásból származnak."
           }
         },
         "it" : {
@@ -1236,10 +1549,28 @@
             "value" : "Faça-o apenas para apps e ficheiros em que confia, de uma origem que conhece."
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Faceți acest lucru doar pentru aplicații și fișiere în care aveți încredere, dintr-o sursă pe care o cunoașteți."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Делайте это только для приложений и файлов, которым вы доверяете, из известного вам источника."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rob to iba pri aplikáciách a súboroch, ktorým dôveruješ a ktoré pochádzajú zo známeho zdroja."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To naredi samo za aplikacije in datoteke, ki jim zaupaš in izvirajo iz vira, ki ga poznaš."
           }
         },
         "sv" : {
@@ -1260,6 +1591,18 @@
             "value" : "Робіть це лише для програм і файлів, яким ви довіряєте, із відомого вам джерела."
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chỉ thực hiện với các ứng dụng và tệp mà bạn tin cậy, từ nguồn mà bạn biết."
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請只對你信任、來源可靠嘅 App 同檔案咁做。"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1270,12 +1613,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "請僅對你信任且來源明確的 App 和檔案執行此操作。"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "請只對你信任、來源可靠嘅 App 同檔案咁做。"
           }
         }
       }
@@ -1288,16 +1625,34 @@
             "value" : "جارٍ فتح «أنا متأكد»..."
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отваряне на „Сигурен съм“..."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otevírá se „I am sure“..."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åbner »I am sure«..."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "„I am sure“ wird geöffnet ..."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Άνοιγμα του «Είμαι σίγουρος»…"
           }
         },
         "es" : {
@@ -1318,6 +1673,12 @@
             "value" : "Ouverture de « I am sure »..."
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrindo “Estou seguro”..."
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1328,6 +1689,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "“I am sure” खोला जा रहा है..."
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otvaranje aplikacije „I am sure”..."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A(z) „I am sure” megnyitása…"
           }
         },
         "it" : {
@@ -1378,10 +1751,28 @@
             "value" : "A abrir “Tenho a certeza”..."
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se deschide „Sunt sigur”..."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Открытие «I am sure»..."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otvára sa „Som si istý“..."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odpiranje „I am sure“ ..."
           }
         },
         "sv" : {
@@ -1402,6 +1793,18 @@
             "value" : "Відкриття «I am sure»..."
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang mở “I am sure”..."
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在打開「我肯定」..."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1412,12 +1815,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在打開「I am sure」..."
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "正在打開「我肯定」..."
           }
         }
       }
@@ -1430,16 +1827,34 @@
             "value" : "إزالة الحجر"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Премахни карантината"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Odebrat karanténu"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern karantæne"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quarantäne entfernen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κατάργηση καραντίνας"
           }
         },
         "es" : {
@@ -1460,6 +1875,12 @@
             "value" : "Retirer la quarantaine"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retirar a corentena"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1470,6 +1891,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "क्वारंटीन हटाएँ"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ukloni karantenu"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karantén eltávolítása"
           }
         },
         "it" : {
@@ -1520,10 +1953,28 @@
             "value" : "Remover quarentena"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elimină carantina"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Снять карантин"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odstrániť karanténu"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odstrani karanteno"
           }
         },
         "sv" : {
@@ -1544,6 +1995,18 @@
             "value" : "Зняти карантин"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gỡ cách ly"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移除隔離"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1551,12 +2014,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "移除隔離"
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "移除隔離"
@@ -1572,16 +2029,34 @@
             "value" : "هل تريد إزالة الحجر؟"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Да се премахне ли карантината?"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Odebrat karanténu?"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern karantæne?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quarantäne entfernen?"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κατάργηση καραντίνας;"
           }
         },
         "es" : {
@@ -1602,6 +2077,12 @@
             "value" : "Retirer la quarantaine ?"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retirar a corentena?"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1612,6 +2093,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "क्वारंटीन हटाएँ?"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ukloniti karantenu?"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eltávolítja a karantént?"
           }
         },
         "it" : {
@@ -1662,10 +2155,28 @@
             "value" : "Remover quarentena?"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminați carantina?"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Снять карантин?"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odstrániť karanténu?"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Želiš odstraniti karanteno?"
           }
         },
         "sv" : {
@@ -1686,6 +2197,18 @@
             "value" : "Зняти карантин?"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gỡ cách ly?"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要移除隔離嗎?"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1696,12 +2219,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "要移除隔離嗎？"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "要移除隔離嗎?"
           }
         }
       }

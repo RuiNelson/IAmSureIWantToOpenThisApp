@@ -11,19 +11,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		525426D6309BFDE400E92113 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 000000000000000000000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 000000000000000100000000;
-			remoteInfo = "I am sure I want to open this App";
-		};
 		525426C1309BFDE400E92113 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 000000000000000000000000 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 525426B4309BFDE400E92113;
 			remoteInfo = "Let me open this App";
+		};
+		525426D6309BFDE400E92113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000000000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000000000000000100000000;
+			remoteInfo = "I am sure I want to open this App";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -230,6 +230,16 @@
 				"zh-HK",
 				"zh-Hans",
 				"zh-Hant",
+				el,
+				ro,
+				sk,
+				sl,
+				bg,
+				vi,
+				hu,
+				da,
+				hr,
+				gl,
 			);
 			mainGroup = 000000000000000000000001;
 			minimizedProjectReferenceProxies = 1;

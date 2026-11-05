@@ -12,16 +12,34 @@
             "value" : "...و%lld أخرى"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "... и още %lld"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "...a dalších %lld"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "... og %lld mere"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "... und %lld weitere"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "... και %lld ακόμη"
           }
         },
         "es" : {
@@ -42,6 +60,12 @@
             "value" : "... et %lld de plus"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "... e %lld máis"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -52,6 +76,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "...और %lld"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "... i još %lld"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "… és még %lld"
           }
         },
         "it" : {
@@ -102,10 +138,28 @@
             "value" : "...e mais %lld"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "... și încă %lld"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "...и ещё %lld"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "... a ďalších: %lld"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "... in še %lld"
           }
         },
         "sv" : {
@@ -126,6 +180,18 @@
             "value" : "...і ще %lld"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "... và %lld mục khác"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "...及其他 %lld 個"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -136,12 +202,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "...還有 %lld 個"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "...及其他 %lld 個"
           }
         }
       }
@@ -154,16 +214,34 @@
             "value" : "%@ و%lld أخرى"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ и още %lld"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ a dalších %lld"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ og %lld mere"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ und %lld weitere"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ και %2$lld ακόμη"
           }
         },
         "en" : {
@@ -190,6 +268,12 @@
             "value" : "%@ et %lld autres"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ e %lld máis"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -200,6 +284,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ और %lld अन्य"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ i još %lld"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ és még %lld"
           }
         },
         "it" : {
@@ -250,10 +346,28 @@
             "value" : "%@ e mais %lld"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ și încă %lld"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ и ещё %lld"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ a ďalších: %lld"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ in še %lld"
           }
         },
         "sv" : {
@@ -274,6 +388,18 @@
             "value" : "%@ та ще %lld"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ và %lld mục khác"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 及其他 %lld 個"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -284,12 +410,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ 和另外 %lld 個"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@ 及其他 %lld 個"
           }
         }
       }
@@ -302,13 +422,31 @@
             "value" : "%@: %@"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: %@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@: %@"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: %@"
+          }
+        },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: %@"
+          }
+        },
+        "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@: %@"
@@ -332,6 +470,12 @@
             "value" : "%@ : %@"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: %@"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -339,6 +483,18 @@
           }
         },
         "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: %@"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: %@"
+          }
+        },
+        "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@: %@"
@@ -392,7 +548,25 @@
             "value" : "%@: %@"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: %@"
+          }
+        },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: %@"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: %@"
+          }
+        },
+        "sl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@: %@"
@@ -416,6 +590,18 @@
             "value" : "%@: %@"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: %@"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@:%@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -426,12 +612,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@：%@"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@:%@"
           }
         }
       }
@@ -444,16 +624,34 @@
             "value" : "%lld عنصر"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld елемента"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld položek"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld emner"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld Objekte"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld αντικείμενα"
           }
         },
         "es" : {
@@ -474,6 +672,12 @@
             "value" : "%lld éléments"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld elementos"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -484,6 +688,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld आइटम"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stavke: %lld"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld elem"
           }
         },
         "it" : {
@@ -534,10 +750,28 @@
             "value" : "%lld itens"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elemente: %lld"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Объектов: %lld"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Počet položiek: %lld"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elementi: %lld"
           }
         },
         "sv" : {
@@ -558,6 +792,18 @@
             "value" : "Елементів: %lld"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld mục"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 個項目"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -565,12 +811,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld 個項目"
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld 個項目"
@@ -586,16 +826,34 @@
             "value" : "عنصر واحد"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 елемент"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 položka"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 emne"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 Objekt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 αντικείμενο"
           }
         },
         "es" : {
@@ -616,6 +874,12 @@
             "value" : "1 élément"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 elemento"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -626,6 +890,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 आइटम"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 stavka"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 elem"
           }
         },
         "it" : {
@@ -676,10 +952,28 @@
             "value" : "1 item"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 element"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 объект"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 položka"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 element"
           }
         },
         "sv" : {
@@ -700,6 +994,18 @@
             "value" : "1 елемент"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 mục"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 個項目"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -707,12 +1013,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "1 個項目"
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 個項目"
@@ -728,16 +1028,34 @@
             "value" : "التطبيقات"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Програми"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aplikace"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Programmer"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Programme"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εφαρμογές"
           }
         },
         "es" : {
@@ -758,6 +1076,12 @@
             "value" : "Applications"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplicacións"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -768,6 +1092,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ऐप्लिकेशन"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikacije"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Applikációk"
           }
         },
         "it" : {
@@ -818,10 +1154,28 @@
             "value" : "Aplicações"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplicații"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Приложения"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikácie"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikacije"
           }
         },
         "sv" : {
@@ -842,6 +1196,18 @@
             "value" : "Програми"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ứng dụng"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -852,12 +1218,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "應用程式"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "App"
           }
         }
       }
@@ -870,16 +1230,34 @@
             "value" : "رجوع"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Назад"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zpět"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilbage"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zurück"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πίσω"
           }
         },
         "es" : {
@@ -900,6 +1278,12 @@
             "value" : "Retour"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atrás"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -910,6 +1294,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "वापस"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Natrag"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vissza"
           }
         },
         "it" : {
@@ -960,10 +1356,28 @@
             "value" : "Retroceder"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Înapoi"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Назад"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Späť"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nazaj"
           }
         },
         "sv" : {
@@ -984,6 +1398,18 @@
             "value" : "Назад"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quay lại"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "返回"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -991,12 +1417,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "返回"
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "返回"
@@ -1012,16 +1432,34 @@
             "value" : "قبل المتابعة"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преди да продължите"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Než budete pokračovat"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Før du fortsætter"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bevor du fortfährst"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πριν συνεχίσετε"
           }
         },
         "es" : {
@@ -1042,6 +1480,12 @@
             "value" : "Avant de continuer"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antes de continuar"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1052,6 +1496,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "आगे बढ़ने से पहले"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prije nego nastaviš"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mielőtt folytatná"
           }
         },
         "it" : {
@@ -1102,10 +1558,28 @@
             "value" : "Antes de continuar"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Înainte de a continua"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Прежде чем продолжить"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skôr než budeš pokračovať"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preden nadaljuješ"
           }
         },
         "sv" : {
@@ -1126,6 +1600,18 @@
             "value" : "Перш ніж продовжити"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trước khi tiếp tục"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "繼續之前"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1133,12 +1619,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "繼續之前"
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "繼續之前"
@@ -1154,16 +1634,34 @@
             "value" : "إلغاء"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отказ"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zrušit"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuller"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abbrechen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ακύρωση"
           }
         },
         "es" : {
@@ -1184,6 +1682,12 @@
             "value" : "Annuler"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1194,6 +1698,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "रद्द करें"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odustani"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mégsem"
           }
         },
         "it" : {
@@ -1244,10 +1760,28 @@
             "value" : "Cancelar"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anulează"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Отмена"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zrušiť"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prekliči"
           }
         },
         "sv" : {
@@ -1268,6 +1802,18 @@
             "value" : "Скасувати"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hủy"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1275,12 +1821,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "取消"
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "取消"
@@ -1296,16 +1836,34 @@
             "value" : "تغيير..."
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Промяна..."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Změnit..."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skift..."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ändern ..."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αλλαγή…"
           }
         },
         "es" : {
@@ -1326,6 +1884,12 @@
             "value" : "Modifier..."
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambiar..."
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1336,6 +1900,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "बदलें..."
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Promijeni..."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Módosítás…"
           }
         },
         "it" : {
@@ -1386,10 +1962,28 @@
             "value" : "Alterar..."
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schimbă..."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Изменить..."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zmeniť..."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spremeni ..."
           }
         },
         "sv" : {
@@ -1410,6 +2004,18 @@
             "value" : "Змінити..."
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thay đổi..."
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更改..."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1417,12 +2023,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "更改..."
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "更改..."
@@ -1438,16 +2038,34 @@
             "value" : "اختيار أي مجلد..."
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Изберете папка..."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vybrat libovolnou složku..."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg en vilkårlig mappe..."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Beliebigen Ordner auswählen..."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επιλογή οποιουδήποτε φακέλου…"
           }
         },
         "es" : {
@@ -1468,6 +2086,12 @@
             "value" : "Choisir un dossier..."
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escoller calquera cartafol..."
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1478,6 +2102,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "कोई भी फ़ोल्डर चुनें..."
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odaberi bilo koju mapu..."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tetszőleges mappa kiválasztása…"
           }
         },
         "it" : {
@@ -1528,10 +2164,28 @@
             "value" : "Escolher qualquer pasta..."
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alegeți un dosar..."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выбрать другую папку..."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vybrať ľubovoľný priečinok..."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Izberi poljubno mapo ..."
           }
         },
         "sv" : {
@@ -1552,6 +2206,18 @@
             "value" : "Вибрати будь-яку папку..."
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn thư mục bất kỳ..."
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選擇任何檔案夾..."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1559,12 +2225,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "選擇任何檔案夾..."
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "選擇任何檔案夾..."
@@ -1580,16 +2240,34 @@
             "value" : "اختيار..."
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Изберете..."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vybrat..."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg..."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Auswählen ..."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επιλογή…"
           }
         },
         "es" : {
@@ -1610,6 +2288,12 @@
             "value" : "Choisir..."
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escoller..."
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1620,6 +2304,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "चुनें..."
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odaberi..."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kiválasztás…"
           }
         },
         "it" : {
@@ -1670,10 +2366,28 @@
             "value" : "Escolher..."
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alege..."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выбрать..."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vybrať..."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Izberi ..."
           }
         },
         "sv" : {
@@ -1694,6 +2408,18 @@
             "value" : "Вибрати..."
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn..."
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選擇..."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1701,12 +2427,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "選擇..."
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "選擇..."
@@ -1722,16 +2442,34 @@
             "value" : "متابعة"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продължи"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pokračovat"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsæt"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fortfahren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνέχεια"
           }
         },
         "es" : {
@@ -1752,6 +2490,12 @@
             "value" : "Continuer"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuar"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1762,6 +2506,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "जारी रखें"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nastavi"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Folytatás"
           }
         },
         "it" : {
@@ -1812,10 +2568,28 @@
             "value" : "Continuar"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuă"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Продолжить"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokračovať"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nadaljuj"
           }
         },
         "sv" : {
@@ -1836,6 +2610,18 @@
             "value" : "Продовжити"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiếp tục"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "繼續"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1843,12 +2629,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "繼續"
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "繼續"
@@ -1864,16 +2644,34 @@
             "value" : "هل تريد نسخ %@ و%lld أخرى؟"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Да се копира ли %@ и още %lld?"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zkopírovat %@ a dalších %lld?"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vil du kopiere %@ og %lld mere?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ und %lld weitere kopieren?"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αντιγραφή του %1$@ και %2$lld ακόμη;"
           }
         },
         "en" : {
@@ -1900,6 +2698,12 @@
             "value" : "Copier %@ et %lld autres ?"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiar %@ e %lld máis?"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1910,6 +2714,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ और %lld अन्य को कॉपी करें?"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopirati %@ i još %lld?"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Másolja a következőket: %@ és még %lld?"
           }
         },
         "it" : {
@@ -1960,10 +2776,28 @@
             "value" : "Copiar %@ e mais %lld?"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiați %@ și încă %lld?"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Скопировать %@ и ещё %lld?"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopírovať %@ a ďalších: %lld?"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Želiš kopirati %@ in še %lld?"
           }
         },
         "sv" : {
@@ -1984,6 +2818,18 @@
             "value" : "Скопіювати %@ та ще %lld?"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sao chép %@ và %lld mục khác?"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要拷貝 %@ 及其他 %lld 個項目嗎?"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1994,12 +2840,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "要拷貝「%@」和另外 %lld 個項目嗎？"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "要拷貝 %@ 及其他 %lld 個項目嗎?"
           }
         }
       }
@@ -2012,16 +2852,34 @@
             "value" : "هل تريد نسخ %@؟"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Да се копира ли %@?"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zkopírovat %@?"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vil du kopiere %@?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ kopieren?"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αντιγραφή του %@;"
           }
         },
         "es" : {
@@ -2042,6 +2900,12 @@
             "value" : "Copier %@ ?"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiar %@?"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2052,6 +2916,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ को कॉपी करें?"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopirati %@?"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Másolja a következőt: %@?"
           }
         },
         "it" : {
@@ -2102,10 +2978,28 @@
             "value" : "Copiar %@?"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiați %@?"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Скопировать %@?"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopírovať %@?"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Želiš kopirati %@?"
           }
         },
         "sv" : {
@@ -2126,6 +3020,18 @@
             "value" : "Скопіювати %@?"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sao chép %@?"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要拷貝 %@ 嗎?"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2136,12 +3042,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "要拷貝「%@」嗎？"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "要拷貝 %@ 嗎?"
           }
         }
       }
@@ -2154,16 +3054,34 @@
             "value" : "نسخ وإزالة الحجر"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Копирай и премахни карантината"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zkopírovat a odebrat karanténu"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiér og fjern karantæne"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kopieren und Quarantäne entfernen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αντιγραφή και κατάργηση καραντίνας"
           }
         },
         "es" : {
@@ -2184,6 +3102,12 @@
             "value" : "Copier et retirer la quarantaine"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiar e retirar a corentena"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2194,6 +3118,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "कॉपी करें और क्वारंटीन हटाएँ"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiraj i ukloni karantenu"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Másolás és karantén eltávolítása"
           }
         },
         "it" : {
@@ -2244,10 +3180,28 @@
             "value" : "Copiar e remover quarentena"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiază și elimină carantina"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Скопировать и снять карантин"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopírovať a odstrániť karanténu"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiraj in odstrani karanteno"
           }
         },
         "sv" : {
@@ -2268,6 +3222,18 @@
             "value" : "Скопіювати й зняти карантин"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sao chép và gỡ cách ly"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拷貝並移除隔離"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2275,12 +3241,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "拷貝並移除隔離"
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "拷貝並移除隔離"
@@ -2296,16 +3256,34 @@
             "value" : "فشل النسخ: %@"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Копирането не успя: %@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kopírování se nezdařilo: %@"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopieringen mislykkedes: %@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kopieren fehlgeschlagen: %@"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η αντιγραφή απέτυχε: %@"
           }
         },
         "es" : {
@@ -2326,6 +3304,12 @@
             "value" : "Échec de la copie : %@"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Produciuse un erro ao copiar: %@"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2336,6 +3320,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "कॉपी विफल रही: %@"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiranje nije uspjelo: %@"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A másolás sikertelen: %@"
           }
         },
         "it" : {
@@ -2386,10 +3382,28 @@
             "value" : "Falha ao copiar: %@"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copierea a eșuat: %@"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не удалось скопировать: %@"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopírovanie zlyhalo: %@"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiranje ni uspelo: %@"
           }
         },
         "sv" : {
@@ -2410,6 +3424,18 @@
             "value" : "Не вдалося скопіювати: %@"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sao chép không thành công: %@"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拷貝失敗:%@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2420,12 +3446,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "拷貝失敗：%@"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "拷貝失敗:%@"
           }
         }
       }
@@ -2438,16 +3458,34 @@
             "value" : "نسخ إلى موقع قابل للكتابة"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Копиране на място с право за запис"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zkopírovat na místo s možností zápisu"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiér til et skrivbart sted"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "In einen beschreibbaren Ort kopieren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αντιγραφή σε τοποθεσία με δυνατότητα εγγραφής"
           }
         },
         "es" : {
@@ -2468,6 +3506,12 @@
             "value" : "Copier vers un emplacement accessible en écriture"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiar nunha localización con permiso de escritura"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2478,6 +3522,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "लिखने योग्य स्थान पर कॉपी करें"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiraj na lokaciju s mogućnošću zapisivanja"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Másolás írható helyre"
           }
         },
         "it" : {
@@ -2528,10 +3584,28 @@
             "value" : "Copiar para uma localização com permissão de escrita"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiază într-o locație care permite scrierea"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Скопировать в место с правом записи"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopírovať na miesto s možnosťou zápisu"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiraj na mesto z dovoljenjem za pisanje"
           }
         },
         "sv" : {
@@ -2552,6 +3626,18 @@
             "value" : "Скопіювати в місце з доступом до запису"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sao chép đến vị trí có thể ghi"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拷貝到可寫入嘅位置"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2562,12 +3648,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "拷貝到可寫入的位置"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "拷貝到可寫入嘅位置"
           }
         }
       }
@@ -2580,16 +3660,34 @@
             "value" : "انسخه إلى موقع قابل للكتابة وأزل الحجر عن النسخة"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Копиране на място с право за запис и премахване на карантината от копието"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zkopírovat na místo s možností zápisu a odebrat karanténu z kopie"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiér til et skrivbart sted, og fjern karantænen fra kopien"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "In einen beschreibbaren Ordner kopieren und die Quarantäne von der Kopie entfernen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αντιγραφή σε τοποθεσία με δυνατότητα εγγραφής και κατάργηση της καραντίνας από το αντίγραφο"
           }
         },
         "es" : {
@@ -2610,6 +3708,12 @@
             "value" : "Copier vers un emplacement modifiable et retirer la quarantaine de la copie"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiar nunha localización con permiso de escritura e retirar a corentena da copia"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2620,6 +3724,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "लिखने योग्य स्थान पर कॉपी करें और कॉपी से क्वारंटीन हटाएँ"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiraj na lokaciju s mogućnošću zapisivanja i ukloni karantenu s kopije"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Másolás írható helyre, és a karantén eltávolítása a másolatról"
           }
         },
         "it" : {
@@ -2670,10 +3786,28 @@
             "value" : "Copiar para uma localização com permissão de escrita e remover a quarentena da cópia"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiază într-o locație care permite scrierea și elimină carantina de pe copie"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Скопировать в место с правом записи и снять карантин с копии"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopírovať na miesto s možnosťou zápisu a odstrániť karanténu z kópie"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiraj na mesto z dovoljenjem za pisanje in odstrani karanteno s kopije"
           }
         },
         "sv" : {
@@ -2694,6 +3828,18 @@
             "value" : "Скопіювати в місце з правом запису й зняти карантин із копії"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sao chép đến vị trí có thể ghi và gỡ cách ly khỏi bản sao"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拷貝到可寫入嘅位置,再移除拷貝嘅隔離"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2704,12 +3850,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "拷貝到可寫入的位置，並從拷貝中移除隔離"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "拷貝到可寫入嘅位置,再移除拷貝嘅隔離"
           }
         }
       }
@@ -2722,16 +3862,34 @@
             "value" : "نسخ إلى..."
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Копирай в..."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zkopírovat do..."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiér til..."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kopieren nach..."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αντιγραφή σε…"
           }
         },
         "es" : {
@@ -2752,6 +3910,12 @@
             "value" : "Copier vers..."
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiar en..."
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2762,6 +3926,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "यहाँ कॉपी करें..."
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiraj u..."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Másolás ide…"
           }
         },
         "it" : {
@@ -2812,10 +3988,28 @@
             "value" : "Copiar para..."
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiază în..."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Скопировать в..."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopírovať do..."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiraj v ..."
           }
         },
         "sv" : {
@@ -2836,6 +4030,18 @@
             "value" : "Скопіювати в..."
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sao chép đến..."
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拷貝到..."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2843,12 +4049,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "拷貝到..."
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "拷貝到..."
@@ -2864,16 +4064,34 @@
             "value" : "نسخ..."
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Копирай..."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kopírovat..."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiér..."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kopieren ..."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αντιγραφή…"
           }
         },
         "es" : {
@@ -2894,6 +4112,12 @@
             "value" : "Copier..."
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiar..."
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2904,6 +4128,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "कॉपी करें..."
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiraj..."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Másolás…"
           }
         },
         "it" : {
@@ -2954,10 +4190,28 @@
             "value" : "Copiar..."
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiază..."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Скопировать..."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopírovať..."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiraj ..."
           }
         },
         "sv" : {
@@ -2978,6 +4232,18 @@
             "value" : "Скопіювати..."
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sao chép..."
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拷貝..."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2985,12 +4251,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "拷貝..."
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "拷貝..."
@@ -3006,16 +4266,34 @@
             "value" : "تعذّرت إزالة الحجر"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Карантината не можа да бъде премахната"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Karanténu se nepodařilo odebrat"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karantænen kunne ikke fjernes"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quarantäne konnte nicht entfernt werden"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν ήταν δυνατή η κατάργηση της καραντίνας"
           }
         },
         "es" : {
@@ -3036,6 +4314,12 @@
             "value" : "Impossible de retirer la quarantaine"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non se puido retirar a corentena"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3046,6 +4330,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "क्वारंटीन नहीं हटाया जा सका"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karantena se nije mogla ukloniti"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A karantén eltávolítása nem sikerült"
           }
         },
         "it" : {
@@ -3096,10 +4392,28 @@
             "value" : "Não foi possível remover a quarentena"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carantina nu a putut fi eliminată"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не удалось снять карантин"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karanténu sa nepodarilo odstrániť"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karantene ni bilo mogoče odstraniti"
           }
         },
         "sv" : {
@@ -3120,6 +4434,18 @@
             "value" : "Не вдалося зняти карантин"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không thể gỡ cách ly"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無法移除隔離"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3127,12 +4453,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "無法移除隔離"
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "無法移除隔離"
@@ -3148,16 +4468,34 @@
             "value" : "موقع مخصص"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Друго място"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vlastní umístění"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brugerdefineret placering"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eigener Ort"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσαρμοσμένη τοποθεσία"
           }
         },
         "es" : {
@@ -3178,6 +4516,12 @@
             "value" : "Emplacement personnalisé"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Localización personalizada"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3188,6 +4532,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "कस्टम स्थान"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prilagođena lokacija"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Egyéni hely"
           }
         },
         "it" : {
@@ -3238,10 +4594,28 @@
             "value" : "Localização personalizada"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Locație personalizată"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Другое место"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vlastné miesto"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mesto po meri"
           }
         },
         "sv" : {
@@ -3262,6 +4636,18 @@
             "value" : "Інше місце"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vị trí tùy chỉnh"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自訂位置"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3269,12 +4655,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "自訂位置"
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "自訂位置"
@@ -3290,16 +4670,34 @@
             "value" : "سطح المكتب"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бюро"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Plocha"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrivebord"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Schreibtisch"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γραφείο"
           }
         },
         "es" : {
@@ -3320,6 +4718,12 @@
             "value" : "Bureau"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escritorio"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3330,6 +4734,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "डेस्कटॉप"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radna površina"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asztal"
           }
         },
         "it" : {
@@ -3380,10 +4796,28 @@
             "value" : "Secretária"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Birou"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Рабочий стол"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plocha"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Namizje"
           }
         },
         "sv" : {
@@ -3404,6 +4838,18 @@
             "value" : "Стіл"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Màn hình nền"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "桌面"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3411,12 +4857,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "桌面"
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "桌面"
@@ -3432,16 +4872,34 @@
             "value" : "تم"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готово"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hotovo"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udført"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fertig"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τέλος"
           }
         },
         "es" : {
@@ -3462,6 +4920,12 @@
             "value" : "Terminé"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feito"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3472,6 +4936,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "पूरा हुआ"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gotovo"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kész"
           }
         },
         "it" : {
@@ -3522,10 +4998,28 @@
             "value" : "Concluído"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gata"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Готово"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hotovo"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Končano"
           }
         },
         "sv" : {
@@ -3546,6 +5040,18 @@
             "value" : "Готово"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xong"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3553,12 +5059,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "完成"
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "完成"
@@ -3574,16 +5074,34 @@
             "value" : "التنزيلات"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Изтегляния"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stahování"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Downloads"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Downloads"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Λήψεις"
           }
         },
         "es" : {
@@ -3604,6 +5122,12 @@
             "value" : "Téléchargements"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descargas"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3614,6 +5138,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "डाउनलोड"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preuzimanja"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letöltések"
           }
         },
         "it" : {
@@ -3664,10 +5200,28 @@
             "value" : "Transferências"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descărcări"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Загрузки"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stiahnuté súbory"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prenosi"
           }
         },
         "sv" : {
@@ -3688,6 +5242,18 @@
             "value" : "Завантаження"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tải về"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下載項目"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3695,12 +5261,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "下載項目"
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "下載項目"
@@ -3716,16 +5276,34 @@
             "value" : "أفلت التطبيقات أو الملفات هنا"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пуснете приложения или файлове тук"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přetáhněte sem aplikace nebo soubory"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Læg apps eller filer her"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Apps oder Dateien hierher ziehen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αφήστε εδώ εφαρμογές ή αρχεία"
           }
         },
         "es" : {
@@ -3746,6 +5324,12 @@
             "value" : "Déposez des apps ou des fichiers ici"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solta aquí apps ou ficheiros"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3756,6 +5340,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ऐप्स या फ़ाइलें यहाँ छोड़ें"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ovdje ispusti aplikacije ili datoteke"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Húzzon ide appokat vagy fájlokat"
           }
         },
         "it" : {
@@ -3806,10 +5402,28 @@
             "value" : "Largue aqui apps ou ficheiros"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trageți aici aplicații sau fișiere"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Перетащите сюда приложения или файлы"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sem pretiahni aplikácie alebo súbory"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spusti aplikacije ali datoteke sem"
           }
         },
         "sv" : {
@@ -3830,6 +5444,18 @@
             "value" : "Перетягніть сюди програми або файли"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thả ứng dụng hoặc tệp vào đây"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "將 App 或檔案拖放到此處"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3837,12 +5463,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "將 App 或檔案拖放到此處"
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "將 App 或檔案拖放到此處"
@@ -3858,16 +5478,34 @@
             "value" : "فشل"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Неуспешно"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Selhalo"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mislykkedes"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fehlgeschlagen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Απέτυχε"
           }
         },
         "es" : {
@@ -3888,6 +5526,12 @@
             "value" : "Échec"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erro"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3898,6 +5542,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "विफल"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neuspjelo"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sikertelen"
           }
         },
         "it" : {
@@ -3948,10 +5604,28 @@
             "value" : "Falhou"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eșuat"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не удалось"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zlyhalo"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neuspešno"
           }
         },
         "sv" : {
@@ -3972,6 +5646,18 @@
             "value" : "Помилка"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không thành công"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "失敗"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3979,12 +5665,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "失敗"
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "失敗"
@@ -4000,16 +5680,34 @@
             "value" : "انتهى مع وجود أخطاء"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Завършено с грешки"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dokončeno s chybami"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afsluttet med fejl"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mit Fehlern abgeschlossen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ολοκληρώθηκε με σφάλματα"
           }
         },
         "es" : {
@@ -4030,6 +5728,12 @@
             "value" : "Terminé avec des erreurs"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finalizado con erros"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4040,6 +5744,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "त्रुटियों के साथ पूरा हुआ"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Završeno s pogreškama"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hibákkal fejeződött be"
           }
         },
         "it" : {
@@ -4090,10 +5806,28 @@
             "value" : "Concluído com erros"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finalizat cu erori"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Завершено с ошибками"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dokončené s chybami"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Končano z napakami"
           }
         },
         "sv" : {
@@ -4114,6 +5848,18 @@
             "value" : "Завершено з помилками"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoàn tất nhưng có lỗi"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成,但有錯誤"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4124,12 +5870,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已完成，但有錯誤"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "完成,但有錯誤"
           }
         }
       }
@@ -4142,16 +5882,34 @@
             "value" : "أنا متأكد"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сигурен съм"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jsem si jistý"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg er sikker"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ich bin sicher"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Είμαι σίγουρος"
           }
         },
         "es" : {
@@ -4172,6 +5930,12 @@
             "value" : "J’en suis sûr"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estou seguro"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4182,6 +5946,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "मुझे पक्का यकीन है"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I am sure"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biztos vagyok benne"
           }
         },
         "it" : {
@@ -4232,10 +6008,28 @@
             "value" : "Tenho a certeza"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sunt sigur"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "I am sure"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Som si istý"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prepričan sem"
           }
         },
         "sv" : {
@@ -4256,6 +6050,18 @@
             "value" : "Я впевнений"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tôi chắc chắn"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我肯定"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4266,12 +6072,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I am sure"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "我肯定"
           }
         }
       }
@@ -4284,16 +6084,34 @@
             "value" : "أنا متأكد أنني أريد فتح هذا التطبيق"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сигурен съм, че искам да отворя това приложение"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jsem si jistý, že chci tuto aplikaci otevřít"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg er sikker på, at jeg vil åbne denne app"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ich bin sicher, dass ich diese App öffnen will"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Είμαι σίγουρος ότι θέλω να ανοίξω αυτήν την εφαρμογή"
           }
         },
         "es" : {
@@ -4314,6 +6132,12 @@
             "value" : "Je suis sûr de vouloir ouvrir cette app"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estou seguro de querer abrir esta app"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4324,6 +6148,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "मुझे पक्का यकीन है, मैं यह ऐप खोलना चाहता हूँ"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sigurno želim otvoriti ovu aplikaciju"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biztos vagyok benne, hogy meg akarom nyitni ezt az appot"
           }
         },
         "it" : {
@@ -4374,10 +6210,28 @@
             "value" : "Tenho a certeza de que quero abrir esta app"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sunt sigur că vreau să deschid această aplicație"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Я уверен, что хочу открыть это приложение"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Som si istý, že chcem otvoriť túto aplikáciu"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prepričan sem, da želim odpreti to aplikacijo"
           }
         },
         "sv" : {
@@ -4398,6 +6252,18 @@
             "value" : "Я впевнений, що хочу відкрити цю програму"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tôi chắc chắn muốn mở ứng dụng này"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我肯定要打開呢個 App"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4408,12 +6274,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "我確定要打開這個 App"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "我肯定要打開呢個 App"
           }
         }
       }
@@ -4426,16 +6286,34 @@
             "value" : "أنا أدرك المخاطر"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Разбирам рисковете"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rozumím rizikům"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg forstår risiciene"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ich verstehe die Risiken"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κατανοώ τους κινδύνους"
           }
         },
         "es" : {
@@ -4456,6 +6334,12 @@
             "value" : "Je comprends les risques"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entendo os riscos"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4466,6 +6350,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "मैं जोखिम समझता हूँ"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Razumijem rizike"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Megértettem a kockázatokat"
           }
         },
         "it" : {
@@ -4516,10 +6412,28 @@
             "value" : "Compreendo os riscos"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Înțeleg riscurile"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Я понимаю риски"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rozumiem rizikám"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Razumem tveganja"
           }
         },
         "sv" : {
@@ -4540,6 +6454,18 @@
             "value" : "Я розумію ризики"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tôi hiểu các rủi ro"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我明白風險"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4550,12 +6476,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "我了解風險"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "我明白風險"
           }
         }
       }
@@ -4568,16 +6488,34 @@
             "value" : "مسار غير صالح"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Невалиден път"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Neplatná cesta"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ugyldig sti"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ungültiger Pfad"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μη έγκυρη διαδρομή"
           }
         },
         "es" : {
@@ -4598,6 +6536,12 @@
             "value" : "Chemin non valide"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ruta non válida"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4608,6 +6552,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "अमान्य पाथ"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nevažeća putanja"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Érvénytelen elérési út"
           }
         },
         "it" : {
@@ -4658,10 +6614,28 @@
             "value" : "Caminho inválido"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cale nevalidă"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Недопустимый путь"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neplatná cesta"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neveljavna pot"
           }
         },
         "sv" : {
@@ -4682,6 +6656,18 @@
             "value" : "Недійсний шлях"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đường dẫn không hợp lệ"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "路徑無效"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4692,12 +6678,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "無效的路徑"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "路徑無效"
           }
         }
       }
@@ -4710,16 +6690,34 @@
             "value" : "دعني أفتح هذا التطبيق"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Позволи ми да отворя това приложение"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nechte mě otevřít tuto aplikaci"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lad mig åbne denne app"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Diese App öffnen lassen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Άφησέ με να ανοίξω αυτήν την εφαρμογή"
           }
         },
         "es" : {
@@ -4740,6 +6738,12 @@
             "value" : "Laissez-moi ouvrir cette app"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Déixame abrir esta app"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4750,6 +6754,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "मुझे यह ऐप खोलने दें"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dopusti mi da otvorim ovu aplikaciju"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hadd nyissam meg ezt az appot"
           }
         },
         "it" : {
@@ -4800,10 +6816,28 @@
             "value" : "Deixe-me abrir esta app"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lasă-mă să deschid această aplicație"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Позвольте открыть это приложение"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nechaj ma otvoriť túto aplikáciu"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dovoli mi odpreti to aplikacijo"
           }
         },
         "sv" : {
@@ -4824,6 +6858,18 @@
             "value" : "Дозвольте відкрити цю програму"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cho phép tôi mở ứng dụng này"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "等我打開呢個 App"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4834,12 +6880,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "讓我打開這個 App"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "等我打開呢個 App"
           }
         }
       }
@@ -4852,16 +6892,34 @@
             "value" : "يضع macOS السمة `com.apple.quarantine` على الملفات التي تم تنزيلها من الإنترنت. ويستخدمها Gatekeeper للتحقق من أن التطبيقات موقّعة وموثّقة قبل فتحها."
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS маркира файловете, изтеглени от интернет, с атрибута `com.apple.quarantine`. Gatekeeper го използва, за да провери дали приложенията са подписани и нотаризирани, преди да се отворят."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "macOS označuje soubory stažené z internetu atributem `com.apple.quarantine`. Gatekeeper podle něj před otevřením ověřuje, zda jsou aplikace podepsané a notarizované."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS markerer filer, der er hentet fra internettet, med attributten `com.apple.quarantine`. Gatekeeper bruger den til at kontrollere, at apps er signeret og notariseret, før de åbnes."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "macOS versieht aus dem Internet geladene Dateien mit dem Attribut `com.apple.quarantine`. Gatekeeper nutzt es, um vor dem Öffnen zu prüfen, ob Apps signiert und notarisiert sind."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το macOS επισημαίνει τα αρχεία που λαμβάνονται από το διαδίκτυο με το χαρακτηριστικό `com.apple.quarantine`. Το Gatekeeper το χρησιμοποιεί για να ελέγξει ότι οι εφαρμογές είναι υπογεγραμμένες και συμβολαιογραφημένες πριν ανοίξουν."
           }
         },
         "es" : {
@@ -4882,6 +6940,12 @@
             "value" : "macOS marque les fichiers téléchargés sur Internet avec l’attribut `com.apple.quarantine`. Gatekeeper s’en sert pour vérifier que les apps sont signées et notarisées avant de s’ouvrir."
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS marca os ficheiros descargados de internet co atributo `com.apple.quarantine`. Gatekeeper úsao para comprobar que as apps están asinadas e notarizadas antes de abrirse."
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4892,6 +6956,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "macOS इंटरनेट से डाउनलोड की गई फ़ाइलों पर `com.apple.quarantine` एट्रिब्यूट लगा देता है। Gatekeeper इसका उपयोग यह जाँचने के लिए करता है कि ऐप्स खुलने से पहले साइन और नोटराइज़ किए गए हैं या नहीं।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS datoteke preuzete s interneta označava atributom `com.apple.quarantine`. Gatekeeper ga koristi kako bi prije otvaranja provjerio jesu li aplikacije potpisane i notarizirane."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A macOS az internetről letöltött fájlokat megjelöli a `com.apple.quarantine` attribútummal. A Gatekeeper ennek segítségével ellenőrzi, hogy az appok alá vannak-e írva és hitelesítve vannak-e, mielőtt megnyílnak."
           }
         },
         "it" : {
@@ -4942,10 +7018,28 @@
             "value" : "O macOS marca os ficheiros transferidos da internet com o atributo `com.apple.quarantine`. O Gatekeeper usa-o para verificar se as apps estão assinadas e autenticadas (notarized) antes de as abrir."
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS marchează fișierele descărcate de pe internet cu atributul `com.apple.quarantine`. Gatekeeper îl folosește pentru a verifica dacă aplicațiile sunt semnate și notarizate înainte de a fi deschise."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "macOS помечает файлы, загруженные из интернета, атрибутом `com.apple.quarantine`. Gatekeeper использует его, чтобы перед открытием проверить, что приложения подписаны и нотаризованы."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS označuje súbory stiahnuté z internetu atribútom `com.apple.quarantine`. Gatekeeper ho používa na overenie, že aplikácie sú pred otvorením podpísané a notarizované."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS datoteke, prenesene z interneta, označi z atributom `com.apple.quarantine`. Gatekeeper ga uporablja, da pred odprtjem preveri, ali so aplikacije podpisane in notarizirane."
           }
         },
         "sv" : {
@@ -4966,6 +7060,18 @@
             "value" : "macOS позначає файли, завантажені з інтернету, атрибутом `com.apple.quarantine`. Gatekeeper використовує його, щоб перевірити, що програми підписані й нотаризовані, перш ніж вони відкриються."
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS đánh dấu các tệp tải về từ internet bằng thuộc tính `com.apple.quarantine`. Gatekeeper dùng thuộc tính này để kiểm tra xem ứng dụng đã được ký và công chứng hay chưa trước khi mở."
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS 會用 `com.apple.quarantine` 屬性標記從互聯網下載嘅檔案。Gatekeeper 會憑呢個屬性,喺 App 打開之前檢查佢哋有冇簽署同經過公證。"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4976,12 +7082,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "macOS 會為從網際網路下載的檔案加上 `com.apple.quarantine` 屬性。Gatekeeper 會利用此屬性，在 App 打開之前檢查它是否已簽署並經過公證。"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "macOS 會用 `com.apple.quarantine` 屬性標記從互聯網下載嘅檔案。Gatekeeper 會憑呢個屬性,喺 App 打開之前檢查佢哋有冇簽署同經過公證。"
           }
         }
       }
@@ -4994,16 +7094,34 @@
             "value" : "غير قابل للكتابة"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Без право за запис"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zápis není možný"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ikke skrivbar"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nicht beschreibbar"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χωρίς δυνατότητα εγγραφής"
           }
         },
         "es" : {
@@ -5024,6 +7142,12 @@
             "value" : "Non accessible en écriture"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sen permiso de escritura"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5034,6 +7158,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "लिखने योग्य नहीं"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nije moguće zapisivanje"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nem írható"
           }
         },
         "it" : {
@@ -5084,10 +7220,28 @@
             "value" : "Sem permissão de escrita"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu permite scrierea"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Запись невозможна"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie je možné zapisovať"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ni mogoče pisati"
           }
         },
         "sv" : {
@@ -5108,6 +7262,18 @@
             "value" : "Запис неможливий"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không thể ghi"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無法寫入"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5115,12 +7281,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "無法寫入"
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "無法寫入"
@@ -5136,16 +7296,34 @@
             "value" : "فتح"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отвори"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otevřít"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åbn"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Öffnen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Άνοιγμα"
           }
         },
         "es" : {
@@ -5166,6 +7344,12 @@
             "value" : "Ouvrir"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5176,6 +7360,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "खोलें"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otvori"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Megnyitás"
           }
         },
         "it" : {
@@ -5226,10 +7422,28 @@
             "value" : "Abrir"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deschide"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Открыть"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otvoriť"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odpri"
           }
         },
         "sv" : {
@@ -5250,6 +7464,18 @@
             "value" : "Відкрити"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mở"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打開"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5257,12 +7483,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "打開"
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "打開"
@@ -5278,16 +7498,34 @@
             "value" : "تمت إزالة الحجر"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Карантината е премахната"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Karanténa odebrána"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karantæne fjernet"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quarantäne entfernt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η καραντίνα καταργήθηκε"
           }
         },
         "es" : {
@@ -5308,6 +7546,12 @@
             "value" : "Quarantaine retirée"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Corentena retirada"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5318,6 +7562,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "क्वारंटीन हटा दिया गया"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karantena uklonjena"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karantén eltávolítva"
           }
         },
         "it" : {
@@ -5368,10 +7624,28 @@
             "value" : "Quarentena removida"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carantină eliminată"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Карантин снят"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karanténa odstránená"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karantena odstranjena"
           }
         },
         "sv" : {
@@ -5392,6 +7666,18 @@
             "value" : "Карантин знято"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã gỡ cách ly"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已移除隔離"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5399,12 +7685,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "已移除隔離"
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "已移除隔離"
@@ -5420,16 +7700,34 @@
             "value" : "تمت إزالة الحجر عن %lld عنصر"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Карантината е премахната от %lld елемента"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Karanténa odebrána z %lld položek"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karantæne fjernet fra %lld emner"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quarantäne von %lld Objekten entfernt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η καραντίνα καταργήθηκε από %lld αντικείμενα"
           }
         },
         "es" : {
@@ -5450,6 +7748,12 @@
             "value" : "Quarantaine retirée de %lld éléments"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Corentena retirada de %lld elementos"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5460,6 +7764,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld आइटम से क्वारंटीन हटा दिया गया"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karantena uklonjena sa stavki: %lld"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A karantén eltávolítva %lld elemről"
           }
         },
         "it" : {
@@ -5510,10 +7826,28 @@
             "value" : "Quarentena removida de %lld itens"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carantină eliminată de pe elementele: %lld"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Карантин снят с объектов: %lld"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karanténa odstránená z položiek: %lld"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karantena odstranjena z elementov: %lld"
           }
         },
         "sv" : {
@@ -5534,6 +7868,18 @@
             "value" : "Карантин знято з елементів: %lld"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã gỡ cách ly khỏi %lld mục"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已移除 %lld 個項目嘅隔離"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5544,12 +7890,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已從 %lld 個項目移除隔離"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "已移除 %lld 個項目嘅隔離"
           }
         }
       }
@@ -5562,16 +7902,34 @@
             "value" : "ستتم إزالة الحجر عن %@ بعد المتابعة."
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Карантината ще бъде премахната от %@, след като продължите."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Po pokračování bude z položky %@ odebrána karanténa."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karantænen fjernes fra %@, når du fortsætter."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Die Quarantäne wird von %@ entfernt, nachdem du fortfährst."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η καραντίνα θα καταργηθεί από το %@ αφού συνεχίσετε."
           }
         },
         "es" : {
@@ -5592,6 +7950,12 @@
             "value" : "La quarantaine sera supprimée de %@ après que vous aurez continué."
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A corentena retirarase de %@ despois de continuar."
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5602,6 +7966,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "आपके जारी रखने के बाद %@ से क्वारंटीन हटा दिया जाएगा।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karantena će biti uklonjena s: %@ nakon što nastaviš."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A folytatás után a karantén el lesz távolítva erről: %@."
           }
         },
         "it" : {
@@ -5652,10 +8028,28 @@
             "value" : "A quarentena será removida de %@ depois de continuar."
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carantina va fi eliminată de pe %@ după ce continuați."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Карантин будет снят с объекта %@ после того, как вы продолжите."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Po pokračovaní sa z položky %@ odstráni karanténa."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karantena bo odstranjena z elementa %@, ko nadaljuješ."
           }
         },
         "sv" : {
@@ -5676,6 +8070,18 @@
             "value" : "Після продовження карантин буде вилучено з %@."
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cách ly sẽ được gỡ khỏi %@ sau khi bạn tiếp tục."
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "繼續之後,就會移除 %@ 嘅隔離。"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5686,12 +8092,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "繼續後，將會從「%@」移除隔離。"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "繼續之後,就會移除 %@ 嘅隔離。"
           }
         }
       }
@@ -5704,16 +8104,34 @@
             "value" : "تمت الإزالة عن %lld عنصر، وفشلت في %lld"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Премахната от %lld елемента, неуспешно за %lld"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Odebráno z %lld položek, selhalo u %lld"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjernet fra %lld emner, mislykkedes for %lld"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bei %lld Objekten entfernt, bei %lld fehlgeschlagen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Καταργήθηκε από %lld αντικείμενα, απέτυχε σε %lld"
           }
         },
         "es" : {
@@ -5734,6 +8152,12 @@
             "value" : "Retirée de %lld éléments, échec pour %lld"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retirada de %lld elementos, erro en %lld"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5744,6 +8168,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld आइटम से हटाया गया, %lld में विफल"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uklonjeno sa stavki: %lld, neuspjelo za: %lld"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld elemről eltávolítva, %lld esetben sikertelen"
           }
         },
         "it" : {
@@ -5794,10 +8230,28 @@
             "value" : "Removida de %lld itens, falhou em %lld"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminată: %lld, eșuată: %lld"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Снят с объектов: %lld, не удалось: %lld"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odstránené z položiek: %lld, zlyhalo pri: %lld"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odstranjeno z elementov: %lld, neuspešno: %lld"
           }
         },
         "sv" : {
@@ -5818,6 +8272,18 @@
             "value" : "Знято з елементів: %lld, не вдалося: %lld"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã gỡ khỏi %lld mục, không thành công với %lld mục"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已移除 %lld 個項目,%lld 個失敗"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5828,12 +8294,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已從 %lld 個項目移除，%lld 個失敗"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "已移除 %lld 個項目,%lld 個失敗"
           }
         }
       }
@@ -5846,16 +8306,34 @@
             "value" : "تؤدي إزالته إلى تخطي هذا الفحص. افعل ذلك فقط مع التطبيقات والملفات التي تثق بها ومن مصدر تعرفه."
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ако я премахнете, тази проверка се пропуска. Правете го само за приложения и файлове, на които имате доверие, от източник, който познавате."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Po jejím odebrání se tato kontrola přeskočí. Dělejte to jen u aplikací a souborů, kterým důvěřujete a které pocházejí ze známého zdroje."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvis du fjerner den, springes denne kontrol over. Gør kun dette med apps og filer, du har tillid til, fra en kilde, du kender."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wenn du sie entfernst, wird diese Prüfung übersprungen. Tu das nur bei Apps und Dateien, denen du vertraust und die aus einer dir bekannten Quelle stammen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η κατάργησή του παρακάμπτει αυτόν τον έλεγχο. Κάντε το μόνο για εφαρμογές και αρχεία που εμπιστεύεστε, από πηγή που γνωρίζετε."
           }
         },
         "es" : {
@@ -5876,6 +8354,12 @@
             "value" : "Si vous la retirez, cette vérification est ignorée. Ne le faites que pour des apps et des fichiers de confiance, provenant d’une source que vous connaissez."
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se a retiras, omítese esa comprobación. Fai isto só con apps e ficheiros nos que confíes e que procedan dunha fonte que coñezas."
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5886,6 +8370,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "इसे हटाने पर वह जाँच छूट जाती है। ऐसा केवल उन्हीं ऐप्स और फ़ाइलों के लिए करें जिन पर आप भरोसा करते हैं और जो किसी जाने-पहचाने स्रोत से आई हैं।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uklanjanjem se ta provjera preskače. Učini to samo za aplikacije i datoteke kojima vjeruješ, iz izvora koji poznaješ."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eltávolításával ez az ellenőrzés kimarad. Csak olyan appokkal és fájlokkal tegye ezt meg, amelyekben megbízik, és ismert forrásból származnak."
           }
         },
         "it" : {
@@ -5936,10 +8432,28 @@
             "value" : "Ao removê-la, essa verificação é ignorada. Faça-o apenas para apps e ficheiros em que confia, de uma origem que conhece."
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dacă o eliminați, această verificare este omisă. Faceți acest lucru doar pentru aplicații și fișiere în care aveți încredere, dintr-o sursă pe care o cunoașteți."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Если снять карантин, эта проверка будет пропущена. Делайте это только для приложений и файлов, которым вы доверяете, из известного вам источника."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jej odstránením sa táto kontrola preskočí. Rob to iba pri aplikáciách a súboroch, ktorým dôveruješ a ktoré pochádzajú zo známeho zdroja."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Če jo odstraniš, se to preverjanje preskoči. To naredi samo za aplikacije in datoteke, ki jim zaupaš in izvirajo iz vira, ki ga poznaš."
           }
         },
         "sv" : {
@@ -5960,6 +8474,18 @@
             "value" : "Зняття карантину пропускає цю перевірку. Робіть це лише для програм і файлів, яким ви довіряєте, із відомого вам джерела."
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gỡ bỏ thuộc tính này sẽ bỏ qua bước kiểm tra đó. Chỉ thực hiện với các ứng dụng và tệp mà bạn tin cậy, từ nguồn mà bạn biết."
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移除之後就會略過呢項檢查。請只對你信任、來源可靠嘅 App 同檔案咁做。"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5970,12 +8496,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "移除隔離會略過該項檢查。請僅對你信任且來源明確的 App 和檔案執行此操作。"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "移除之後就會略過呢項檢查。請只對你信任、來源可靠嘅 App 同檔案咁做。"
           }
         }
       }
@@ -5988,16 +8508,34 @@
             "value" : "جارٍ إزالة الحجر..."
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Премахване на карантината..."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Odebírá se karanténa..."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjerner karantæne..."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quarantäne wird entfernt ..."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κατάργηση καραντίνας…"
           }
         },
         "es" : {
@@ -6018,6 +8556,12 @@
             "value" : "Retrait de la quarantaine..."
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retirando a corentena..."
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6028,6 +8572,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "क्वारंटीन हटाया जा रहा है..."
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uklanjanje karantene..."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karantén eltávolítása…"
           }
         },
         "it" : {
@@ -6078,10 +8634,28 @@
             "value" : "A remover a quarentena..."
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se elimină carantina..."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Снятие карантина..."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odstraňuje sa karanténa..."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odstranjevanje karantene ..."
           }
         },
         "sv" : {
@@ -6102,6 +8676,18 @@
             "value" : "Зняття карантину..."
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang gỡ cách ly..."
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在移除隔離..."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6109,12 +8695,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "正在移除隔離..."
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在移除隔離..."
@@ -6130,16 +8710,34 @@
             "value" : "تحديد الملفات..."
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Избор на файлове..."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vybrat soubory..."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg filer..."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dateien auswählen ..."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επιλογή αρχείων…"
           }
         },
         "es" : {
@@ -6160,6 +8758,12 @@
             "value" : "Sélectionner des fichiers..."
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seleccionar ficheiros..."
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6170,6 +8774,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "फ़ाइलें चुनें..."
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odaberi datoteke..."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fájlok kiválasztása…"
           }
         },
         "it" : {
@@ -6220,10 +8836,28 @@
             "value" : "Selecionar ficheiros..."
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selectează fișiere..."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выбрать файлы..."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vybrať súbory..."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Izberi datoteke ..."
           }
         },
         "sv" : {
@@ -6244,6 +8878,18 @@
             "value" : "Вибрати файли..."
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn tệp..."
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選擇檔案..."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6251,12 +8897,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "選擇檔案..."
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "選擇檔案..."
@@ -6272,16 +8912,34 @@
             "value" : "تحديد العناصر"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Избор на елементи"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vybrat položky"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg emner"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Objekte auswählen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επιλογή αντικειμένων"
           }
         },
         "es" : {
@@ -6302,6 +8960,12 @@
             "value" : "Sélectionner des éléments"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seleccionar elementos"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6312,6 +8976,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "आइटम चुनें"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odaberi stavke"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elemek kiválasztása"
           }
         },
         "it" : {
@@ -6362,10 +9038,28 @@
             "value" : "Selecionar itens"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selectează elemente"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выбор объектов"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vybrať položky"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Izberi elemente"
           }
         },
         "sv" : {
@@ -6386,6 +9080,18 @@
             "value" : "Вибрати елементи"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn mục"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選擇項目"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6393,12 +9099,6 @@
           }
         },
         "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "選擇項目"
-          }
-        },
-        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "選擇項目"
@@ -6414,16 +9114,34 @@
             "value" : "يمكنك إفلات عدة عناصر دفعة واحدة. ستتم إزالة السمة `com.apple.quarantine`\nمن كل عنصر، بما في ذلك كل ما بداخله."
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Може да пуснете няколко наведнъж. Атрибутът `com.apple.quarantine`\nще бъде премахнат от всеки от тях, включително от цялото му съдържание."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Můžete jich vybrat několik najednou. Atribut `com.apple.quarantine`\nbude odebrán z každé položky včetně všeho, co obsahuje."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kan lægge flere ad gangen. Attributten `com.apple.quarantine`\nfjernes fra hvert enkelt, inklusive alt indeni."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du kannst mehrere auf einmal ablegen. Das Attribut `com.apple.quarantine`\nwird von jedem Objekt entfernt, einschließlich aller enthaltenen Inhalte."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μπορείτε να αφήσετε πολλά ταυτόχρονα. Το χαρακτηριστικό `com.apple.quarantine`\nθα καταργηθεί από κάθε ένα, μαζί με όλα όσα περιέχει."
           }
         },
         "es" : {
@@ -6444,6 +9162,12 @@
             "value" : "Vous pouvez en déposer plusieurs à la fois. L’attribut `com.apple.quarantine`\nsera retiré de chacun, y compris de tout ce qu’il contient."
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podes soltar varios á vez. O atributo `com.apple.quarantine`\nretirarase de cada un, incluído todo o que conteñan."
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6454,6 +9178,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "एक साथ कई आइटम चलेंगे। हर एक से `com.apple.quarantine` एट्रिब्यूट\nहटा दिया जाएगा, उसके अंदर की हर चीज़ से भी।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Možeš ispustiti više njih odjednom. Atribut `com.apple.quarantine`\nbit će uklonjen sa svake stavke, uključujući sav sadržaj unutar nje."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Egyszerre többet is húzhat ide. A `com.apple.quarantine` attribútum\nmindegyikről el lesz távolítva, a bennük lévő összes elemmel együtt."
           }
         },
         "it" : {
@@ -6504,10 +9240,28 @@
             "value" : "Pode largar vários de uma vez. O atributo `com.apple.quarantine`\nserá removido de cada um, incluindo tudo o que está no seu interior."
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puteți trage mai multe deodată. Atributul `com.apple.quarantine`\nva fi eliminat de la fiecare, inclusiv de la tot ce conține."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Можно выбрать сразу несколько. Атрибут `com.apple.quarantine`\nбудет удалён у каждого объекта, включая всё его содержимое."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Môžeš pustiť aj viac položiek naraz. Atribút `com.apple.quarantine`\nsa odstráni z každej z nich vrátane všetkého, čo obsahuje."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spustiš lahko več elementov naenkrat. Atribut `com.apple.quarantine`\nbo odstranjen z vsakega, vključno z vsem, kar vsebuje."
           }
         },
         "sv" : {
@@ -6528,6 +9282,18 @@
             "value" : "Можна вибрати кілька одразу. Атрибут `com.apple.quarantine`\nбуде видалено з кожного, разом з усім вмістом."
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn có thể thả nhiều mục cùng lúc. Thuộc tính `com.apple.quarantine`\nsẽ được gỡ khỏi từng mục, bao gồm mọi thứ bên trong."
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可以一次過放入多個。每個項目(包括入面所有內容)\n嘅 `com.apple.quarantine` 屬性都會被移除。"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6538,12 +9304,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "可以一次選擇多個項目。每個項目（包括其中的所有內容）\n的 `com.apple.quarantine` 屬性都會被移除。"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "可以一次過放入多個。每個項目(包括入面所有內容)\n嘅 `com.apple.quarantine` 屬性都會被移除。"
           }
         }
       }
@@ -6556,16 +9316,34 @@
             "value" : "إظهار في Finder"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Покажи във Finder"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zobrazit v Finderu"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vis i Finder"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Im Finder anzeigen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εμφάνιση στο Finder"
           }
         },
         "es" : {
@@ -6586,6 +9364,12 @@
             "value" : "Afficher dans le Finder"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar no Finder"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6596,6 +9380,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Finder में दिखाएँ"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prikaži u Finderu"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Megjelenítés a Finderben"
           }
         },
         "it" : {
@@ -6646,10 +9442,28 @@
             "value" : "Mostrar no Finder"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afișează în Finder"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Показать в Finder"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zobraziť vo Finderi"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prikaži v Finderju"
           }
         },
         "sv" : {
@@ -6670,6 +9484,18 @@
             "value" : "Показати у Finder"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiển thị trong Finder"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "喺 Finder 中顯示"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6680,12 +9506,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "在 Finder 中顯示"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "喺 Finder 中顯示"
           }
         }
       }
@@ -6698,16 +9518,34 @@
             "value" : "لا يمكن تعديل الأصل في مكانه، مثلًا لأنه موجود على صورة قرص للقراءة فقط. هل تريد نسخه إلى موقع قابل للكتابة وإزالة الحجر عن النسخة؟"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оригиналът не може да бъде променен на място, например защото е върху образ на диск, достъпен само за четене. Да се копира ли на място с право за запис и да се премахне ли карантината от копието?"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Originál nelze upravit přímo na místě, například proto, že je na obrazu disku jen pro čtení. Chcete jej zkopírovat na místo s možností zápisu a odebrat karanténu z kopie?"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Originalen kan ikke ændres direkte, for eksempel fordi den ligger på et diskbillede, der kun kan læses. Vil du kopiere den til et skrivbart sted og fjerne karantænen fra kopien?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Das Original kann nicht direkt geändert werden, zum Beispiel weil es sich auf einem schreibgeschützten Disk-Image befindet. In einen beschreibbaren Ordner kopieren und die Quarantäne von der Kopie entfernen?"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το πρωτότυπο δεν μπορεί να τροποποιηθεί επιτόπου, για παράδειγμα επειδή βρίσκεται σε εικόνα δίσκου μόνο για ανάγνωση. Να αντιγραφεί σε τοποθεσία με δυνατότητα εγγραφής και να καταργηθεί η καραντίνα από το αντίγραφο;"
           }
         },
         "es" : {
@@ -6728,6 +9566,12 @@
             "value" : "L’original ne peut pas être modifié sur place, par exemple parce qu’il se trouve sur une image disque en lecture seule. Voulez-vous le copier vers un emplacement modifiable et retirer la quarantaine de la copie ?"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O orixinal non se pode modificar no seu lugar, por exemplo porque está nunha imaxe de disco de só lectura. Queres copialo nunha localización con permiso de escritura e retirar a corentena da copia?"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6738,6 +9582,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "मूल आइटम को उसी जगह बदला नहीं जा सकता, उदाहरण के लिए क्योंकि वह रीड-ओनली डिस्क इमेज पर है। क्या इसे लिखने योग्य स्थान पर कॉपी करके कॉपी से क्वारंटीन हटाएँ?"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Original se ne može izmijeniti na mjestu, na primjer jer se nalazi na slici diska samo za čitanje. Kopirati ga na lokaciju s mogućnošću zapisivanja i ukloniti karantenu s kopije?"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Az eredeti nem módosítható a helyén, például mert egy csak olvasható lemezképen van. Átmásolja egy írható helyre, és eltávolítja a karantént a másolatról?"
           }
         },
         "it" : {
@@ -6788,10 +9644,28 @@
             "value" : "Não é possível modificar o original no local, por exemplo por estar numa imagem de disco só de leitura. Pretende copiá-lo para uma localização com permissão de escrita e remover a quarentena da cópia?"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Originalul nu poate fi modificat pe loc, de exemplu deoarece se află pe o imagine de disc doar pentru citire. Îl copiați într-o locație care permite scrierea și eliminați carantina de pe copie?"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Оригинал нельзя изменить на месте, например из-за того, что он находится на образе диска только для чтения. Скопировать его в место с правом записи и снять карантин с копии?"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Originál sa nedá upraviť na mieste, napríklad preto, že je na obraze disku len na čítanie. Skopírovať ho na miesto s možnosťou zápisu a odstrániť karanténu z kópie?"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Izvirnika ni mogoče spremeniti na mestu, na primer ker je na diskovni sliki samo za branje. Želiš ga kopirati na mesto z dovoljenjem za pisanje in odstraniti karanteno s kopije?"
           }
         },
         "sv" : {
@@ -6812,6 +9686,18 @@
             "value" : "Оригінал неможливо змінити на місці, наприклад, через те, що він розташований на образі диска лише для читання. Скопіювати його в місце з правом запису й зняти карантин із копії?"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không thể sửa đổi trực tiếp bản gốc, ví dụ do nó nằm trong ảnh đĩa chỉ đọc. Sao chép đến vị trí có thể ghi và gỡ cách ly khỏi bản sao?"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無法直接修改原件,例如因為佢喺唯讀磁碟映像入面。要唔要將佢拷貝到可寫入嘅位置,再移除拷貝嘅隔離?"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6822,12 +9708,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "無法直接修改原始項目，例如因為它位於唯讀的磁碟映像檔中。要將它拷貝到可寫入的位置，並從拷貝中移除隔離嗎？"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "無法直接修改原件,例如因為佢喺唯讀磁碟映像入面。要唔要將佢拷貝到可寫入嘅位置,再移除拷貝嘅隔離?"
           }
         }
       }
@@ -6840,16 +9720,34 @@
             "value" : "لم يكن محجورًا"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не е бил под карантина"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nebylo v karanténě"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Var ikke i karantæne"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "War nicht unter Quarantäne"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν ήταν σε καραντίνα"
           }
         },
         "es" : {
@@ -6870,6 +9768,12 @@
             "value" : "N’était pas en quarantaine"
           }
         },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non estaba en corentena"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6880,6 +9784,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "क्वारंटीन में नहीं था"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nije bilo u karanteni"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nem volt karanténban"
           }
         },
         "it" : {
@@ -6930,10 +9846,28 @@
             "value" : "Não estava em quarentena"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu era în carantină"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не был в карантине"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nebol v karanténe"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ni bil v karanteni"
           }
         },
         "sv" : {
@@ -6954,6 +9888,18 @@
             "value" : "Не було в карантині"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không bị cách ly"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本來就冇被隔離"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6964,12 +9910,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "未被隔離"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "本來就冇被隔離"
           }
         }
       }
