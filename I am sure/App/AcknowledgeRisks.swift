@@ -52,10 +52,12 @@ struct AcknowledgeRisks: View {
     }
 
     /// Items sent from the Finder action before the risks were acknowledged.
-    private var pendingDescription: String? {
+    private var pendingDescription: LocalizedStringKey? {
         guard let first = model.pendingURLs.first else { return nil }
         let name = "“\(first.lastPathComponent)”"
-        let items = model.pendingURLs.count == 1 ? name : "\(name) and \(model.pendingURLs.count - 1) more"
+        let items = model.pendingURLs.count == 1
+            ? name
+            : String(localized: "\(name) and \(model.pendingURLs.count - 1) more")
         return "Quarantine will be removed from \(items) after you continue."
     }
 }

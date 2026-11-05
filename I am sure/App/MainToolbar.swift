@@ -5,8 +5,8 @@ import SwiftUI
 private struct MainToolbar: ViewModifier {
     @Environment(RemovalModel.self) private var model
 
-    let title: String
-    let subtitle: String
+    let title: LocalizedStringResource
+    let subtitle: LocalizedStringResource
 
     func body(content: Content) -> some View {
         content
@@ -28,7 +28,7 @@ private struct MainToolbar: ViewModifier {
 }
 
 extension View {
-    func mainToolbar(title: String, subtitle: String) -> some View {
+    func mainToolbar(title: LocalizedStringResource, subtitle: LocalizedStringResource) -> some View {
         modifier(MainToolbar(title: title, subtitle: subtitle))
     }
 }

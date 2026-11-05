@@ -57,7 +57,7 @@ nonisolated enum Quarantine {
                 return ItemResult(
                     url: source,
                     clearedCount: 0,
-                    failures: [.init(relativePath: "", message: "Copy failed: \(error.localizedDescription)")]
+                    failures: [.init(relativePath: "", message: String(localized: "Copy failed: \(error.localizedDescription)"))]
                 )
             }
             return removeRecursively(destination)
@@ -132,7 +132,7 @@ nonisolated enum Quarantine {
 
     private static func removeAttribute(at url: URL) -> AttributeRemoval {
         url.withUnsafeFileSystemRepresentation { path in
-            guard let path else { return .failed("Invalid path") }
+            guard let path else { return .failed(String(localized: "Invalid path")) }
             if removexattr(path, attributeName, XATTR_NOFOLLOW) == 0 { return .removed }
             let code = errno
             if code == ENOATTR { return .absent }

@@ -92,7 +92,7 @@ struct CopyDestination: View {
         .padding(.horizontal, 8)
     }
 
-    private var title: String {
+    private var title: LocalizedStringKey {
         guard let first = request.urls.first else { return "Copy to a writable location" }
         let name = "“\(first.lastPathComponent)”"
         return request.urls.count == 1 ? "Copy \(name)?" : "Copy \(name) and \(request.urls.count - 1) more?"
@@ -100,14 +100,14 @@ struct CopyDestination: View {
 
     // MARK: Options
 
-    private func option(_ value: Choice, title: String, symbol: String, folder: URL) -> some View {
+    private func option(_ value: Choice, title: LocalizedStringKey, symbol: String, folder: URL) -> some View {
         let writable = isWritable(folder)
         return OptionRow(
             isSelected: choice == value,
             isEnabled: writable,
             symbol: symbol,
             title: title,
-            subtitle: writable ? displayPath(folder) : "Not writable"
+            subtitle: writable ? Text(verbatim: displayPath(folder)) : Text("Not writable")
         ) {
             choice = value
         }
@@ -119,7 +119,7 @@ struct CopyDestination: View {
             isEnabled: true,
             symbol: "folder",
             title: "Custom Location",
-            subtitle: customFolder.map(displayPath) ?? "Choose any folder...",
+            subtitle: customFolder.map { Text(verbatim: displayPath($0)) } ?? Text("Choose any folder..."),
             accessory: {
                 Button(customFolder == nil ? "Choose..." : "Change...") { isChoosingFolder = true }
                     .buttonStyle(.bordered)
@@ -159,8 +159,8 @@ private struct OptionRow<Accessory: View>: View {
     let isSelected: Bool
     let isEnabled: Bool
     let symbol: String
-    let title: String
-    let subtitle: String
+    let title: LocalizedStringKey
+    let subtitle: Text
     @ViewBuilder var accessory: Accessory
     let action: () -> Void
 
@@ -185,7 +185,7 @@ private struct OptionRow<Accessory: View>: View {
 
             VStack(alignment: .leading, spacing: 1) {
                 Text(title).font(.headline)
-                Text(subtitle)
+                subtitle
                     .font(.caption)
                     .foregroundStyle(.secondary)
                     .lineLimit(1)
@@ -207,7 +207,7 @@ private struct OptionRow<Accessory: View>: View {
 }
 
 extension OptionRow where Accessory == EmptyView {
-    init(isSelected: Bool, isEnabled: Bool, symbol: String, title: String, subtitle: String, action: @escaping () -> Void) {
+    init(isSelected: Bool, isEnabled: Bool, symbol: String, title: LocalizedStringKey, subtitle: Text, action: @escaping () -> Void) {
         self.init(
             isSelected: isSelected, isEnabled: isEnabled, symbol: symbol, title: title,
             subtitle: subtitle, accessory: { EmptyView() }, action: action

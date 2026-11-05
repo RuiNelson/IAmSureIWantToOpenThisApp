@@ -54,9 +54,9 @@ struct ActionView: View {
     private var content: some View {
         switch state.phase {
         case .failed(let message):
-            notice(message, systemImage: "xmark.octagon.fill", style: .red)
+            notice(Text(verbatim: message), systemImage: "xmark.octagon.fill", style: .red)
         case .ready where state.urls.isEmpty:
-            notice("None of the selected items is a file or folder on this Mac.", systemImage: "questionmark.folder", style: .secondary)
+            notice(Text("None of the selected items is a file or folder on this Mac."), systemImage: "questionmark.folder", style: .secondary)
         case .loading:
             listSection(rows: placeholderRows, total: state.expectedCount)
         case .ready, .handingOff:
@@ -64,16 +64,21 @@ struct ActionView: View {
         }
     }
 
-    private func notice(_ text: String, systemImage: String, style: some ShapeStyle) -> some View {
-        Label(text, systemImage: systemImage)
+    private func notice(_ text: Text, systemImage: String, style: some ShapeStyle) -> some View {
+        Label { text } icon: { Image(systemName: systemImage) }
             .foregroundStyle(style)
             .fixedSize(horizontal: false, vertical: true)
             .frame(maxWidth: .infinity, alignment: .leading)
     }
 
+    private static let singleItemText: LocalizedStringKey =
+        "“I am sure” will open and remove the `com.apple.quarantine` attribute from this item, including everything inside:"
+    private static let multipleItemsText: LocalizedStringKey =
+        "“I am sure” will open and remove the `com.apple.quarantine` attribute from these items, including everything inside:"
+
     private func listSection(rows: [Row], total: Int) -> some View {
         VStack(alignment: .leading, spacing: 10) {
-            Text("“I am sure” will open and remove the `com.apple.quarantine` attribute from \(total == 1 ? "this item" : "these items"), including everything inside:")
+            Text(total == 1 ? Self.singleItemText : Self.multipleItemsText)
                 .foregroundStyle(.secondary)
                 .fixedSize(horizontal: false, vertical: true)
 
@@ -122,7 +127,7 @@ struct ActionView: View {
         init(placeholder index: Int) {
             id = "placeholder-\(index)"
             url = nil
-            name = "Loading selected item"
+            name = String(localized: "Loading selected item")
             icon = NSWorkspace.shared.icon(for: .item)
         }
     }

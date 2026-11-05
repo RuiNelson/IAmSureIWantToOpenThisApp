@@ -31,7 +31,7 @@ struct PresentResult: View {
             }
             .padding(20)
         }
-        .mainToolbar(title: title, subtitle: result.items.count == 1 ? "1 item" : "\(result.items.count) items")
+        .mainToolbar(title: title, subtitle: subtitle)
         // Dropping more files here starts a new batch.
         .dropDestination(for: URL.self) { urls, _ in
             model.process(urls)
@@ -46,10 +46,14 @@ struct PresentResult: View {
         }
     }
 
-    private var title: String {
+    private var title: LocalizedStringResource {
         let failed = result.items.filter { $0.status == .failed }.count
         if failed == 0 { return "Done" }
         return failed == result.items.count ? "Failed" : "Finished with errors"
+    }
+
+    private var subtitle: LocalizedStringResource {
+        result.items.count == 1 ? "1 item" : "\(result.items.count) items"
     }
 }
 
@@ -106,24 +110,20 @@ private struct ItemResultRow: View {
     private var statusLabel: some View {
         switch item.status {
         case .removed:
-            Label(
-                item.clearedCount == 1
-                    ? "Quarantine removed"
-                    : "Quarantine removed from \(item.clearedCount) items",
-                systemImage: "checkmark.circle.fill"
-            )
-            .foregroundStyle(.green)
+            let text: LocalizedStringKey = item.clearedCount == 1
+                ? "Quarantine removed"
+                : "Quarantine removed from \(item.clearedCount) items"
+            Label(text, systemImage: "checkmark.circle.fill")
+                .foregroundStyle(.green)
         case .notQuarantined:
             Label("Wasn’t quarantined", systemImage: "info.circle.fill")
                 .foregroundStyle(.secondary)
         case .failed:
-            Label(
-                item.clearedCount == 0
-                    ? "Couldn’t remove quarantine"
-                    : "Removed from \(item.clearedCount) items, failed on \(item.failures.count)",
-                systemImage: "xmark.octagon.fill"
-            )
-            .foregroundStyle(.red)
+            let text: LocalizedStringKey = item.clearedCount == 0
+                ? "Couldn’t remove quarantine"
+                : "Removed from \(item.clearedCount) items, failed on \(item.failures.count)"
+            Label(text, systemImage: "xmark.octagon.fill")
+                .foregroundStyle(.red)
         }
     }
 

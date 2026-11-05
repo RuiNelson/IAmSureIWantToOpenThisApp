@@ -58,7 +58,7 @@ final class ActionViewController: NSViewController {
 
     private func confirm() {
         guard !state.urls.isEmpty, let appURL = ContainingApp.url else {
-            state.phase = .failed("“I am sure” couldn’t be found. Move it to the Applications folder and try again.")
+            state.phase = .failed(String(localized: "“I am sure” couldn’t be found. Move it to the Applications folder and try again."))
             return
         }
 
