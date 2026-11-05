@@ -27,14 +27,13 @@ struct CopyDestination: View {
         VStack(spacing: 18) {
             header
 
-            GlassEffectContainer(spacing: 10) {
-                VStack(spacing: 10) {
-                    option(.applications, title: "Applications", symbol: "app.dashed", folder: Self.applications)
-                    option(.desktop, title: "Desktop", symbol: "menubar.dock.rectangle", folder: Self.desktop)
-                    option(.downloads, title: "Downloads", symbol: "arrow.down.circle", folder: Self.downloads)
-                    customOption
-                }
+            VStack(spacing: 14) {
+                option(.applications, title: "Applications", symbol: "app.badge.checkmark", folder: Self.applications)
+                option(.desktop, title: "Desktop", symbol: "menubar.dock.rectangle", folder: Self.desktop)
+                option(.downloads, title: "Downloads", symbol: "arrow.down.circle", folder: Self.downloads)
+                customOption
             }
+            .padding(.horizontal, 8)
 
             Spacer(minLength: 0)
 
@@ -56,7 +55,7 @@ struct CopyDestination: View {
         }
         .padding(24)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .mainToolbar(title: "Copy to…", subtitle: "")
+        .mainToolbar(title: "Copy to...", subtitle: "")
         .onAppear {
             if !isWritable(Self.applications) { choice = .downloads }
         }
@@ -72,29 +71,31 @@ struct CopyDestination: View {
 
     private var header: some View {
         HStack(spacing: 14) {
-            Image(systemName: "externaldrive.badge.xmark")
-                .font(.system(size: 34, weight: .light))
-                .foregroundStyle(.orange)
-                .frame(width: 48)
+            Image(nsImage: NSWorkspace.shared.icon(forFile: request.urls.first?.path ?? ""))
+                .resizable()
+                .scaledToFit()
+                .frame(width: 48, height: 48)
 
-            VStack(alignment: .leading, spacing: 3) {
+            VStack(alignment: .leading, spacing: 1) {
                 Text(title)
-                    .font(.title3.weight(.semibold))
+                    .font(.headline)
                     .lineLimit(1)
                     .truncationMode(.middle)
+                
                 Text("The original can’t be modified in place, for example because it’s on a read-only disk image. Copy it to a writable location and remove quarantine from the copy?")
-                    .font(.callout)
+                    .font(.subheadline)
                     .foregroundStyle(.secondary)
                     .fixedSize(horizontal: false, vertical: true)
             }
             Spacer(minLength: 0)
         }
+        .padding(.horizontal, 8)
     }
 
     private var title: String {
         guard let first = request.urls.first else { return "Copy to a writable location" }
         let name = "“\(first.lastPathComponent)”"
-        return request.urls.count == 1 ? "Copy \(name)" : "Copy \(name) and \(request.urls.count - 1) more"
+        return request.urls.count == 1 ? "Copy \(name)?" : "Copy \(name) and \(request.urls.count - 1) more?"
     }
 
     // MARK: Options
@@ -118,10 +119,10 @@ struct CopyDestination: View {
             isEnabled: true,
             symbol: "folder",
             title: "Custom Location",
-            subtitle: customFolder.map(displayPath) ?? "Choose any folder…",
+            subtitle: customFolder.map(displayPath) ?? "Choose any folder...",
             accessory: {
-                Button(customFolder == nil ? "Choose…" : "Change…") { isChoosingFolder = true }
-                    .buttonStyle(.glass)
+                Button(customFolder == nil ? "Choose..." : "Change...") { isChoosingFolder = true }
+                    .buttonStyle(.bordered)
             }
         ) {
             // First pick opens the folder chooser right away.
@@ -153,7 +154,7 @@ struct CopyDestination: View {
     }
 }
 
-/// A selectable row with a radio indicator.
+/// A radio-style option: a round glass button (clear when off, accent-tinted when on) beside its label.
 private struct OptionRow<Accessory: View>: View {
     let isSelected: Bool
     let isEnabled: Bool
@@ -164,16 +165,23 @@ private struct OptionRow<Accessory: View>: View {
     let action: () -> Void
 
     var body: some View {
-        HStack(spacing: 12) {
-            Image(systemName: isSelected ? "largecircle.fill.circle" : "circle")
-                .font(.title3)
-                .foregroundStyle(isSelected ? Color.accentColor : .secondary)
-                .contentTransition(.symbolEffect(.replace))
-
-            Image(systemName: symbol)
-                .font(.title3)
-                .foregroundStyle(.secondary)
-                .frame(width: 26)
+        HStack(spacing: 14) {
+            Button(action: action) {
+                Image(systemName: symbol)
+                    .font(.system(size: 20, weight: .medium))
+                    .foregroundStyle(isSelected ? Color.white : .primary)
+                    .frame(width: 48, height: 48)
+                    .contentShape(.circle)
+            }
+            .buttonStyle(.plain)
+            .focusEffectDisabled()
+            .glassEffect(
+                // Same glass variant in both states: only the tint changes, so it animates
+                // instead of swapping materials (which flashes).
+                .clear.tint(isSelected ? Color.accentColor : nil).interactive(),
+                in: .circle
+            )
+            .animation(.smooth, value: isSelected)
 
             VStack(alignment: .leading, spacing: 1) {
                 Text(title).font(.headline)
@@ -188,17 +196,11 @@ private struct OptionRow<Accessory: View>: View {
 
             accessory
         }
-        .padding(.horizontal, 14)
-        .padding(.vertical, 10)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .contentShape(.rect(cornerRadius: 16))
-        .onTapGesture { if isEnabled { action() } }
-        .glassEffect(
-            isSelected ? .regular.tint(.accentColor.opacity(0.25)) : .regular,
-            in: .rect(cornerRadius: 16)
-        )
+        .contentShape(.rect)
+        .onTapGesture(perform: action)
+        .disabled(!isEnabled)
         .opacity(isEnabled ? 1 : 0.5)
-        .animation(.smooth, value: isSelected)
         .accessibilityElement(children: .combine)
         .accessibilityAddTraits(isSelected ? [.isButton, .isSelected] : .isButton)
     }
