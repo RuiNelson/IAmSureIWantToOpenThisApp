@@ -1,0 +1,13 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Cancel" : {},
+    "Only do this for apps and files you trust, from a source you know." : {},
+    "Opening “I am sure”…" : {},
+    "Remove Quarantine" : {},
+    "Remove Quarantine?" : {},
+    "“I am sure” will open and remove the `com.apple.quarantine` attribute from %@, including everything inside:" : {},
+    "…and %lld more" : {}
+  },
+  "version" : "1.1"
+}

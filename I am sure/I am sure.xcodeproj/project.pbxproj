@@ -11,6 +11,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		525426D6309BFDE400E92113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000000000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000000000000000100000000;
+			remoteInfo = "I am sure I want to open this App";
+		};
 		525426C1309BFDE400E92113 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 000000000000000000000000 /* Project object */;
@@ -35,6 +42,7 @@
 /* Begin PBXFileReference section */
 		000000000000000000000120 /* I am sure I want to open this App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I am sure I want to open this App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		525426B5309BFDE400E92113 /* Let me open this App.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Let me open this App.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		525426D1309BFDE400E92113 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -61,6 +69,11 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		525426D2309BFDE400E92113 /* Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Tests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +87,11 @@
 			files = (
 			);
 		};
+		525426D3309BFDE400E92113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +100,7 @@
 			children = (
 				000000000000000000000010 /* App */,
 				525426B6309BFDE400E92113 /* Extension */,
+				525426D2309BFDE400E92113 /* Tests */,
 				000000000000000000000020 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,6 +110,7 @@
 			children = (
 				000000000000000000000120 /* I am sure I want to open this App.app */,
 				525426B5309BFDE400E92113 /* Let me open this App.appex */,
+				525426D1309BFDE400E92113 /* Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,6 +158,27 @@
 			productReference = 525426B5309BFDE400E92113 /* Let me open this App.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		525426D0309BFDE400E92113 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525426DA309BFDE400E92113 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				525426D4309BFDE400E92113 /* Sources */,
+				525426D3309BFDE400E92113 /* Frameworks */,
+				525426D5309BFDE400E92113 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525426D7309BFDE400E92113 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				525426D2309BFDE400E92113 /* Tests */,
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 525426D1309BFDE400E92113 /* Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -154,6 +195,10 @@
 					525426B4309BFDE400E92113 = {
 						CreatedOnToolsVersion = 27.1;
 					};
+					525426D0309BFDE400E92113 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = 000000000000000100000000;
+					};
 				};
 			};
 			buildConfigurationList = 000000000000000010000000 /* Build configuration list for PBXProject "I am sure" */;
@@ -162,6 +207,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-PT",
 			);
 			mainGroup = 000000000000000000000001;
 			minimizedProjectReferenceProxies = 1;
@@ -172,6 +218,7 @@
 			targets = (
 				000000000000000100000000 /* I am sure I want to open this App */,
 				525426B4309BFDE400E92113 /* Let me open this App */,
+				525426D0309BFDE400E92113 /* Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -183,6 +230,11 @@
 			);
 		};
 		525426B3309BFDE400E92113 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		525426D5309BFDE400E92113 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
 			);
@@ -200,6 +252,11 @@
 			files = (
 			);
 		};
+		525426D4309BFDE400E92113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -207,6 +264,11 @@
 			isa = PBXTargetDependency;
 			target = 525426B4309BFDE400E92113 /* Let me open this App */;
 			targetProxy = 525426C1309BFDE400E92113 /* PBXContainerItemProxy */;
+		};
+		525426D7309BFDE400E92113 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000000000000000100000000 /* I am sure I want to open this App */;
+			targetProxy = 525426D6309BFDE400E92113 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -523,6 +585,46 @@
 			};
 			name = Release;
 		};
+		525426D8309BFDE400E92113 /* Debug configuration for PBXNativeTarget "Tests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98DYJ8BJ46;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruinelson.iamsure.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I am sure I want to open this App.app/Contents/MacOS/I am sure I want to open this App";
+			};
+			name = Debug;
+		};
+		525426D9309BFDE400E92113 /* Release configuration for PBXNativeTarget "Tests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98DYJ8BJ46;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruinelson.iamsure.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I am sure I want to open this App.app/Contents/MacOS/I am sure I want to open this App";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -547,6 +649,14 @@
 			buildConfigurations = (
 				525426C6309BFDE400E92113 /* Debug configuration for PBXNativeTarget "Let me open this App" */,
 				525426C7309BFDE400E92113 /* Release configuration for PBXNativeTarget "Let me open this App" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		525426DA309BFDE400E92113 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525426D8309BFDE400E92113 /* Debug configuration for PBXNativeTarget "Tests" */,
+				525426D9309BFDE400E92113 /* Release configuration for PBXNativeTarget "Tests" */,
 			);
 			defaultConfigurationName = Release;
 		};

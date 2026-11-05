@@ -12,7 +12,6 @@ struct DropItem: View {
     @Environment(RemovalModel.self) private var model
 
     @State private var isTargeted = false
-    @State private var isImporting = false
 
     private let shape = RoundedRectangle(cornerRadius: 28, style: .continuous)
 
@@ -21,8 +20,8 @@ struct DropItem: View {
             VStack(spacing: 20) {
                 dropZone
 
-                Button { isImporting = true } label: {
-                    Label("Choose Files…", systemImage: "folder")
+                Button { model.isImporting = true } label: {
+                    Label("Select Files…", systemImage: "folder")
                         .padding(.horizontal, 6)
                 }
                 .buttonStyle(.glassProminent)
@@ -37,13 +36,6 @@ struct DropItem: View {
         .dropDestination(for: URL.self) { urls, _ in
             model.process(urls)
         } isTargeted: { isTargeted = $0 }
-        .fileImporter(
-            isPresented: $isImporting,
-            allowedContentTypes: [.item],
-            allowsMultipleSelection: true
-        ) { result in
-            if case .success(let urls) = result { model.process(urls) }
-        }
     }
 
     private var dropZone: some View {

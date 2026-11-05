@@ -1,6 +1,7 @@
 import AppKit
 import OSLog
 import SwiftUI
+import UniformTypeIdentifiers
 
 final class AppDelegate: NSObject, NSApplicationDelegate {
     /// Owned here so items opened from outside the window (see `application(_:open:)`) reach it.
@@ -53,10 +54,25 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
                 }
             }
             .animation(.smooth, value: model.isWorking)
-            .frame(width: 640, height: 480) // 4:3
+            .fileImporter(
+                isPresented: Bindable(model).isImporting,
+                allowedContentTypes: [.item],
+                allowsMultipleSelection: true
+            ) { result in
+                if case .success(let urls) = result { model.process(urls) }
+            }
+            .frame(minWidth: 520, idealWidth: 640, minHeight: 400, idealHeight: 480)
             .environment(model)
         }
-        .windowResizability(.contentSize)
+        .defaultSize(width: 640, height: 480) // 4:3
+        .windowResizability(.contentMinSize)
         .windowToolbarStyle(.unified)
+        .commands {
+            CommandGroup(replacing: .newItem) {
+                Button("Select Files…") { model.isImporting = true }
+                    .keyboardShortcut("o")
+                    .disabled(!userAcknowledgedPotentialRisks || model.isWorking)
+            }
+        }
     }
 }
