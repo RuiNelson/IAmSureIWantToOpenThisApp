@@ -51,6 +51,7 @@ spctl -a -vv "$APP"
 
 echo "==> Package"
 ditto "$APP" "$OUT/$APP_NAME"
-ditto -c -k --keepParent "$OUT/$APP_NAME" "$OUT/${APP_NAME%.app}.zip"
+ditto -c -k --keepParent "$OUT/$APP_NAME" "$OUT/I_am_sure_I_want_to_open_this_App.zip"
+rm -rf "$OUT/$APP_NAME"
 
 echo "Done: $OUT"
