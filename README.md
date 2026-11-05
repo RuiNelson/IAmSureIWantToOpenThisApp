@@ -2,6 +2,8 @@
 
 A macOS app for opening apps that haven't been notarized, by removing the `com.apple.quarantine` attribute.
 
+![Screenshot](Docs/Screenshot.webp)
+
 ## Why
 
 macOS adds the `com.apple.quarantine` attribute to everything you download. Before a quarantined app opens, Gatekeeper checks that it's signed and notarized by Apple. Plenty of legitimate software isn't: open-source projects, indie tools, internal builds, older apps. For those, macOS shows *“can't be opened because Apple cannot check it for malicious software”* or *“is damaged and can't be opened. You should move it to the Trash.”*
