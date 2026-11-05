@@ -20,7 +20,7 @@ Getting past that means a trip to **System Settings ▸ Privacy & Security ▸ O
 - **Drag and drop** several apps, files or folders at once; everything inside them is cleared too
 - **Works on read-only disk images**: if an item can't be changed in place, it offers to copy it somewhere writable and clear the copy
 - **Shows a per-item result**, including what was already clear and what failed
-- **Available in 24 languages**
+- **Available in 34 languages**
 - **Native**: written in Swift and SwiftUI with Liquid Glass, no dependencies
 
 ## Requirements
