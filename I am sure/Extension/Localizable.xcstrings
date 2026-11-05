@@ -220,7 +220,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aplikaci „I am sure“ se nepodařilo najít. Přesuňte ji do složky Aplikace a zkuste to znovu."
+            "value" : "Aplikaci „Jsem si jistý“ se nepodařilo najít. Přesuňte ji do složky Aplikace a zkuste to znovu."
           }
         },
         "da" : {
@@ -250,7 +250,7 @@
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Appia “I am sure” ei löytynyt. Siirrä se Ohjelmat-kansioon ja yritä uudelleen."
+            "value" : "Appia “Olen varma” ei löytynyt. Siirrä se Ohjelmat-kansioon ja yritä uudelleen."
           }
         },
         "fr" : {
@@ -274,13 +274,13 @@
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "“I am sure” नहीं मिला। इसे ऐप्लिकेशन फ़ोल्डर में ले जाएँ और फिर से कोशिश करें।"
+            "value" : "“मुझे पक्का यकीन है” नहीं मिला। इसे ऐप्लिकेशन फ़ोल्डर में ले जाएँ और फिर से कोशिश करें।"
           }
         },
         "hr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aplikacija „I am sure” nije pronađena. Premjesti je u mapu Aplikacije i pokušaj ponovno."
+            "value" : "Aplikacija „Siguran sam” nije pronađena. Premjesti je u mapu Aplikacije i pokušaj ponovno."
           }
         },
         "hu" : {
@@ -298,13 +298,13 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "「I am sure」が見つかりませんでした。「アプリケーション」フォルダに移動してから、もう一度お試しください。"
+            "value" : "「確かです」が見つかりませんでした。「アプリケーション」フォルダに移動してから、もう一度お試しください。"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "“I am sure”를 찾을 수 없습니다. 응용 프로그램 폴더로 이동한 다음 다시 시도하십시오."
+            "value" : "“확신합니다”를 찾을 수 없습니다. 응용 프로그램 폴더로 이동한 다음 다시 시도하십시오."
           }
         },
         "nb" : {
@@ -322,7 +322,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nie znaleziono aplikacji „I am sure”. Przenieś ją do folderu Aplikacje i spróbuj ponownie."
+            "value" : "Nie znaleziono aplikacji „Jestem pewien”. Przenieś ją do folderu Aplikacje i spróbuj ponownie."
           }
         },
         "pt-BR" : {
@@ -346,7 +346,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Не удалось найти «I am sure». Переместите приложение в папку «Приложения» и повторите попытку."
+            "value" : "Не удалось найти «Я уверен». Переместите приложение в папку «Приложения» и повторите попытку."
           }
         },
         "sk" : {
@@ -370,7 +370,7 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "“I am sure” bulunamadı. Uygulamalar klasörüne taşıyıp tekrar deneyin."
+            "value" : "“Eminim” bulunamadı. Uygulamalar klasörüne taşıyıp tekrar deneyin."
           }
         },
         "uk" : {
@@ -394,13 +394,13 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "找不到“I am sure”。请将其移到“应用程序”文件夹,然后重试。"
+            "value" : "找不到“我确定”。请将其移到“应用程序”文件夹,然后重试。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "找不到「I am sure」。請將它移到「應用程式」檔案夾，然後再試一次。"
+            "value" : "找不到「我確定」。請將它移到「應用程式」檔案夾，然後再試一次。"
           }
         }
       }
@@ -422,7 +422,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aplikace „I am sure“ se otevře a odebere atribut `com.apple.quarantine` z těchto položek včetně všeho, co obsahují:"
+            "value" : "Aplikace „Jsem si jistý“ se otevře a odebere atribut `com.apple.quarantine` z těchto položek včetně všeho, co obsahují:"
           }
         },
         "da" : {
@@ -452,7 +452,7 @@
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "“I am sure” avautuu ja poistaa `com.apple.quarantine`-attribuutin näistä kohteista, myös kaikesta niiden sisällä olevasta:"
+            "value" : "“Olen varma” avautuu ja poistaa `com.apple.quarantine`-attribuutin näistä kohteista, myös kaikesta niiden sisällä olevasta:"
           }
         },
         "fr" : {
@@ -476,13 +476,13 @@
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "“I am sure” खुलेगा और इन आइटम से `com.apple.quarantine` एट्रिब्यूट हटा देगा, उनके अंदर की हर चीज़ से भी:"
+            "value" : "“मुझे पक्का यकीन है” खुलेगा और इन आइटम से `com.apple.quarantine` एट्रिब्यूट हटा देगा, उनके अंदर की हर चीज़ से भी:"
           }
         },
         "hr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aplikacija „I am sure” otvorit će se i ukloniti atribut `com.apple.quarantine` s ovih stavki, uključujući sav sadržaj unutar njih:"
+            "value" : "Aplikacija „Siguran sam” otvorit će se i ukloniti atribut `com.apple.quarantine` s ovih stavki, uključujući sav sadržaj unutar njih:"
           }
         },
         "hu" : {
@@ -500,13 +500,13 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "「I am sure」が開き、これらの項目から`com.apple.quarantine`属性を削除します(内部のすべてを含む):"
+            "value" : "「確かです」が開き、これらの項目から`com.apple.quarantine`属性を削除します(内部のすべてを含む):"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "“I am sure”가 열리고 다음 항목과 그 안의 모든 항목에서 `com.apple.quarantine` 속성을 제거합니다."
+            "value" : "“확신합니다”가 열리고 다음 항목과 그 안의 모든 항목에서 `com.apple.quarantine` 속성을 제거합니다."
           }
         },
         "nb" : {
@@ -524,7 +524,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aplikacja „I am sure” otworzy się i usunie atrybut `com.apple.quarantine` z tych elementów, łącznie z całą zawartością:"
+            "value" : "Aplikacja „Jestem pewien” otworzy się i usunie atrybut `com.apple.quarantine` z tych elementów, łącznie z całą zawartością:"
           }
         },
         "pt-BR" : {
@@ -548,7 +548,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "«I am sure» откроется и удалит атрибут `com.apple.quarantine` у этих объектов, включая всё их содержимое:"
+            "value" : "«Я уверен» откроется и удалит атрибут `com.apple.quarantine` у этих объектов, включая всё их содержимое:"
           }
         },
         "sk" : {
@@ -572,7 +572,7 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "“I am sure” açılacak ve bu öğelerden, içindekiler dahil `com.apple.quarantine` özelliğini kaldıracak:"
+            "value" : "“Eminim” açılacak ve bu öğelerden, içindekiler dahil `com.apple.quarantine` özelliğini kaldıracak:"
           }
         },
         "uk" : {
@@ -596,13 +596,13 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "“I am sure”将打开并从这些项目中移除 `com.apple.quarantine` 属性,包括其中的所有内容:"
+            "value" : "“我确定”将打开并从这些项目中移除 `com.apple.quarantine` 属性,包括其中的所有内容:"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "「I am sure」將會打開，並從這些項目（包括其中的所有內容）移除 `com.apple.quarantine` 屬性："
+            "value" : "「我確定」將會打開，並從這些項目（包括其中的所有內容）移除 `com.apple.quarantine` 屬性："
           }
         }
       }
@@ -624,7 +624,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aplikace „I am sure“ se otevře a odebere atribut `com.apple.quarantine` z této položky včetně všeho, co obsahuje:"
+            "value" : "Aplikace „Jsem si jistý“ se otevře a odebere atribut `com.apple.quarantine` z této položky včetně všeho, co obsahuje:"
           }
         },
         "da" : {
@@ -654,7 +654,7 @@
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "“I am sure” avautuu ja poistaa `com.apple.quarantine`-attribuutin tästä kohteesta, myös kaikesta sen sisällä olevasta:"
+            "value" : "“Olen varma” avautuu ja poistaa `com.apple.quarantine`-attribuutin tästä kohteesta, myös kaikesta sen sisällä olevasta:"
           }
         },
         "fr" : {
@@ -678,13 +678,13 @@
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "“I am sure” खुलेगा और इस आइटम से `com.apple.quarantine` एट्रिब्यूट हटा देगा, इसके अंदर की हर चीज़ से भी:"
+            "value" : "“मुझे पक्का यकीन है” खुलेगा और इस आइटम से `com.apple.quarantine` एट्रिब्यूट हटा देगा, इसके अंदर की हर चीज़ से भी:"
           }
         },
         "hr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aplikacija „I am sure” otvorit će se i ukloniti atribut `com.apple.quarantine` s ove stavke, uključujući sav sadržaj unutar nje:"
+            "value" : "Aplikacija „Siguran sam” otvorit će se i ukloniti atribut `com.apple.quarantine` s ove stavke, uključujući sav sadržaj unutar nje:"
           }
         },
         "hu" : {
@@ -702,13 +702,13 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "「I am sure」が開き、この項目から`com.apple.quarantine`属性を削除します(内部のすべてを含む):"
+            "value" : "「確かです」が開き、この項目から`com.apple.quarantine`属性を削除します(内部のすべてを含む):"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "“I am sure”가 열리고 이 항목과 그 안의 모든 항목에서 `com.apple.quarantine` 속성을 제거합니다."
+            "value" : "“확신합니다”가 열리고 이 항목과 그 안의 모든 항목에서 `com.apple.quarantine` 속성을 제거합니다."
           }
         },
         "nb" : {
@@ -726,7 +726,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aplikacja „I am sure” otworzy się i usunie atrybut `com.apple.quarantine` z tego elementu, łącznie z całą zawartością:"
+            "value" : "Aplikacja „Jestem pewien” otworzy się i usunie atrybut `com.apple.quarantine` z tego elementu, łącznie z całą zawartością:"
           }
         },
         "pt-BR" : {
@@ -750,7 +750,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "«I am sure» откроется и удалит атрибут `com.apple.quarantine` у этого объекта, включая всё его содержимое:"
+            "value" : "«Я уверен» откроется и удалит атрибут `com.apple.quarantine` у этого объекта, включая всё его содержимое:"
           }
         },
         "sk" : {
@@ -774,7 +774,7 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "“I am sure” açılacak ve bu öğeden, içindekiler dahil `com.apple.quarantine` özelliğini kaldıracak:"
+            "value" : "“Eminim” açılacak ve bu öğeden, içindekiler dahil `com.apple.quarantine` özelliğini kaldıracak:"
           }
         },
         "uk" : {
@@ -798,13 +798,13 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "“I am sure”将打开并从此项目中移除 `com.apple.quarantine` 属性,包括其中的所有内容:"
+            "value" : "“我确定”将打开并从此项目中移除 `com.apple.quarantine` 属性,包括其中的所有内容:"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "「I am sure」將會打開，並從此項目（包括其中的所有內容）移除 `com.apple.quarantine` 屬性："
+            "value" : "「我確定」將會打開，並從此項目（包括其中的所有內容）移除 `com.apple.quarantine` 屬性："
           }
         }
       }
@@ -1634,7 +1634,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Otevírá se „I am sure“..."
+            "value" : "Otevírá se „Jsem si jistý“..."
           }
         },
         "da" : {
@@ -1664,7 +1664,7 @@
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Avataan “I am sure” -appia..."
+            "value" : "Avataan “Olen varma” -appia..."
           }
         },
         "fr" : {
@@ -1688,13 +1688,13 @@
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "“I am sure” खोला जा रहा है..."
+            "value" : "“मुझे पक्का यकीन है” खोला जा रहा है..."
           }
         },
         "hr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Otvaranje aplikacije „I am sure”..."
+            "value" : "Otvaranje aplikacije „Siguran sam”..."
           }
         },
         "hu" : {
@@ -1712,13 +1712,13 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "「I am sure」を開いています..."
+            "value" : "「確かです」を開いています..."
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "“I am sure” 여는 중..."
+            "value" : "“확신합니다” 여는 중..."
           }
         },
         "nb" : {
@@ -1736,7 +1736,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Otwieranie aplikacji „I am sure”..."
+            "value" : "Otwieranie aplikacji „Jestem pewien”..."
           }
         },
         "pt-BR" : {
@@ -1760,7 +1760,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Открытие «I am sure»..."
+            "value" : "Открытие «Я уверен»..."
           }
         },
         "sk" : {
@@ -1784,7 +1784,7 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "“I am sure” açılıyor..."
+            "value" : "“Eminim” açılıyor..."
           }
         },
         "uk" : {
@@ -1808,13 +1808,13 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "正在打开“I am sure”..."
+            "value" : "正在打开“我确定”..."
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "正在打開「I am sure」..."
+            "value" : "正在打開「我確定」..."
           }
         }
       }

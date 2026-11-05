@@ -186,12 +186,6 @@
             "value" : "... và %lld mục khác"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "...及其他 %lld 個"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -202,6 +196,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "...還有 %lld 個"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "...及其他 %lld 個"
           }
         }
       }
@@ -394,12 +394,6 @@
             "value" : "%@ và %lld mục khác"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@ 及其他 %lld 個"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -410,6 +404,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ 和另外 %lld 個"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 及其他 %lld 個"
           }
         }
       }
@@ -596,12 +596,6 @@
             "value" : "%@: %@"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@:%@"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -612,6 +606,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@：%@"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@:%@"
           }
         }
       }
@@ -798,12 +798,6 @@
             "value" : "%lld mục"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld 個項目"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -811,6 +805,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 個項目"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld 個項目"
@@ -1000,12 +1000,6 @@
             "value" : "1 mục"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "1 個項目"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1013,6 +1007,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 個項目"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 個項目"
@@ -1202,12 +1202,6 @@
             "value" : "Ứng dụng"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "App"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1218,6 +1212,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "應用程式"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App"
           }
         }
       }
@@ -1404,12 +1404,6 @@
             "value" : "Quay lại"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "返回"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1417,6 +1411,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "返回"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "返回"
@@ -1606,12 +1606,6 @@
             "value" : "Trước khi tiếp tục"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "繼續之前"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1619,6 +1613,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "繼續之前"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "繼續之前"
@@ -1808,12 +1808,6 @@
             "value" : "Hủy"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "取消"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1821,6 +1815,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "取消"
@@ -2010,12 +2010,6 @@
             "value" : "Thay đổi..."
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "更改..."
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2023,6 +2017,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更改..."
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "更改..."
@@ -2212,12 +2212,6 @@
             "value" : "Chọn thư mục bất kỳ..."
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "選擇任何檔案夾..."
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2225,6 +2219,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選擇任何檔案夾..."
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "選擇任何檔案夾..."
@@ -2414,12 +2414,6 @@
             "value" : "Chọn..."
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "選擇..."
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2427,6 +2421,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選擇..."
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "選擇..."
@@ -2616,12 +2616,6 @@
             "value" : "Tiếp tục"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "繼續"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2629,6 +2623,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "繼續"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "繼續"
@@ -2824,12 +2824,6 @@
             "value" : "Sao chép %@ và %lld mục khác?"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "要拷貝 %@ 及其他 %lld 個項目嗎?"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2840,6 +2834,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "要拷貝「%@」和另外 %lld 個項目嗎？"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要拷貝 %@ 及其他 %lld 個項目嗎?"
           }
         }
       }
@@ -3026,12 +3026,6 @@
             "value" : "Sao chép %@?"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "要拷貝 %@ 嗎?"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3042,6 +3036,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "要拷貝「%@」嗎？"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要拷貝 %@ 嗎?"
           }
         }
       }
@@ -3228,12 +3228,6 @@
             "value" : "Sao chép và gỡ cách ly"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "拷貝並移除隔離"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3241,6 +3235,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拷貝並移除隔離"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "拷貝並移除隔離"
@@ -3430,12 +3430,6 @@
             "value" : "Sao chép không thành công: %@"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "拷貝失敗:%@"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3446,6 +3440,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "拷貝失敗：%@"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拷貝失敗:%@"
           }
         }
       }
@@ -3632,12 +3632,6 @@
             "value" : "Sao chép đến vị trí có thể ghi"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "拷貝到可寫入嘅位置"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3648,6 +3642,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "拷貝到可寫入的位置"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拷貝到可寫入嘅位置"
           }
         }
       }
@@ -3834,12 +3834,6 @@
             "value" : "Sao chép đến vị trí có thể ghi và gỡ cách ly khỏi bản sao"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "拷貝到可寫入嘅位置,再移除拷貝嘅隔離"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3850,6 +3844,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "拷貝到可寫入的位置，並從拷貝中移除隔離"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拷貝到可寫入嘅位置,再移除拷貝嘅隔離"
           }
         }
       }
@@ -4036,12 +4036,6 @@
             "value" : "Sao chép đến..."
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "拷貝到..."
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4049,6 +4043,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拷貝到..."
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "拷貝到..."
@@ -4238,12 +4238,6 @@
             "value" : "Sao chép..."
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "拷貝..."
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4251,6 +4245,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拷貝..."
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "拷貝..."
@@ -4440,12 +4440,6 @@
             "value" : "Không thể gỡ cách ly"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "無法移除隔離"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4453,6 +4447,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無法移除隔離"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "無法移除隔離"
@@ -4642,12 +4642,6 @@
             "value" : "Vị trí tùy chỉnh"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "自訂位置"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4655,6 +4649,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自訂位置"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "自訂位置"
@@ -4844,12 +4844,6 @@
             "value" : "Màn hình nền"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "桌面"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4857,6 +4851,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "桌面"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "桌面"
@@ -5046,12 +5046,6 @@
             "value" : "Xong"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "完成"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5059,6 +5053,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "完成"
@@ -5248,12 +5248,6 @@
             "value" : "Tải về"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "下載項目"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5261,6 +5255,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下載項目"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "下載項目"
@@ -5450,12 +5450,6 @@
             "value" : "Thả ứng dụng hoặc tệp vào đây"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "將 App 或檔案拖放到此處"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5463,6 +5457,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "將 App 或檔案拖放到此處"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "將 App 或檔案拖放到此處"
@@ -5652,12 +5652,6 @@
             "value" : "Không thành công"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "失敗"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5665,6 +5659,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "失敗"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "失敗"
@@ -5854,12 +5854,6 @@
             "value" : "Hoàn tất nhưng có lỗi"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "完成,但有錯誤"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5870,6 +5864,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已完成，但有錯誤"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成,但有錯誤"
           }
         }
       }
@@ -5951,7 +5951,7 @@
         "hr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I am sure"
+            "value" : "Siguran sam"
           }
         },
         "hu" : {
@@ -5969,13 +5969,13 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I am sure"
+            "value" : "確かです"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I am sure"
+            "value" : "확신합니다"
           }
         },
         "nb" : {
@@ -5993,7 +5993,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I am sure"
+            "value" : "Jestem pewien"
           }
         },
         "pt-BR" : {
@@ -6017,7 +6017,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I am sure"
+            "value" : "Я уверен"
           }
         },
         "sk" : {
@@ -6041,7 +6041,7 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I am sure"
+            "value" : "Eminim"
           }
         },
         "uk" : {
@@ -6056,12 +6056,6 @@
             "value" : "Tôi chắc chắn"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "我肯定"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6071,7 +6065,13 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I am sure"
+            "value" : "我確定"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我肯定"
           }
         }
       }
@@ -6258,12 +6258,6 @@
             "value" : "Tôi chắc chắn muốn mở ứng dụng này"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "我肯定要打開呢個 App"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6274,6 +6268,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "我確定要打開這個 App"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我肯定要打開呢個 App"
           }
         }
       }
@@ -6460,12 +6460,6 @@
             "value" : "Tôi hiểu các rủi ro"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "我明白風險"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6476,6 +6470,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "我了解風險"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我明白風險"
           }
         }
       }
@@ -6662,12 +6662,6 @@
             "value" : "Đường dẫn không hợp lệ"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "路徑無效"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6678,6 +6672,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "無效的路徑"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "路徑無效"
           }
         }
       }
@@ -6864,12 +6864,6 @@
             "value" : "Cho phép tôi mở ứng dụng này"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "等我打開呢個 App"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6880,6 +6874,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "讓我打開這個 App"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "等我打開呢個 App"
           }
         }
       }
@@ -7066,12 +7066,6 @@
             "value" : "macOS đánh dấu các tệp tải về từ internet bằng thuộc tính `com.apple.quarantine`. Gatekeeper dùng thuộc tính này để kiểm tra xem ứng dụng đã được ký và công chứng hay chưa trước khi mở."
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "macOS 會用 `com.apple.quarantine` 屬性標記從互聯網下載嘅檔案。Gatekeeper 會憑呢個屬性,喺 App 打開之前檢查佢哋有冇簽署同經過公證。"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7082,6 +7076,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "macOS 會為從網際網路下載的檔案加上 `com.apple.quarantine` 屬性。Gatekeeper 會利用此屬性，在 App 打開之前檢查它是否已簽署並經過公證。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS 會用 `com.apple.quarantine` 屬性標記從互聯網下載嘅檔案。Gatekeeper 會憑呢個屬性,喺 App 打開之前檢查佢哋有冇簽署同經過公證。"
           }
         }
       }
@@ -7268,12 +7268,6 @@
             "value" : "Không thể ghi"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "無法寫入"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7281,6 +7275,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無法寫入"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "無法寫入"
@@ -7470,12 +7470,6 @@
             "value" : "Mở"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "打開"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7483,6 +7477,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打開"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "打開"
@@ -7672,12 +7672,6 @@
             "value" : "Đã gỡ cách ly"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "已移除隔離"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7685,6 +7679,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已移除隔離"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "已移除隔離"
@@ -7874,12 +7874,6 @@
             "value" : "Đã gỡ cách ly khỏi %lld mục"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "已移除 %lld 個項目嘅隔離"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7890,6 +7884,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已從 %lld 個項目移除隔離"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已移除 %lld 個項目嘅隔離"
           }
         }
       }
@@ -8076,12 +8076,6 @@
             "value" : "Cách ly sẽ được gỡ khỏi %@ sau khi bạn tiếp tục."
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "繼續之後,就會移除 %@ 嘅隔離。"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8092,6 +8086,416 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "繼續後，將會從「%@」移除隔離。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "繼續之後,就會移除 %@ 嘅隔離。"
+          }
+        }
+      }
+    },
+    "Quit" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنهاء"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Изход"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ukončit"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afslut"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beenden"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Έξοδος"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salir"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lopeta"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quitter"
+          }
+        },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saír"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "יציאה"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "बाहर निकलें"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Izađi"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kilépés"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esci"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "終了"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "종료"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avslutt"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zakończ"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sair"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sair"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ieși"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выйти"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ukončiť"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Končaj"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avsluta"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çık"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вийти"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thoát"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "退出"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結束"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結束"
+          }
+        }
+      }
+    },
+    "Quits the App" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنهاء التطبيق"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Излиза от приложението"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ukončí aplikaci"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afslutter appen"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beendet die App"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κλείνει την εφαρμογή"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cierra la app"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sulkee apin"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quitte l’app"
+          }
+        },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pecha a app"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "סוגר את האפליקציה"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ऐप बंद करता है"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zatvara aplikaciju"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kilép az alkalmazásból"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiude l’app"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリを終了します"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "앱을 종료합니다"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avslutter appen"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sluit de app af"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zamyka aplikację"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fecha o app"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fecha a app"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Închide aplicația"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закрывает приложение"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ukončí aplikáciu"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapre aplikacijo"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avslutar appen"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulamadan çıkar"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закриває застосунок"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thoát ứng dụng"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "退出此 App"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結束此 App"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結束此 App"
           }
         }
       }
@@ -8278,12 +8682,6 @@
             "value" : "Đã gỡ khỏi %lld mục, không thành công với %lld mục"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "已移除 %lld 個項目,%lld 個失敗"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8294,6 +8692,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已從 %lld 個項目移除，%lld 個失敗"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已移除 %lld 個項目,%lld 個失敗"
           }
         }
       }
@@ -8480,12 +8884,6 @@
             "value" : "Gỡ bỏ thuộc tính này sẽ bỏ qua bước kiểm tra đó. Chỉ thực hiện với các ứng dụng và tệp mà bạn tin cậy, từ nguồn mà bạn biết."
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "移除之後就會略過呢項檢查。請只對你信任、來源可靠嘅 App 同檔案咁做。"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8496,6 +8894,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "移除隔離會略過該項檢查。請僅對你信任且來源明確的 App 和檔案執行此操作。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移除之後就會略過呢項檢查。請只對你信任、來源可靠嘅 App 同檔案咁做。"
           }
         }
       }
@@ -8682,12 +9086,6 @@
             "value" : "Đang gỡ cách ly..."
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "正在移除隔離..."
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8695,6 +9093,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在移除隔離..."
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在移除隔離..."
@@ -8884,12 +9288,6 @@
             "value" : "Chọn tệp..."
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "選擇檔案..."
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8897,6 +9295,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選擇檔案..."
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "選擇檔案..."
@@ -9086,12 +9490,6 @@
             "value" : "Chọn mục"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "選擇項目"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9099,6 +9497,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選擇項目"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "選擇項目"
@@ -9288,12 +9692,6 @@
             "value" : "Bạn có thể thả nhiều mục cùng lúc. Thuộc tính `com.apple.quarantine`\nsẽ được gỡ khỏi từng mục, bao gồm mọi thứ bên trong."
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "可以一次過放入多個。每個項目(包括入面所有內容)\n嘅 `com.apple.quarantine` 屬性都會被移除。"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9304,6 +9702,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "可以一次選擇多個項目。每個項目（包括其中的所有內容）\n的 `com.apple.quarantine` 屬性都會被移除。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可以一次過放入多個。每個項目(包括入面所有內容)\n嘅 `com.apple.quarantine` 屬性都會被移除。"
           }
         }
       }
@@ -9490,12 +9894,6 @@
             "value" : "Hiển thị trong Finder"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "喺 Finder 中顯示"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9506,6 +9904,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "在 Finder 中顯示"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "喺 Finder 中顯示"
           }
         }
       }
@@ -9692,12 +10096,6 @@
             "value" : "Không thể sửa đổi trực tiếp bản gốc, ví dụ do nó nằm trong ảnh đĩa chỉ đọc. Sao chép đến vị trí có thể ghi và gỡ cách ly khỏi bản sao?"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "無法直接修改原件,例如因為佢喺唯讀磁碟映像入面。要唔要將佢拷貝到可寫入嘅位置,再移除拷貝嘅隔離?"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9708,6 +10106,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "無法直接修改原始項目，例如因為它位於唯讀的磁碟映像檔中。要將它拷貝到可寫入的位置，並從拷貝中移除隔離嗎？"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無法直接修改原件,例如因為佢喺唯讀磁碟映像入面。要唔要將佢拷貝到可寫入嘅位置,再移除拷貝嘅隔離?"
           }
         }
       }
@@ -9894,12 +10298,6 @@
             "value" : "Không bị cách ly"
           }
         },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "本來就冇被隔離"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9910,6 +10308,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "未被隔離"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本來就冇被隔離"
           }
         }
       }

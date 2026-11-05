@@ -44,6 +44,12 @@ struct PresentResult: View {
                     .allowsHitTesting(false)
             }
         }
+        .toolbar {
+            Button("Quit", systemImage: "xmark.circle") {
+                NSApp.terminate(nil)
+            }
+            .help("Quits the App")
+        }
     }
 
     private var title: LocalizedStringResource {
