@@ -18,7 +18,7 @@ struct CopyRequest: Hashable {
 @Observable final class RemovalModel {
     var path: [Route] = []
     private(set) var isWorking = false
-    /// Whether the "Select Files…" panel is showing (driven by the File menu and the drop screen's button).
+    /// Whether the "Select Files..." panel is showing (driven by the File menu and the drop screen's button).
     var isImporting = false
     /// Items handed to the app from outside (the Finder action extension, the Dock icon) that
     /// are waiting for the risks to be acknowledged or for the current run to finish.

@@ -86,7 +86,7 @@ private struct ItemResultRow: View {
                         .buttonStyle(.glassProminent)
                 }
                 if item.status == .failed {
-                    Button("Copy…", action: onCopy)
+                    Button("Copy...", action: onCopy)
                         .buttonStyle(.glassProminent)
                         .help("Copy to a writable location and remove quarantine from the copy")
                 }
@@ -135,7 +135,7 @@ private struct ItemResultRow: View {
                     .truncationMode(.middle)
             }
             if item.failures.count > Self.maxFailuresShown {
-                Text("…and \(item.failures.count - Self.maxFailuresShown) more")
+                Text("...and \(item.failures.count - Self.maxFailuresShown) more")
             }
         }
         .font(.caption)

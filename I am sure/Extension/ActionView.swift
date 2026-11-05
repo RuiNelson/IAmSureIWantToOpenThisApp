@@ -30,7 +30,7 @@ struct ActionView: View {
             HStack(spacing: 8) {
                 if state.phase == .handingOff {
                     ProgressView().controlSize(.small)
-                    Text("Opening “I am sure”…")
+                    Text("Opening “I am sure”...")
                         .font(.callout)
                         .foregroundStyle(.secondary)
                 }
@@ -90,7 +90,7 @@ struct ActionView: View {
                     .redacted(reason: row.url == nil ? .placeholder : [])
                 }
                 if total > Self.maxItemsShown {
-                    Text("…and \(total - Self.maxItemsShown) more")
+                    Text("...and \(total - Self.maxItemsShown) more")
                         .font(.callout)
                         .foregroundStyle(.secondary)
                         .padding(.leading, 42)

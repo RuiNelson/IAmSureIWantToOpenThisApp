@@ -128,7 +128,7 @@ enum SharedDefaults {
 enum ContainingApp {
     static let bundleIdentifier = "com.ruinelson.iamsure"
 
-    /// The app this extension is embedded in (`…/X.app/Contents/PlugIns/Y.appex`), falling back to
+    /// The app this extension is embedded in (`.../X.app/Contents/PlugIns/Y.appex`), falling back to
     /// whichever copy Launch Services knows about.
     static var url: URL? {
         let embedding = Bundle.main.bundleURL

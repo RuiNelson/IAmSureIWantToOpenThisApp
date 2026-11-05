@@ -47,7 +47,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             }
             .overlay {
                 if model.isWorking {
-                    ProgressView("Removing quarantine…")
+                    ProgressView("Removing quarantine...")
                         .padding(24)
                         .glassEffect(in: .rect(cornerRadius: 20))
                         .transition(.scale.combined(with: .opacity))
@@ -69,7 +69,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         .windowToolbarStyle(.unified)
         .commands {
             CommandGroup(replacing: .newItem) {
-                Button("Select Files…") { model.isImporting = true }
+                Button("Select Files...") { model.isImporting = true }
                     .keyboardShortcut("o")
                     .disabled(!userAcknowledgedPotentialRisks || model.isWorking)
             }

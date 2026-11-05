@@ -21,7 +21,7 @@ struct DropItem: View {
                 dropZone
 
                 Button { model.isImporting = true } label: {
-                    Label("Select Files…", systemImage: "folder")
+                    Label("Select Files...", systemImage: "folder")
                         .padding(.horizontal, 6)
                 }
                 .buttonStyle(.glassProminent)
