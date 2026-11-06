@@ -23,9 +23,18 @@ struct CopyRequest: Hashable {
     /// Items handed to the app from outside (the Finder action extension, the Dock icon) that
     /// are waiting for the risks to be acknowledged or for the current run to finish.
     private(set) var pendingURLs: [URL] = []
+    /// From the moment items arrive from outside until their result is shown. The drop zone is
+    /// hidden meanwhile so it doesn't flash before the result. When the app is launched to open
+    /// items, the window appears just before they arrive, so it starts out set; see `init(launching:)`.
+    private(set) var isReceiving: Bool
     private var openGeneration = 0
     /// When the last batch of items opened from outside finished; see `processPending()`.
     private var lastExternalBatch: Date?
+
+    /// - Parameter launching: Whether the app is still launching; call `finishLaunching()` once it's done.
+    init(launching: Bool = false) {
+        isReceiving = launching
+    }
 
     private var currentResult: RemoveQuarantineResult? {
         path.reversed().lazy.compactMap { route in
@@ -62,6 +71,7 @@ struct CopyRequest: Hashable {
             Logger(subsystem: "com.ruinelson.iamsure", category: "Removal")
                 .notice("Showing result for \(result.items.count) item(s), \(failed.count) failed")
             lastExternalBatch = isExternal ? .now : nil
+            if isExternal { isReceiving = false }
             processPending()
         }
         return true
@@ -75,6 +85,7 @@ struct CopyRequest: Hashable {
         let fileURLs = urls.filter(\.isFileURL)
         guard !fileURLs.isEmpty else { return }
         pendingURLs.append(contentsOf: fileURLs.filter { !pendingURLs.contains($0) })
+        isReceiving = true
 
         openGeneration += 1
         let generation = openGeneration
@@ -83,6 +94,11 @@ struct CopyRequest: Hashable {
             guard generation == openGeneration else { return } // more items arrived meanwhile
             processPending()
         }
+    }
+
+    /// Called once launching finishes. Items the app was launched to open arrive before this.
+    func finishLaunching() {
+        if pendingURLs.isEmpty { isReceiving = false }
     }
 
     /// Processes queued items, if the risks have been acknowledged and nothing is running.

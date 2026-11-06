@@ -552,7 +552,6 @@
 		525426C6309BFDE400E92113 /* Debug configuration for PBXNativeTarget "Let me open this App" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "Let me open this App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 2;
@@ -586,7 +585,6 @@
 		525426C7309BFDE400E92113 /* Release configuration for PBXNativeTarget "Let me open this App" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "Let me open this App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 2;

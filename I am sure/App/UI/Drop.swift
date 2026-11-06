@@ -30,6 +30,9 @@ struct DropItem: View {
             }
         }
         .padding(24)
+        // Items from outside are on their way: their result replaces this screen.
+        .opacity(model.isReceiving ? 0 : 1)
+        .allowsHitTesting(!model.isReceiving)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .mainToolbar(title: "Select Items", subtitle: "")
         .navigationTitle("Let me open this App")

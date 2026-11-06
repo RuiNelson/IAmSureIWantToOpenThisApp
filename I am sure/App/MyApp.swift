@@ -5,7 +5,11 @@ import UniformTypeIdentifiers
 
 final class AppDelegate: NSObject, NSApplicationDelegate {
     /// Owned here so items opened from outside the window (see `application(_:open:)`) reach it.
-    let model = RemovalModel()
+    let model = RemovalModel(launching: true)
+
+    func applicationDidFinishLaunching(_ notification: Notification) {
+        model.finishLaunching()
+    }
 
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool { true }
 
@@ -25,6 +29,12 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     @AppStorage(UserDefaults.acknowledgedRisksKey, store: .shared) var userAcknowledgedPotentialRisks: Bool = false
 
     private var model: RemovalModel { appDelegate.model }
+
+    /// While removing, and while items from outside wait for their run (unless they wait for the
+    /// risks to be acknowledged).
+    private var showsProgress: Bool {
+        model.isWorking || (!model.pendingURLs.isEmpty && userAcknowledgedPotentialRisks)
+    }
 
     var body: some Scene {
         // A single window: closing it quits the app (see AppDelegate).
@@ -46,14 +56,14 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
                 }
             }
             .overlay {
-                if model.isWorking {
+                if showsProgress {
                     ProgressView("Removing quarantine...")
                         .padding(24)
                         .glassEffect(in: .rect(cornerRadius: 20))
                         .transition(.scale.combined(with: .opacity))
                 }
             }
-            .animation(.smooth, value: model.isWorking)
+            .animation(.smooth, value: showsProgress)
             .fileImporter(
                 isPresented: Bindable(model).isImporting,
                 allowedContentTypes: [.item],
@@ -72,7 +82,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             CommandGroup(replacing: .newItem) {
                 Button("Select Files...") { model.isImporting = true }
                     .keyboardShortcut("o")
-                    .disabled(!userAcknowledgedPotentialRisks || model.isWorking)
+                    .disabled(!userAcknowledgedPotentialRisks || model.isWorking || model.isReceiving)
             }
         }
     }
