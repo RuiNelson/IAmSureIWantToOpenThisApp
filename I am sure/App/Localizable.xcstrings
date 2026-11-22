@@ -1590,6 +1590,9 @@
         }
       }
     },
+    "A new version is available" : {
+
+    },
     "Applications" : {
       "localizations" : {
         "ar" : {
@@ -3169,6 +3172,12 @@
           }
         }
       }
+    },
+    "Check for Updates Now..." : {
+
+    },
+    "Check for Updates Periodically" : {
+
     },
     "Choose any folder..." : {
       "localizations" : {
@@ -6652,6 +6661,15 @@
         }
       }
     },
+    "Copying..." : {
+
+    },
+    "Couldn’t check for updates" : {
+
+    },
+    "Couldn’t install this App" : {
+
+    },
     "Couldn’t remove quarantine" : {
       "localizations" : {
         "ar" : {
@@ -7599,6 +7617,12 @@
           }
         }
       }
+    },
+    "Do you want to check for new versions periodically?" : {
+
+    },
+    "Do you want to install this App?" : {
+
     },
     "Done" : {
       "localizations" : {
@@ -10128,6 +10152,12 @@
         }
       }
     },
+    "I’ll look for the latest release on GitHub, at most once a day." : {
+
+    },
+    "Install in Applications" : {
+
+    },
     "Invalid path" : {
       "localizations" : {
         "ar" : {
@@ -11075,6 +11105,12 @@
           }
         }
       }
+    },
+    "No" : {
+
+    },
+    "Not Now" : {
+
     },
     "Not writable" : {
       "localizations" : {
@@ -15184,6 +15220,25 @@
         }
       }
     },
+    "This App is running from a disk image, the Downloads folder or another place that might be temporary." : {
+
+    },
+    "Update" : {
+
+    },
+    "Version %@ is out, and you’re running %@." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Version %1$@ is out, and you’re running %2$@."
+          }
+        }
+      }
+    },
+    "Version %@ is the latest." : {
+
+    },
     "Wasn’t quarantined" : {
       "localizations" : {
         "ar" : {
@@ -15499,6 +15554,12 @@
           }
         }
       }
+    },
+    "Yes (Recommended)" : {
+
+    },
+    "You’re up to date" : {
+
     }
   },
   "version" : "1.1"

@@ -28,6 +28,10 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     @NSApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
     @AppStorage(UserDefaults.acknowledgedRisksKey, store: .shared) var userAcknowledgedPotentialRisks: Bool = false
 
+    /// Backs the "Check for Updates Periodically" menu item. Unset until the user answers the
+    /// question or uses the menu item, which is what tells the model whether to ask.
+    @AppStorage(UserDefaults.checksForUpdatesKey, store: .shared) private var checksForUpdates = false
+
     private var model: RemovalModel { appDelegate.model }
 
     /// While removing, and while items from outside wait for their run (unless they wait for the
@@ -38,6 +42,14 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
 
     private var keepFailureShown: Binding<Bool> {
         Binding(get: { model.keepFailure != nil }, set: { if !$0 { model.keepFailure = nil } })
+    }
+
+    private var updateFailureShown: Binding<Bool> {
+        Binding(get: { model.updateFailure != nil }, set: { if !$0 { model.updateFailure = nil } })
+    }
+
+    private var updateAvailable: Binding<Bool> {
+        Binding(get: { model.availableRelease != nil }, set: { if !$0 { model.availableRelease = nil } })
     }
 
     private var progressTitle: LocalizedStringKey {
@@ -86,6 +98,28 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             } message: {
                 Text("This App is running from a disk image, the Downloads folder or another place that might be temporary.")
             }
+            .alert("Do you want to check for new versions periodically?", isPresented: Bindable(model).asksUpdateCheck) {
+                Button("Yes (Recommended)") { model.setChecksForUpdates(true) }
+                    .keyboardShortcut(.defaultAction)
+                Button("No", role: .cancel) { model.setChecksForUpdates(false) }
+            } message: {
+                Text("I’ll look for the latest release on GitHub, at most once a day.")
+            }
+            .alert("A new version is available", isPresented: updateAvailable, presenting: model.availableRelease) { release in
+                Button("Update") { model.openReleasePage(release) }
+                    .keyboardShortcut(.defaultAction)
+                Button("Not Now", role: .cancel) {}
+            } message: { release in
+                Text("Version \(release.version) is out, and you’re running \(Bundle.main.shortVersion).")
+            }
+            .alert("You’re up to date", isPresented: Bindable(model).isUpToDate) {
+            } message: {
+                Text("Version \(Bundle.main.shortVersion) is the latest.")
+            }
+            .alert("Couldn’t check for updates", isPresented: updateFailureShown) {
+            } message: {
+                Text(model.updateFailure ?? "")
+            }
             .alert("Couldn’t install this App", isPresented: keepFailureShown) {
             } message: {
                 Text(model.keepFailure ?? "")
@@ -98,6 +132,11 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         .windowResizability(.contentMinSize)
         .windowToolbarStyle(.unified)
         .commands {
+            CommandGroup(after: .appInfo) {
+                Toggle("Check for Updates Periodically", isOn: $checksForUpdates)
+                Button("Check for Updates Now...") { model.checkForUpdates() }
+                    .disabled(model.isCheckingForUpdates)
+            }
             CommandGroup(replacing: .newItem) {
                 Button("Select Files...") { model.isImporting = true }
                     .keyboardShortcut("o")

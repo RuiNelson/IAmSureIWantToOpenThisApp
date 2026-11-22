@@ -34,6 +34,16 @@ struct CopyRequest: Hashable {
     var keepFailure: String?
     /// Whether the app is being copied into Applications (a run in progress, for the progress label).
     private(set) var isKeeping = false
+    /// Whether the "check for new versions periodically?" question is showing.
+    var asksUpdateCheck = false
+    /// A newer release than the running app, while the update alert is showing.
+    var availableRelease: Release?
+    /// Whether the "You're up to date" alert is showing (after a manual check).
+    var isUpToDate = false
+    /// Why a manual update check failed, while the error alert is showing.
+    var updateFailure: String?
+    /// Whether the latest release is being looked up.
+    private(set) var isCheckingForUpdates = false
     /// The offer is made once per launch.
     private var hasOfferedKeeping = false
     private var openGeneration = 0
@@ -82,6 +92,7 @@ struct CopyRequest: Hashable {
             lastExternalBatch = isExternal ? .now : nil
             if isExternal { isReceiving = false }
             offerKeepingIfNeeded(after: result)
+            updateIfNeeded(after: result)
             processPending()
         }
         return true
@@ -95,6 +106,63 @@ struct CopyRequest: Hashable {
               Bundle.main.location.isTransient else { return }
         hasOfferedKeeping = true
         offersKeeping = true
+    }
+
+    /// When the app is installed in an Applications folder: asks once whether to check for new
+    /// versions periodically (after something was actually removed), and if the user said yes,
+    /// looks up the latest release, at most once every 24 hours.
+    private func updateIfNeeded(after result: RemoveQuarantineResult) {
+        guard Bundle.main.location == .applications else { return }
+        let defaults = UserDefaults.shared
+
+        switch defaults.object(forKey: UserDefaults.checksForUpdatesKey) as? Bool {
+        case nil:
+            if result.items.contains(where: { $0.status == .removed }) { asksUpdateCheck = true }
+        case true:
+            guard UpdateChecker.isDue(lastCheck: defaults.object(forKey: UserDefaults.lastUpdateCheckKey) as? Date) else { return }
+            lookUpLatestRelease(manually: false)
+        case false:
+            break
+        }
+    }
+
+    /// The "Check for Updates..." menu item: looks up the latest release right away, whatever the
+    /// 24-hour limit or the periodic setting, and always reports the outcome.
+    func checkForUpdates() {
+        lookUpLatestRelease(manually: true)
+    }
+
+    /// Looks up the latest release and shows the update alert if it's newer than the running app.
+    /// A manual check also reports being up to date and failures; periodic ones stay quiet.
+    private func lookUpLatestRelease(manually: Bool) {
+        guard !isCheckingForUpdates else { return }
+        isCheckingForUpdates = true
+        UserDefaults.shared.set(Date.now, forKey: UserDefaults.lastUpdateCheckKey)
+        Task {
+            defer { isCheckingForUpdates = false }
+            do {
+                let release = try await UpdateChecker.latestRelease()
+                if release.isNewer(than: Bundle.main.shortVersion) {
+                    availableRelease = release
+                } else if manually {
+                    isUpToDate = true
+                }
+            } catch {
+                Logger(subsystem: "com.ruinelson.iamsure", category: "Update")
+                    .error("Couldn't check for updates: \(error.localizedDescription, privacy: .public)")
+                if manually { updateFailure = error.localizedDescription }
+            }
+        }
+    }
+
+    /// Stores the answer to the "check for new versions periodically?" question.
+    func setChecksForUpdates(_ enabled: Bool) {
+        UserDefaults.shared.set(enabled, forKey: UserDefaults.checksForUpdatesKey)
+    }
+
+    /// Opens the release's page on GitHub in the default browser.
+    func openReleasePage(_ release: Release) {
+        NSWorkspace.shared.open(release.htmlURL)
     }
 
     /// Copies this app into Applications (or `~/Applications` when that isn't writable) and

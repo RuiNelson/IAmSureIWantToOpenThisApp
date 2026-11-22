@@ -7,6 +7,12 @@ nonisolated extension UserDefaults {
     /// Key set once the user has acknowledged the risks.
     static let acknowledgedRisksKey = "ackRisks"
 
+    /// Whether the user wants periodic update checks. Absent until they've been asked.
+    static let checksForUpdatesKey = "checkForUpdates"
+
+    /// When the latest release was last looked up.
+    static let lastUpdateCheckKey = "lastUpdateCheck"
+
     /// The app's defaults in its App Group.
     static let shared: UserDefaults = {
         guard let group = UserDefaults(suiteName: appGroup) else { return .standard }
