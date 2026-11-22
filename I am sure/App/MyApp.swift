@@ -79,14 +79,14 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             ) { result in
                 if case .success(let urls) = result { model.process(urls) }
             }
-            .alert("Do you want to keep this App?", isPresented: Bindable(model).offersKeeping) {
-                Button("Keep in Applications") { model.keepApp() }
+            .alert("Do you want to install this App?", isPresented: Bindable(model).offersKeeping) {
+                Button("Install in Applications") { model.keepApp() }
                     .keyboardShortcut(.defaultAction)
                 Button("Not Now", role: .cancel) {}
             } message: {
-                Text("I’m running from a disk image, Downloads or another place I might not stay. I can copy myself to Applications.")
+                Text("This App is running from a disk image, the Downloads folder or another place that might be temporary.")
             }
-            .alert("Couldn’t keep this App", isPresented: keepFailureShown) {
+            .alert("Couldn’t install this App", isPresented: keepFailureShown) {
             } message: {
                 Text(model.keepFailure ?? "")
             }
