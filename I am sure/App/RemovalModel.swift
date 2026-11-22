@@ -1,3 +1,4 @@
+import AppKit
 import Foundation
 import Observation
 import OSLog
@@ -27,6 +28,14 @@ struct CopyRequest: Hashable {
     /// hidden meanwhile so it doesn't flash before the result. When the app is launched to open
     /// items, the window appears just before they arrive, so it starts out set; see `init(launching:)`.
     private(set) var isReceiving: Bool
+    /// Whether the "Do you want to keep this App?" alert is showing.
+    var offersKeeping = false
+    /// Why copying the app into Applications failed, while the error alert is showing.
+    var keepFailure: String?
+    /// Whether the app is being copied into Applications (a run in progress, for the progress label).
+    private(set) var isKeeping = false
+    /// The offer is made once per launch.
+    private var hasOfferedKeeping = false
     private var openGeneration = 0
     /// When the last batch of items opened from outside finished; see `processPending()`.
     private var lastExternalBatch: Date?
@@ -72,9 +81,42 @@ struct CopyRequest: Hashable {
                 .notice("Showing result for \(result.items.count) item(s), \(failed.count) failed")
             lastExternalBatch = isExternal ? .now : nil
             if isExternal { isReceiving = false }
+            offerKeepingIfNeeded(after: result)
             processPending()
         }
         return true
+    }
+
+    /// After quarantine was removed from something, offers to copy this app into Applications
+    /// if it's running from a place it may not stay (Downloads, a disk image, a network share...).
+    private func offerKeepingIfNeeded(after result: RemoveQuarantineResult) {
+        guard !hasOfferedKeeping,
+              result.items.contains(where: { $0.status == .removed }),
+              Bundle.main.location.isTransient else { return }
+        hasOfferedKeeping = true
+        offersKeeping = true
+    }
+
+    /// Copies this app into Applications (or `~/Applications` when that isn't writable) and
+    /// shows the copy in Finder.
+    func keepApp() {
+        guard !isWorking else { return }
+
+        isWorking = true
+        isKeeping = true
+        Task {
+            do {
+                let copy = try await AppInstaller.copy(Bundle.main.originalURL)
+                NSWorkspace.shared.activateFileViewerSelecting([copy])
+            } catch {
+                Logger(subsystem: "com.ruinelson.iamsure", category: "Keep")
+                    .error("Couldn't copy the app: \(error.localizedDescription, privacy: .public)")
+                keepFailure = error.localizedDescription
+            }
+            isKeeping = false
+            isWorking = false
+            processPending()
+        }
     }
 
     /// Entry point for items opened from outside the window (e.g. the "Let me open this App"

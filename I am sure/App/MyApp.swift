@@ -36,6 +36,14 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         model.isWorking || (!model.pendingURLs.isEmpty && userAcknowledgedPotentialRisks)
     }
 
+    private var keepFailureShown: Binding<Bool> {
+        Binding(get: { model.keepFailure != nil }, set: { if !$0 { model.keepFailure = nil } })
+    }
+
+    private var progressTitle: LocalizedStringKey {
+        model.isKeeping ? "Copying..." : "Removing quarantine..."
+    }
+
     var body: some Scene {
         // A single window: closing it quits the app (see AppDelegate).
         Window("I am sure I want to open this App", id: "main") {
@@ -57,7 +65,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             }
             .overlay {
                 if showsProgress {
-                    ProgressView("Removing quarantine...")
+                    ProgressView(progressTitle)
                         .padding(24)
                         .glassEffect(in: .rect(cornerRadius: 20))
                         .transition(.scale.combined(with: .opacity))
@@ -70,6 +78,17 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
                 allowsMultipleSelection: true
             ) { result in
                 if case .success(let urls) = result { model.process(urls) }
+            }
+            .alert("Do you want to keep this App?", isPresented: Bindable(model).offersKeeping) {
+                Button("Keep in Applications") { model.keepApp() }
+                    .keyboardShortcut(.defaultAction)
+                Button("Not Now", role: .cancel) {}
+            } message: {
+                Text("I’m running from a disk image, Downloads or another place I might not stay. I can copy myself to Applications.")
+            }
+            .alert("Couldn’t keep this App", isPresented: keepFailureShown) {
+            } message: {
+                Text(model.keepFailure ?? "")
             }
             .fileDialogDefaultDirectory(.downloadsDirectory)
             .frame(minWidth: 520, idealWidth: 640, minHeight: 400, idealHeight: 480)
